@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MasterTagFolder" id="{5d487e66-676d-4f88-b92e-065b974cfb8e}">
+		<property name="name">
+			<value>Master</value>
+		</property>
+		<relationship name="items">
+			<destination>{617068d6-9c86-4a57-889f-c12b1374a2bc}</destination>
+			<destination>{0ed60470-4825-4733-bcbc-61615934e275}</destination>
+			<destination>{cfd08e1c-6786-4e77-b096-65bafcb72d67}</destination>
+			<destination>{f70a12af-e2a4-4722-964b-e09e53cfc81f}</destination>
+			<destination>{ee6c0b51-26a2-407d-affe-f377a22da767}</destination>
+		</relationship>
+	</object>
+	<object class="Tag" id="{617068d6-9c86-4a57-889f-c12b1374a2bc}">
+		<property name="name">
+			<value>Angriff</value>
+		</property>
+	</object>
+	<object class="Tag" id="{0ed60470-4825-4733-bcbc-61615934e275}">
+		<property name="name">
+			<value>MC</value>
+		</property>
+	</object>
+	<object class="Tag" id="{cfd08e1c-6786-4e77-b096-65bafcb72d67}">
+		<property name="name">
+			<value>Gegner</value>
+		</property>
+	</object>
+	<object class="Tag" id="{f70a12af-e2a4-4722-964b-e09e53cfc81f}">
+		<property name="name">
+			<value>Schaden</value>
+		</property>
+	</object>
+	<object class="Tag" id="{ee6c0b51-26a2-407d-affe-f377a22da767}">
+		<property name="name">
+			<value>Bewegung</value>
+		</property>
+	</object>
+</objects>

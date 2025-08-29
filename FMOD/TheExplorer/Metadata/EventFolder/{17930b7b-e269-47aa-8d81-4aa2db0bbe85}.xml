@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="EventFolder" id="{17930b7b-e269-47aa-8d81-4aa2db0bbe85}">
+		<property name="color">
+			<value>Red Light 1</value>
+		</property>
+		<property name="name">
+			<value>GOLEM_Miniboss</value>
+		</property>
+		<relationship name="folder">
+			<destination>{71727cc3-6d60-4297-ad59-68cbc1e52f39}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fb98d8da5f4a244490d8e8d0cfef54a, type: 3}
+  m_Name: GermanLocalize
+  m_EditorClassIdentifier: 
+  language: German
+  phrases:
+  - key: INFO1
+    value: "Wo bin ich? Kann ich \xFCberhaupt meine Beine bewegen? Ich probiere mal
+      W, A, S und D. Vielleicht f\xFChlen sie sich dann wieder normal an."
+  - key: INFO2
+    value: "Kann ich hier r\xFCber springen, wenn ich die LEERTASTE dr\xFCcke?"
+  - key: INFO3
+    value: "Damit macht es bestimmt Spa\xDF, Sachen kaputtzuschlagen. Ich probiere
+      mal die LINKE TASTE meiner MAUS und schaue, was passiert."
+  - key: INFO4
+    value: "Oooh, was ein seltsamer Stein... Ich m\xF6chte mich irgendwie daraufstellen
+      und schauen, was passiert."
+  - key: INFO4b
+    value: Das muss irgendwie aufgehen. Ich erforsche mal meine Umgebung und schaue,
+      was ich finden kann.
+  - key: INFO5
+    value: "Ich frage mich, wozu diese gro\xDFen Kristalle an T\xFCr gut sind? Ich
+      sollte mich weiter umsehen und nach mehr Schaltern suchen."
+  originalPhrases: {fileID: 11400000, guid: 899297ab1f956a94093157cb24051fb1, type: 2}

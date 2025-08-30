@@ -5,7 +5,7 @@
 			<value>Green Light 1</value>
 		</property>
 		<property name="name">
-			<value>ENV_Wind_Leicht_Loop</value>
+			<value>ENV_Wind_Loop</value>
 		</property>
 		<property name="outputFormat">
 			<value>0</value>

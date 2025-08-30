@@ -3,6 +3,7 @@ using Gamekit3D.Message;
 using System.Collections;
 using UnityEngine.XR.WSA;
 using FMODUnity;
+using FMOD.Studio;
 
 namespace Gamekit3D
 {
@@ -28,9 +29,9 @@ namespace Gamekit3D
         public RandomAudioPlayer footstepPlayer;         // Random Audio Players used for various situations.
         public RandomAudioPlayer landingPlayer;
 
-        public EventReference footstepPlayerEvent;
+        public EventReference walkLoopEvent;
+        public FMOD.Studio.EventInstance walkLoopInstance;
         public EventReference hurtAudioPlayerEvent;
-        public EventReference landingPlayerEvent;
         public EventReference emoteDeathPlayerEvent;
         public EventReference emoteAttackPlayerEvent;
         public EventReference emoteJumpPlayerEvent;
@@ -155,6 +156,8 @@ namespace Gamekit3D
             EquipMeleeWeapon(false);
 
             m_Renderers = GetComponentsInChildren<Renderer>();
+
+            walkLoopInstance = RuntimeManager.CreateInstance(walkLoopEvent);
         }
 
         // Called automatically by Unity whenever the script is disabled.
@@ -166,6 +169,9 @@ namespace Gamekit3D
             {
                 m_Renderers[i].enabled = true;
             }
+
+            walkLoopInstance.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
+            walkLoopInstance.release();
         }
 
         // Called automatically by Unity once every Physics step.
@@ -419,30 +425,13 @@ namespace Gamekit3D
         // Called each physics step to check if audio should be played and if so instruct the relevant random audio player to do so.
         void PlayAudio()
         {
-
-            if (m_IsGrounded && !m_PreviouslyGrounded)
+            PLAYBACK_STATE playbackState;
+            walkLoopInstance.getPlaybackState(out playbackState);
+            if (m_ForwardSpeed > 0.5 && playbackState != PLAYBACK_STATE.PLAYING)
             {
-                // Create instance
-                FMOD.Studio.EventInstance instance = RuntimeManager.CreateInstance(landingPlayerEvent);
-
-                string surfaceString = "Earth";
-
-                if (Physics.Raycast(transform.position, Vector3.down, out RaycastHit hit, 1f, LayerMask.GetMask("Environment")))
-                {
-                    SurfaceType surface = hit.collider.GetComponent<SurfaceType>();
-
-                    if (surface != null)
-                    {
-                        surfaceString = surface.surfaceTypeName.ToString();
-                    }
-                }
-
-                instance.setParameterByNameWithLabel("GroundType", surfaceString);
-
-                RuntimeManager.AttachInstanceToGameObject(instance, gameObject);
-
-                instance.start();
-                instance.release();
+                walkLoopInstance.start();
+            } else if (m_ForwardSpeed < 0.5 && playbackState == PLAYBACK_STATE.PLAYING) {
+                walkLoopInstance.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
             }
 
             if (!m_IsGrounded && m_PreviouslyGrounded && m_VerticalSpeed > 0f)

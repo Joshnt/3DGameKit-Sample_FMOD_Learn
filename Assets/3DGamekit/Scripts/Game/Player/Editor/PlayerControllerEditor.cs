@@ -22,7 +22,7 @@ namespace Gamekit3D
         SerializedProperty m_MeleeWeaponProp;
         SerializedProperty m_CameraSettingsProp;
 
-        SerializedProperty m_footstepPlayerEventProp;
+        SerializedProperty m_footstepLoopEventProp;
         SerializedProperty m_hurtAudioPlayerEventProp;
         SerializedProperty m_landingPlayerEventProp;
         SerializedProperty m_emoteDeathPlayerEventProp;
@@ -63,9 +63,8 @@ namespace Gamekit3D
             m_MeleeWeaponProp = serializedObject.FindProperty("meleeWeapon");
             m_CameraSettingsProp = serializedObject.FindProperty("cameraSettings");
 
-            m_footstepPlayerEventProp = serializedObject.FindProperty("footstepPlayerEvent");
+            m_footstepLoopEventProp = serializedObject.FindProperty("walkLoopEvent");
             m_hurtAudioPlayerEventProp = serializedObject.FindProperty("hurtAudioPlayerEvent");
-            m_landingPlayerEventProp = serializedObject.FindProperty("landingPlayerEvent");
             m_emoteDeathPlayerEventProp = serializedObject.FindProperty("emoteDeathPlayerEvent");
             m_emoteAttackPlayerEventProp = serializedObject.FindProperty("emoteAttackPlayerEvent");
             m_emoteJumpPlayerEventProp = serializedObject.FindProperty("emoteJumpPlayerEvent");
@@ -98,9 +97,8 @@ namespace Gamekit3D
                 EditorGUILayout.PropertyField(m_MeleeWeaponProp, m_MeleeWeaponContent);
                 EditorGUILayout.PropertyField(m_CameraSettingsProp, m_CameraSettingsContent);
 
-                EditorGUILayout.PropertyField(m_footstepPlayerEventProp, m_footstepPlayerEventContent);
+                EditorGUILayout.PropertyField(m_footstepLoopEventProp, m_footstepPlayerEventContent);
                 EditorGUILayout.PropertyField(m_hurtAudioPlayerEventProp, m_hurtAudioPlayerEventContent);
-                EditorGUILayout.PropertyField(m_landingPlayerEventProp, m_landingPlayerEventContent);
                 EditorGUILayout.PropertyField(m_emoteDeathPlayerEventProp, m_emoteDeathPlayerEventContent);
                 EditorGUILayout.PropertyField(m_emoteAttackPlayerEventProp, m_emoteAttackPlayerEventContent);
                 EditorGUILayout.PropertyField(m_emoteJumpPlayerEventProp, m_emoteJumpPlayerEventContent);

@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using FMODUnity;
 using UnityEngine;
 
 namespace Gamekit3D
@@ -7,7 +8,7 @@ namespace Gamekit3D
     [RequireComponent(typeof(Collider))]
     public class DeathVolume : MonoBehaviour
     {
-        public new AudioSource audio;
+        public EventReference PlayerLandInAcid;
 
 
         void OnTriggerEnter(Collider other)
@@ -17,12 +18,7 @@ namespace Gamekit3D
             {
                 pc.Die(new Damageable.DamageMessage());
             }
-            if (audio != null)
-            {
-                audio.transform.position = other.transform.position;
-                if (!audio.isPlaying)
-                    audio.Play();
-            }
+            RuntimeManager.PlayOneShot(PlayerLandInAcid, transform.position);
         }
 
         void Reset()

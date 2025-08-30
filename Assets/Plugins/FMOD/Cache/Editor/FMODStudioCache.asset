@@ -15,38 +15,11 @@ MonoBehaviour:
   Path: FMOD/TheExplorer/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638920857928078594
+  lastModified: 638921658557820846
   FileSizes:
   - Name: Desktop
-    Value: 4296
+    Value: 4488
   Exists: 1
---- !u!114 &-8739881646508361111
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/MAIN_CHARACTER/MC_Landen
-  m_EditorClassIdentifier: 
-  Path: event:/MAIN_CHARACTER/MC_Landen
-  Guid:
-    Data1: 1551465576
-    Data2: 1105431843
-    Data3: -1129114441
-    Data4: -653739423
-  Banks:
-  - {fileID: 7897167001347730558}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
 --- !u!114 &-7874249625007582664
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -101,6 +74,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-7105001539881663723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/MAIN_CHARACTER/MC_Quickturn
+  m_EditorClassIdentifier: 
+  Path: event:/MAIN_CHARACTER/MC_Quickturn
+  Guid:
+    Data1: 1381808172
+    Data2: 1239011731
+    Data3: -683599193
+    Data4: 1863364076
+  Banks:
+  - {fileID: 7897167001347730558}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-7035238475115380243
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -119,6 +119,33 @@ MonoBehaviour:
     Data2: 1322127854
     Data3: -119276416
     Data4: -861908126
+  Banks:
+  - {fileID: 7897167001347730558}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-6746698187848728206
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/MAIN_CHARACTER/MC_Respawn
+  m_EditorClassIdentifier: 
+  Path: event:/MAIN_CHARACTER/MC_Respawn
+  Guid:
+    Data1: -1612046441
+    Data2: 1170307934
+    Data3: 678228642
+    Data4: 1851086940
   Banks:
   - {fileID: 7897167001347730558}
   IsStream: 0
@@ -533,6 +560,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-3258236003833286087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/MAIN_CHARACTER/MC_Landen_Normal
+  m_EditorClassIdentifier: 
+  Path: event:/MAIN_CHARACTER/MC_Landen_Normal
+  Guid:
+    Data1: 1551465576
+    Data2: 1105431843
+    Data3: -1129114441
+    Data4: -653739423
+  Banks:
+  - {fileID: 7897167001347730558}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-3167357040958872067
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -686,6 +740,33 @@ MonoBehaviour:
     Data2: 1159274435
     Data3: 403045784
     Data4: -1753382442
+  Banks:
+  - {fileID: 7897167001347730558}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-1939029752660422522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/MAIN_CHARACTER/MC_Rennen_Loop
+  m_EditorClassIdentifier: 
+  Path: event:/MAIN_CHARACTER/MC_Rennen_Loop
+  Guid:
+    Data1: -1267042484
+    Data2: 1132952038
+    Data3: 312242604
+    Data4: 2017142561
   Banks:
   - {fileID: 7897167001347730558}
   IsStream: 0
@@ -903,7 +984,6 @@ MonoBehaviour:
   - {fileID: 9146177121536385223}
   - {fileID: 6285937847459444340}
   - {fileID: 4457957970204620204}
-  - {fileID: -8739881646508361111}
   - {fileID: 1169962065637010538}
   - {fileID: 6151959441341086973}
   - {fileID: 6598238178278782521}
@@ -945,12 +1025,17 @@ MonoBehaviour:
   - {fileID: 3370664424103999209}
   - {fileID: 4748890003808015667}
   - {fileID: 3784410327347645887}
+  - {fileID: -7105001539881663723}
+  - {fileID: -3258236003833286087}
+  - {fileID: 8303262324042676171}
+  - {fileID: -1939029752660422522}
+  - {fileID: -6746698187848728206}
   EditorParameters: []
   MasterBanks:
   - {fileID: 7897167001347730558}
   StringsBanks:
   - {fileID: -8762140299148799493}
-  cacheTime: 638920857928078594
+  cacheTime: 638921658557820846
   cacheVersion: 131846
 --- !u!114 &156055634523395282
 MonoBehaviour:
@@ -1939,10 +2024,10 @@ MonoBehaviour:
   Path: FMOD/TheExplorer/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638920857928068557
+  lastModified: 638921658557810851
   FileSizes:
   - Name: Desktop
-    Value: 37254
+    Value: 39262
   Exists: 1
 --- !u!114 &8046789616825733826
 MonoBehaviour:
@@ -1989,6 +2074,33 @@ MonoBehaviour:
     Data2: 1074008978
     Data3: -1318312010
     Data4: 1165194245
+  Banks:
+  - {fileID: 7897167001347730558}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &8303262324042676171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/MAIN_CHARACTER/MC_Landen_Rolle
+  m_EditorClassIdentifier: 
+  Path: event:/MAIN_CHARACTER/MC_Landen_Rolle
+  Guid:
+    Data1: -1304726536
+    Data2: 1075393335
+    Data3: -2040618836
+    Data4: -1443870385
   Banks:
   - {fileID: 7897167001347730558}
   IsStream: 0

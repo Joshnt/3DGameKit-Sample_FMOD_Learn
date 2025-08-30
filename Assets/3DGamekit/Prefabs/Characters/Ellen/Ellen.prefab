@@ -7274,8 +7274,20 @@ MonoBehaviour:
   - {fileID: 114324844485793392}
   - {fileID: 114764446501421412}
   - {fileID: 114947613401632800}
-  hitAudio: {fileID: 114001727433233256}
-  attackAudio: {fileID: 114123880809106010}
+  hitEvent:
+    Guid:
+      Data1: 324910854
+      Data2: 1248890801
+      Data3: 1216477871
+      Data4: 113354636
+    Path: event:/MAIN_CHARACTER/Waffe/MC_Waffe Treffer
+  swingEvent:
+    Guid:
+      Data1: 807850793
+      Data2: 1080133256
+      Data3: 854914490
+      Data4: -572250459
+    Path: event:/MAIN_CHARACTER/Waffe/MC_Waffe Schwingen
 --- !u!114 &114642486581907182
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22447,6 +22459,13 @@ MonoBehaviour:
       Data3: 678228642
       Data4: 1851086940
     Path: event:/MAIN_CHARACTER/MC_Respawn
+  idleSprechenEvent:
+    Guid:
+      Data1: -1946338040
+      Data2: 1149847649
+      Data3: -585019982
+      Data4: -652071064
+    Path: event:/MAIN_CHARACTER/Sprache/MC_Idle_Sprechen
 --- !u!1 &1991646998098166
 GameObject:
   m_ObjectHideFlags: 0

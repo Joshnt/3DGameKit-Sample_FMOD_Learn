@@ -15,11 +15,38 @@ MonoBehaviour:
   Path: FMOD/TheExplorer/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638921658557820846
+  lastModified: 638921760260539098
   FileSizes:
   - Name: Desktop
-    Value: 4488
+    Value: 4444
   Exists: 1
+--- !u!114 &-8207934830058969651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/UI_Knopf_Spiel-Verlassen
+  m_EditorClassIdentifier: 
+  Path: event:/UI/UI_Knopf_Spiel-Verlassen
+  Guid:
+    Data1: 1824992366
+    Data2: 1131187987
+    Data3: -1170509160
+    Data4: 1979022032
+  Banks:
+  - {fileID: 7897167001347730558}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-7874249625007582664
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -173,33 +200,6 @@ MonoBehaviour:
     Data2: 1080133256
     Data3: 854914490
     Data4: -572250459
-  Banks:
-  - {fileID: 7897167001347730558}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &-5987555712812948116
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/MAIN_CHARACTER/Sprache/MC_Gebabbel
-  m_EditorClassIdentifier: 
-  Path: event:/MAIN_CHARACTER/Sprache/MC_Gebabbel
-  Guid:
-    Data1: -1946338040
-    Data2: 1149847649
-    Data3: -585019982
-    Data4: -652071064
   Banks:
   - {fileID: 7897167001347730558}
   IsStream: 0
@@ -398,6 +398,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-4658414704372986862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/MAIN_CHARACTER/Sprache/MC_Idle_Sprechen
+  m_EditorClassIdentifier: 
+  Path: event:/MAIN_CHARACTER/Sprache/MC_Idle_Sprechen
+  Guid:
+    Data1: -1946338040
+    Data2: 1149847649
+    Data3: -585019982
+    Data4: -652071064
+  Banks:
+  - {fileID: 7897167001347730558}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-4588435662500025154
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -497,33 +524,6 @@ MonoBehaviour:
     Data2: 1078797044
     Data3: -1151230807
     Data4: -1652568765
-  Banks:
-  - {fileID: 7897167001347730558}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &-3374625367947969767
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/MAIN_CHARACTER/Waffe/MC_Waffe Schutt Treffer
-  m_EditorClassIdentifier: 
-  Path: event:/MAIN_CHARACTER/Waffe/MC_Waffe Schutt Treffer
-  Guid:
-    Data1: 583183064
-    Data2: 1239634055
-    Data3: -615610740
-    Data4: 158626753
   Banks:
   - {fileID: 7897167001347730558}
   IsStream: 0
@@ -955,8 +955,6 @@ MonoBehaviour:
   - {fileID: 7897167001347730558}
   EditorEvents:
   - {fileID: 6210381577267938561}
-  - {fileID: 4352917484124028549}
-  - {fileID: -5987555712812948116}
   - {fileID: 3217743389117537042}
   - {fileID: 7214157968540509144}
   - {fileID: 6384451883080616253}
@@ -986,7 +984,6 @@ MonoBehaviour:
   - {fileID: 4457957970204620204}
   - {fileID: 1169962065637010538}
   - {fileID: 6151959441341086973}
-  - {fileID: 6598238178278782521}
   - {fileID: -3158885170370304098}
   - {fileID: 6421725663771342028}
   - {fileID: 2074940657759550754}
@@ -1007,7 +1004,6 @@ MonoBehaviour:
   - {fileID: -3900021969954400794}
   - {fileID: -829093587611634505}
   - {fileID: 998047000574161045}
-  - {fileID: -3374625367947969767}
   - {fileID: 7196268399055851718}
   - {fileID: -2115344343019216798}
   - {fileID: -5455050321542364043}
@@ -1030,12 +1026,15 @@ MonoBehaviour:
   - {fileID: 8303262324042676171}
   - {fileID: -1939029752660422522}
   - {fileID: -6746698187848728206}
+  - {fileID: -4658414704372986862}
+  - {fileID: -8207934830058969651}
+  - {fileID: 1070292033040206764}
   EditorParameters: []
   MasterBanks:
   - {fileID: 7897167001347730558}
   StringsBanks:
   - {fileID: -8762140299148799493}
-  cacheTime: 638921658557820846
+  cacheTime: 638921760260539098
   cacheVersion: 131846
 --- !u!114 &156055634523395282
 MonoBehaviour:
@@ -1136,6 +1135,33 @@ MonoBehaviour:
     Data2: 1093900564
     Data3: -1073467469
     Data4: 149243856
+  Banks:
+  - {fileID: 7897167001347730558}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &1070292033040206764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/MAIN_CHARACTER/Waffe/MC_Waffe Treffer
+  m_EditorClassIdentifier: 
+  Path: event:/MAIN_CHARACTER/Waffe/MC_Waffe Treffer
+  Guid:
+    Data1: 324910854
+    Data2: 1248890801
+    Data3: 1216477871
+    Data4: 113354636
   Banks:
   - {fileID: 7897167001347730558}
   IsStream: 0
@@ -1604,33 +1630,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
---- !u!114 &4352917484124028549
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/MAIN_CHARACTER/Waffe/MC_Waffe Laub Treffer
-  m_EditorClassIdentifier: 
-  Path: event:/MAIN_CHARACTER/Waffe/MC_Waffe Laub Treffer
-  Guid:
-    Data1: 324910854
-    Data2: 1248890801
-    Data3: 1216477871
-    Data4: 113354636
-  Banks:
-  - {fileID: 7897167001347730558}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
 --- !u!114 &4457957970204620204
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1874,33 +1873,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
---- !u!114 &6598238178278782521
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/UI/UI_Knopf_Spiel-Verlassen
-  m_EditorClassIdentifier: 
-  Path: event:/UI/UI_Knopf_Spiel-Verlassen
-  Guid:
-    Data1: 1824992366
-    Data2: 1131187987
-    Data3: -1170509160
-    Data4: 1979022032
-  Banks:
-  - {fileID: 7897167001347730558}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
 --- !u!114 &7196268399055851718
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2024,10 +1996,10 @@ MonoBehaviour:
   Path: FMOD/TheExplorer/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638921658557810851
+  lastModified: 638921760260529035
   FileSizes:
   - Name: Desktop
-    Value: 39262
+    Value: 38760
   Exists: 1
 --- !u!114 &8046789616825733826
 MonoBehaviour:

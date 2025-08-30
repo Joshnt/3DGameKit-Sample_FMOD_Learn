@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using FMODUnity;
 using UnityEngine;
 
 namespace Gamekit3D
@@ -30,8 +31,10 @@ namespace Gamekit3D
 
         public TimeEffect[] effects;
 
-        [Header("Audio")] public RandomAudioPlayer hitAudio;
-        public RandomAudioPlayer attackAudio;
+
+        [Header("FMOD")]
+        public EventReference hitEvent;
+        public EventReference swingEvent;
 
         public bool throwingHit
         {
@@ -79,8 +82,7 @@ namespace Gamekit3D
 
         public void BeginAttack(bool thowingAttack)
         {
-            if (attackAudio != null)
-                attackAudio.PlayRandomClip();
+            RuntimeManager.PlayOneShotAttached(swingEvent, gameObject);
             throwingHit = thowingAttack;
 
             m_InAttack = true;
@@ -172,16 +174,22 @@ namespace Gamekit3D
                 return false;
             }
 
-            if (hitAudio != null)
-            {
-                var renderer = other.GetComponent<Renderer>();
-                if (!renderer)
-                    renderer = other.GetComponentInChildren<Renderer> ();
-                if (renderer)
-                    hitAudio.PlayRandomClip (renderer.sharedMaterial);
-                else
-                    hitAudio.PlayRandomClip ();
-            }
+            // Create instance
+            FMOD.Studio.EventInstance instance = RuntimeManager.CreateInstance(hitEvent);
+
+            string hitString = "EnemySmall";
+            var hitType = other.GetComponent<HitType>();
+            if (!hitType)
+                hitType = other.GetComponentInChildren<HitType>();
+            if (hitType)
+                hitString = hitType.hitTypeName.ToString();
+
+            instance.setParameterByNameWithLabel("HitType", hitString);
+
+            RuntimeManager.AttachInstanceToGameObject(instance, gameObject);
+
+            instance.start();
+            instance.release();
 
             Damageable.DamageMessage data;
 

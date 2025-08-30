@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{8e06ff39-c792-410c-9b54-17451f66dd5f}">
+		<property name="name">
+			<value>HitType</value>
+		</property>
+		<relationship name="folder">
+			<destination>{55e41504-d29f-4cf0-bf47-0d87ebf4f06d}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{016db435-e0b2-48dd-b97b-e52c5f127089}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{016db435-e0b2-48dd-b97b-e52c5f127089}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>4</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>Crystal</value>
+			<value>DestructableBox</value>
+			<value>EnemySmall</value>
+			<value>GrenadierGolem</value>
+		</property>
+		<property name="isHeld">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>2</value>
+		</property>
+	</object>
+</objects>

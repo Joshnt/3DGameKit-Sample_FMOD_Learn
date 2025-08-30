@@ -12,13 +12,14 @@ public class MovementFMODEvents : MonoBehaviour
     public EventReference landingNormalPlayerEvent;
     public EventReference landingRollPlayerEvent;
     public EventReference respawnEvent;
+    public EventReference idleSprechenEvent;
+    Coroutine speechCoroutine;
 
     public void Movement(int isRunning = 0) // walk = 0, run = 1
     {
         // Create instance
         FMOD.Studio.EventInstance instance = RuntimeManager.CreateInstance(isRunning == 1 ? runStepPlayerEvent : walkStepPlayerEvent);
         groundCheckForInstance(instance);
-        Debug.Log("played Movement with isRunning " + isRunning);
     }
 
     public void QuickTurn()
@@ -60,5 +61,28 @@ public class MovementFMODEvents : MonoBehaviour
 
         eventInstance.start();
         eventInstance.release();
+    }
+
+    public void PlayIdleSpeechWithDelay()
+    {
+        speechCoroutine = StartCoroutine(TalkWithDelay());
+    }
+
+    public void StopCoroutineIdleSpeech()
+    {
+        if (speechCoroutine != null)
+        {
+            StopCoroutine(speechCoroutine);
+            speechCoroutine = null;
+        }
+    }
+
+    IEnumerator TalkWithDelay()
+    {
+        while (true)
+        {
+            yield return new WaitForSeconds(Random.Range(10f, 15f));
+            FMODUnity.RuntimeManager.PlayOneShot(idleSprechenEvent);
+        }
     }
 }

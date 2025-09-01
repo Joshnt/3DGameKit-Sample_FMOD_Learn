@@ -8,7 +8,7 @@ namespace Gamekit3D
 {
     [RequireComponent(typeof(EnemyController))]
     [RequireComponent(typeof(NavMeshAgent))]
-    public class GrenadierBehaviour : MonoBehaviour
+    public class GrenadierBehaviour : MonoBehaviour, IEnemy
     {
         public enum OrientationState
         {
@@ -69,6 +69,7 @@ namespace Gamekit3D
 
         protected float m_ShieldActivationTime;
         public SurfaceDatabase surfaceDatabase;
+        public bool IsAlive { get; private set; } = true;
 
 
         void OnEnable()
@@ -111,11 +112,13 @@ namespace Gamekit3D
         public void StartPursuit()
         {
             m_EnemyController.animator.SetBool(hashInPursuitParam, true);
+            CombatManager.Instance?.RegisterEnemy(this);
         }
 
         public void StopPursuit()
         {
             m_EnemyController.animator.SetBool(hashInPursuitParam, false);
+            CombatManager.Instance?.UnregisterEnemy(this);
         }
 
         public void StartAttack()
@@ -139,6 +142,7 @@ namespace Gamekit3D
         {
             RuntimeManager.PlayOneShot(deathEvent, transform.position);
             m_EnemyController.animator.SetTrigger(hashDeathParam);
+            IsAlive = false;
         }
 
         public void ActivateShield()

@@ -7,7 +7,7 @@ using UnityEngine;
 namespace Gamekit3D
 {
     [DefaultExecutionOrder(100)]
-    public class ChomperBehavior : MonoBehaviour, IMessageReceiver
+    public class ChomperBehavior : MonoBehaviour, IMessageReceiver, IEnemy
     {
         public static readonly int hashInPursuit = Animator.StringToHash("InPursuit");
         public static readonly int hashAttack = Animator.StringToHash("Attack");
@@ -53,6 +53,8 @@ namespace Gamekit3D
         protected TargetDistributor.TargetFollower m_FollowerInstance = null;
 
         public SurfaceDatabase surfaceDatabase;
+
+        public bool IsAlive { get; private set; } = true;
 
         protected void OnEnable()
         {
@@ -196,6 +198,7 @@ namespace Gamekit3D
             }
 
             m_Controller.animator.SetBool(hashInPursuit, true);
+            CombatManager.Instance?.RegisterEnemy(this);
         }
 
         public void StopPursuit()
@@ -206,6 +209,7 @@ namespace Gamekit3D
             }
 
             m_Controller.animator.SetBool(hashInPursuit, false);
+            CombatManager.Instance?.UnregisterEnemy(this);
         }
 
         public void RequestTargetPosition()
@@ -269,6 +273,8 @@ namespace Gamekit3D
             controller.animator.SetTrigger(hashThrown);
 
             RuntimeManager.PlayOneShot(deathEvent, transform.position);
+
+            IsAlive = false;
         }
 
         public void ApplyDamage(Damageable.DamageMessage msg)

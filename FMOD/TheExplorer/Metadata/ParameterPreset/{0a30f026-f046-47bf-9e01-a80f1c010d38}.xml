@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{0a30f026-f046-47bf-9e01-a80f1c010d38}">
+		<property name="name">
+			<value>MC_PostProcessVolume</value>
+		</property>
+		<relationship name="folder">
+			<destination>{55e41504-d29f-4cf0-bf47-0d87ebf4f06d}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{f7505da3-a1be-4fbd-9db7-5a627563e473}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{f7505da3-a1be-4fbd-9db7-5a627563e473}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>

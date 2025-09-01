@@ -15,10 +15,10 @@ MonoBehaviour:
   Path: FMOD/TheExplorer/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638923400644287502
+  lastModified: 638923675692217023
   FileSizes:
   - Name: Desktop
-    Value: 4672
+    Value: 5466
   Exists: 1
 --- !u!114 &-8738482090907787713
 MonoBehaviour:
@@ -47,6 +47,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-8328313489394121258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/MC_Invulnerable
+  m_EditorClassIdentifier: 
+  Name: MC_Invulnerable
+  StudioPath: parameter:/MC_invulnerable
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1529202965
+    data2: 3762816400
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &-8207934830058969651
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -182,6 +206,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-7152401003964589733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Volume_SFX
+  m_EditorClassIdentifier: 
+  Name: Volume_SFX
+  StudioPath: parameter:/Settings/Volume_SFX
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 446690563
+    data2: 1148500641
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &-7105001539881663723
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -209,6 +257,57 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-7005273923527018021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/MAIN_CHARACTER/MC_Invulnerable
+  m_EditorClassIdentifier: 
+  Path: event:/MAIN_CHARACTER/MC_Invulnerable
+  Guid:
+    Data1: -788826995
+    Data2: 1253353879
+    Data3: -608361076
+    Data4: 1310426634
+  Banks:
+  - {fileID: 7897167001347730558}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-6978970398853311083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/MC_inCombat
+  m_EditorClassIdentifier: 
+  Name: MC_inCombat
+  StudioPath: parameter:/MC_inCombat
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3004899317
+    data2: 3692164757
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &-6746698187848728206
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -533,6 +632,54 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-4577196641557230629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Volume_Music
+  m_EditorClassIdentifier: 
+  Name: Volume_Music
+  StudioPath: parameter:/Settings/Volume_Music
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 701551507
+    data2: 583939588
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-3915144074357582322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Volume_Master
+  m_EditorClassIdentifier: 
+  Name: Volume_Master
+  StudioPath: parameter:/Settings/Volume_Master
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 1611101479
+    data2: 1919391130
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &-3900021969954400794
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -740,6 +887,33 @@ MonoBehaviour:
     Data2: 1283023037
     Data3: -1158879869
     Data4: -1584630498
+  Banks:
+  - {fileID: 7897167001347730558}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-2412430422322847866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/MAIN_CHARACTER/MC_OnHitWhileInvulnerable
+  m_EditorClassIdentifier: 
+  Path: event:/MAIN_CHARACTER/MC_OnHitWhileInvulnerable
+  Guid:
+    Data1: -1314745540
+    Data2: 1298104642
+    Data3: 961277068
+    Data4: -1469138564
   Banks:
   - {fileID: 7897167001347730558}
   IsStream: 0
@@ -992,6 +1166,40 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-95156006943425653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Area
+  m_EditorClassIdentifier: 
+  Name: Area
+  StudioPath: parameter:/Area
+  Min: 0
+  Max: 9
+  Default: 0
+  ID:
+    data1: 2662315194
+    data2: 3527637218
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - Lv1_Dropship_Area
+  - Lv1_Weapon_Area
+  - Lv1_Pressure-Pad1_Area
+  - Lv1_Raetsel2_Area
+  - Lv1_Portal_Area
+  - Lv2_Spawn_Area
+  - Lv2_Riddle-Rooms_Area
+  - Lv2_Acid-Rooms_Area
+  - Lv2_Boss-Room
+  - Lv2_Corridor-to-Boss
+  Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1087,12 +1295,23 @@ MonoBehaviour:
   - {fileID: -7762634096930051932}
   - {fileID: -8111638309642914396}
   - {fileID: -1779542916702114668}
-  EditorParameters: []
+  - {fileID: -7005273923527018021}
+  - {fileID: -2412430422322847866}
+  EditorParameters:
+  - {fileID: -3915144074357582322}
+  - {fileID: -95156006943425653}
+  - {fileID: -7152401003964589733}
+  - {fileID: -4577196641557230629}
+  - {fileID: 7040318522043980692}
+  - {fileID: 3433502024320541386}
+  - {fileID: -6978970398853311083}
+  - {fileID: 3370481305045672850}
+  - {fileID: -8328313489394121258}
   MasterBanks:
   - {fileID: 7897167001347730558}
   StringsBanks:
   - {fileID: -8762140299148799493}
-  cacheTime: 638923400644287502
+  cacheTime: 638923675692217023
   cacheVersion: 131846
 --- !u!114 &156055634523395282
 MonoBehaviour:
@@ -1499,6 +1718,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &3370481305045672850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/MC_PostProcessVolume
+  m_EditorClassIdentifier: 
+  Name: MC_PostProcessVolume
+  StudioPath: parameter:/MC_PostProcessVolume
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 4245278988
+    data2: 315884569
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &3370664424103999209
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1526,6 +1769,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &3433502024320541386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Level
+  m_EditorClassIdentifier: 
+  Name: Level
+  StudioPath: parameter:/Level
+  Min: 1
+  Max: 2
+  Default: 1
+  ID:
+    data1: 1812805129
+    data2: 2822959802
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &3603390213149817583
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2012,6 +2279,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &7040318522043980692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/MC_Health
+  m_EditorClassIdentifier: 
+  Name: MC_Health
+  StudioPath: parameter:/MC_Health
+  Min: 0
+  Max: 5
+  Default: 5
+  ID:
+    data1: 442772647
+    data2: 1733447448
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &7196268399055851718
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2162,10 +2453,10 @@ MonoBehaviour:
   Path: FMOD/TheExplorer/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638923400644277507
+  lastModified: 638923675692196980
   FileSizes:
   - Name: Desktop
-    Value: 40768
+    Value: 45022
   Exists: 1
 --- !u!114 &8111247450152030278
 MonoBehaviour:

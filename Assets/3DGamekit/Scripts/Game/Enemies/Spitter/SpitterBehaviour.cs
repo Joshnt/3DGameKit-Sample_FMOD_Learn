@@ -13,7 +13,7 @@ using MessageType = UnityEditor.MessageType;
 namespace Gamekit3D
 {
     [DefaultExecutionOrder(100)]
-    public class SpitterBehaviour : MonoBehaviour, IMessageReceiver
+    public class SpitterBehaviour : MonoBehaviour, IMessageReceiver, IEnemy
     {
         public static readonly int hashVerticalDot = Animator.StringToHash("VerticalHitDot");
         public static readonly int hashHorizontalDot = Animator.StringToHash("HorizontalHitDot");
@@ -47,6 +47,8 @@ namespace Gamekit3D
 
         protected Vector3 m_RememberedTargetPosition;
         public SurfaceDatabase surfaceDatabase;
+
+        public bool IsAlive { get; private set; } = true;
 
         protected void OnEnable()
         {
@@ -209,6 +211,14 @@ namespace Gamekit3D
             //we ignore height difference if the target was already seen
             m_Target = playerScanner.Detect(transform, m_Target == null);
             m_Controller.animator.SetBool(hashHaveEnemy, m_Target != null);
+            if (m_Target != null)
+            {
+                CombatManager.Instance?.RegisterEnemy(this);
+            }
+            else
+            {
+                CombatManager.Instance?.UnregisterEnemy(this);
+            }
         }
 
 #if UNITY_EDITOR

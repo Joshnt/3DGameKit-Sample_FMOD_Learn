@@ -1,5 +1,7 @@
 ﻿using System.Collections;
+using FMODUnity;
 using UnityEngine;
+using FMOD.Studio;
 
 namespace Gamekit3D
 {
@@ -51,6 +53,8 @@ namespace Gamekit3D
             {
                 m_HealthIconAnimators[i].SetBool(m_HashActivePara, damageable.currentHitPoints >= i + 1);
             }
+
+            RuntimeManager.StudioSystem.setParameterByName("MC_Health", damageable.currentHitPoints);
         }
     } 
 }

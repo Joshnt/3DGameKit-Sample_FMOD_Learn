@@ -59,6 +59,8 @@ namespace Gamekit3D
 
         public HitDatabase hitDatabase;
 
+        private HashSet<Damageable> alreadyHit = new HashSet<Damageable>();
+
         private void Awake()
         {
             if (hitParticlePrefab != null)
@@ -84,6 +86,8 @@ namespace Gamekit3D
 
         public void BeginAttack(bool thowingAttack)
         {
+            alreadyHit.Clear(); // reset at the start of each attack
+
             if (!string.IsNullOrEmpty(swingEvent.Path))
                 RuntimeManager.PlayOneShotAttached(swingEvent, gameObject);
 
@@ -178,24 +182,33 @@ namespace Gamekit3D
                 return false;
             }
 
+            // prevent multiple hits on the same target
+            if (alreadyHit.Contains(d))
+                return false;
+
+            alreadyHit.Add(d);
+
             if (!string.IsNullOrEmpty(hitEvent.Path))
             {
                 // Create instance
                 FMOD.Studio.EventInstance instance = RuntimeManager.CreateInstance(hitEvent);
 
-                string hitString = "EnemySmall";
+                string hitString = "";
                 var rend = other.GetComponent<Renderer>();
                 if (!rend)
                     rend = other.GetComponentInChildren<Renderer>();
                 if (rend != null && rend.sharedMaterial != null)
                     hitString = hitDatabase.GetHitType(rend.sharedMaterial);
 
-                /* instance.setParameterByNameWithLabel("HitType", hitString);
+                Debug.Log("Hit Material: " + rend.sharedMaterial.name.ToString());
+                Debug.Log("Hit String: " + hitString);
+
+                instance.setParameterByNameWithLabel("HitType", hitString);
 
                 RuntimeManager.AttachInstanceToGameObject(instance, gameObject);
 
                 instance.start();
-                instance.release(); */
+                instance.release();
             }
 
             Damageable.DamageMessage data;

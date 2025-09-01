@@ -13,6 +13,7 @@ public class HitDefinition
 public class HitDatabase : ScriptableObject
 {
     public List<HitDefinition> hits = new();
+    public string defaultHit = "EnemySmall";
 
     /// <summary>
     /// Returns the surfaceType string for a given material.
@@ -30,6 +31,6 @@ public class HitDatabase : ScriptableObject
                 }
             }
         }
-        return null;
+        return defaultHit;
     }
 }

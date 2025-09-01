@@ -15,10 +15,10 @@ MonoBehaviour:
   Path: FMOD/TheExplorer/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638921826078724471
+  lastModified: 638923400644287502
   FileSizes:
   - Name: Desktop
-    Value: 4628
+    Value: 4672
   Exists: 1
 --- !u!114 &-8738482090907787713
 MonoBehaviour:
@@ -830,6 +830,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-1779542916702114668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UMGEBUNG/ENV_Aal_Animation
+  m_EditorClassIdentifier: 
+  Path: event:/UMGEBUNG/ENV_Aal_Animation
+  Guid:
+    Data1: 867820817
+    Data2: 1121250852
+    Data3: -1937326913
+    Data4: -1954687568
+  Banks:
+  - {fileID: 7897167001347730558}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-1370801345435989989
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1059,12 +1086,13 @@ MonoBehaviour:
   - {fileID: 812436589510720224}
   - {fileID: -7762634096930051932}
   - {fileID: -8111638309642914396}
+  - {fileID: -1779542916702114668}
   EditorParameters: []
   MasterBanks:
   - {fileID: 7897167001347730558}
   StringsBanks:
   - {fileID: -8762140299148799493}
-  cacheTime: 638921826078724471
+  cacheTime: 638923400644287502
   cacheVersion: 131846
 --- !u!114 &156055634523395282
 MonoBehaviour:
@@ -2134,10 +2162,10 @@ MonoBehaviour:
   Path: FMOD/TheExplorer/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638921826078714481
+  lastModified: 638923400644277507
   FileSizes:
   - Name: Desktop
-    Value: 40266
+    Value: 40768
   Exists: 1
 --- !u!114 &8111247450152030278
 MonoBehaviour:

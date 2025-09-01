@@ -89,8 +89,8 @@ namespace Gamekit3D
                 }
             }
 
-
-            instance.setParameterByNameWithLabel("GroundType", surfaceString);
+            if (surfaceString != "")
+                instance.setParameterByNameWithLabel("GroundType", surfaceString);
 
             RuntimeManager.AttachInstanceToGameObject(instance, gameObject);
 

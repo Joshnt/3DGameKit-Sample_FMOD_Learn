@@ -12,4 +12,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e1b332da5d63cd44891acd8b0018422, type: 3}
   m_Name: so_HitDatabase
   m_EditorClassIdentifier: 
-  hits: []
+  hits:
+  - surfaceType: Crystal
+    materials:
+    - {fileID: 2100000, guid: f967e5a118c1dd743944e59fe844540f, type: 2}
+    - {fileID: 2100000, guid: 022a0b8394af9d343acfc52bf61093cd, type: 2}
+  - surfaceType: DestructableBox
+    materials:
+    - {fileID: 2100000, guid: 213f29d8077200a489882139504e451d, type: 2}
+    - {fileID: 2100000, guid: c90acb39326143642a25b630416a7c8a, type: 2}
+    - {fileID: 2100000, guid: bc9add680f5479b4c92e1e22e00c3687, type: 2}
+  - surfaceType: EnemySmall
+    materials:
+    - {fileID: 2100000, guid: dad26cc8af5eca141b973d06942e6efb, type: 2}
+    - {fileID: 2100000, guid: bf0a27f819105a447b57ddb2ba3628cd, type: 2}
+    - {fileID: 2100000, guid: 4b16268047716604e8906338172a7efa, type: 2}
+    - {fileID: 2100000, guid: 0ef55e615d8ada44085ccce2062b647d, type: 2}
+    - {fileID: 2100000, guid: efa78f1bee0a9f74599a70f34134c235, type: 2}
+  - surfaceType: GrenadierGolem_Armor
+    materials:
+    - {fileID: 2100000, guid: 48c4ba26d842cdb4786ed2bb55ab481c, type: 2}
+  - surfaceType: GrenadierGolem_Core
+    materials:
+    - {fileID: 2100000, guid: a9bec445b198dd7458fcd489957a26b0, type: 2}

@@ -13,6 +13,7 @@ public class SurfaceDefinition
 public class SurfaceDatabase : ScriptableObject
 {
     public List<SurfaceDefinition> surfaces = new();
+    public string defaultSurface = "Earth";
 
     /// <summary>
     /// Returns the surfaceType string for a given material.
@@ -30,6 +31,6 @@ public class SurfaceDatabase : ScriptableObject
                 }
             }
         }
-        return null;
+        return defaultSurface;
     }
 }

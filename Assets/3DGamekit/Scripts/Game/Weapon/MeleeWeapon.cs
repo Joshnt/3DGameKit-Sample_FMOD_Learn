@@ -200,9 +200,6 @@ namespace Gamekit3D
                 if (rend != null && rend.sharedMaterial != null)
                     hitString = hitDatabase.GetHitType(rend.sharedMaterial);
 
-                Debug.Log("Hit Material: " + rend.sharedMaterial.name.ToString());
-                Debug.Log("Hit String: " + hitString);
-
                 instance.setParameterByNameWithLabel("HitType", hitString);
 
                 RuntimeManager.AttachInstanceToGameObject(instance, gameObject);

@@ -190,12 +190,12 @@ namespace Gamekit3D
                 if (rend != null && rend.sharedMaterial != null)
                     hitString = hitDatabase.GetHitType(rend.sharedMaterial);
 
-                instance.setParameterByNameWithLabel("HitType", hitString);
+                /* instance.setParameterByNameWithLabel("HitType", hitString);
 
                 RuntimeManager.AttachInstanceToGameObject(instance, gameObject);
 
                 instance.start();
-                instance.release();
+                instance.release(); */
             }
 
             Damageable.DamageMessage data;

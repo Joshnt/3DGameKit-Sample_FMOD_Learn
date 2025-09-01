@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 4456866567437460}
   - component: {fileID: 205254508318849924}
   - component: {fileID: 64610357752501136}
-  - component: {fileID: 8796026906399977101}
   m_Layer: 18
   m_Name: VegetationLarge05V2
   m_TagString: Untagged
@@ -86,37 +85,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300002, guid: 48e9b3f8587ad7e46afa325dad953978, type: 3}
---- !u!114 &8796026906399977101
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1011418894772044}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -856306476
-      Data2: 1093900564
-      Data3: -1073467469
-      Data4: 149243856
-    Path: event:/UMGEBUNG/ENV_Laub_Gross_Loop
-  Event: 
-  EventPlayTrigger: 1
-  EventStopTrigger: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  NonRigidbodyVelocity: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!1 &1347098323643326
 GameObject:
   m_ObjectHideFlags: 0

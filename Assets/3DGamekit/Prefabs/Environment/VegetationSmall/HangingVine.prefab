@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 4038050532710618}
   - component: {fileID: 33433942698299234}
   - component: {fileID: 23202937327565258}
-  - component: {fileID: 4676648372208393780}
   m_Layer: 18
   m_Name: HangingVine
   m_TagString: Untagged
@@ -84,34 +83,3 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &4676648372208393780
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1094284405837336}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: 1103318751
-      Data2: 1090357853
-      Data3: 2039757486
-      Data4: -974228677
-    Path: event:/UMGEBUNG/ENV_Laub_Klein_Loop
-  Event: 
-  EventPlayTrigger: 1
-  EventStopTrigger: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  NonRigidbodyVelocity: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20

@@ -7288,6 +7288,7 @@ MonoBehaviour:
       Data3: 854914490
       Data4: -572250459
     Path: event:/MAIN_CHARACTER/Waffe/MC_Waffe Schwingen
+  hitDatabase: {fileID: 11400000, guid: 73644bba32a8c924b91e4f3b32c0b65c, type: 2}
 --- !u!114 &114642486581907182
 MonoBehaviour:
   m_ObjectHideFlags: 0

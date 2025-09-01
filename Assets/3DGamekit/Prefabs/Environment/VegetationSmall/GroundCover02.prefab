@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 33611802101816778}
   - component: {fileID: 23775635906600862}
   - component: {fileID: 114837689092687128}
-  - component: {fileID: 988325370373010605}
   m_Layer: 11
   m_Name: GroundCover02
   m_TagString: Untagged
@@ -101,34 +100,3 @@ MonoBehaviour:
   maxScale: 2
   gameObjects:
   - {fileID: 1465565938110342}
---- !u!114 &988325370373010605
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1465565938110342}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: 284270647
-      Data2: 1235233300
-      Data3: 1183849364
-      Data4: 1975538607
-    Path: event:/UMGEBUNG/ENV_Gras_Loop
-  Event: 
-  EventPlayTrigger: 1
-  EventStopTrigger: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  NonRigidbodyVelocity: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20

@@ -84,7 +84,9 @@ namespace Gamekit3D
 
         public void BeginAttack(bool thowingAttack)
         {
-            RuntimeManager.PlayOneShotAttached(swingEvent, gameObject);
+            if (!string.IsNullOrEmpty(swingEvent.Path))
+                RuntimeManager.PlayOneShotAttached(swingEvent, gameObject);
+
             throwingHit = thowingAttack;
 
             m_InAttack = true;
@@ -176,22 +178,25 @@ namespace Gamekit3D
                 return false;
             }
 
-            // Create instance
-            FMOD.Studio.EventInstance instance = RuntimeManager.CreateInstance(hitEvent);
+            if (!string.IsNullOrEmpty(hitEvent.Path))
+            {
+                // Create instance
+                FMOD.Studio.EventInstance instance = RuntimeManager.CreateInstance(hitEvent);
 
-            string hitString = "EnemySmall";
-            var rend = other.GetComponent<Renderer>();
-            if (!rend)
-                rend = other.GetComponentInChildren<Renderer>();
-            if (rend != null && rend.sharedMaterial != null)
-                hitString = hitDatabase.GetHitType(rend.sharedMaterial);
+                string hitString = "EnemySmall";
+                var rend = other.GetComponent<Renderer>();
+                if (!rend)
+                    rend = other.GetComponentInChildren<Renderer>();
+                if (rend != null && rend.sharedMaterial != null)
+                    hitString = hitDatabase.GetHitType(rend.sharedMaterial);
 
-            instance.setParameterByNameWithLabel("HitType", hitString);
+                instance.setParameterByNameWithLabel("HitType", hitString);
 
-            RuntimeManager.AttachInstanceToGameObject(instance, gameObject);
+                RuntimeManager.AttachInstanceToGameObject(instance, gameObject);
 
-            instance.start();
-            instance.release();
+                instance.start();
+                instance.release();
+            }
 
             Damageable.DamageMessage data;
 

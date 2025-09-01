@@ -15,6 +15,8 @@ public class MovementFMODEvents : MonoBehaviour
     public EventReference idleSprechenEvent;
     Coroutine speechCoroutine;
 
+    public SurfaceDatabase surfaceDatabase;
+
     public void Movement(int isRunning = 0) // walk = 0, run = 1
     {
         // Create instance
@@ -47,11 +49,12 @@ public class MovementFMODEvents : MonoBehaviour
 
         if (Physics.Raycast(transform.position, Vector3.down, out RaycastHit hit, 1f, LayerMask.GetMask("Environment")))
         {
-            SurfaceType surface = hit.collider.GetComponent<SurfaceType>();
+            Renderer rend = hit.collider.GetComponent<Renderer>();
+            if (rend == null) rend = hit.collider.GetComponentInChildren<Renderer>();
 
-            if (surface != null)
+            if (rend != null && rend.sharedMaterial != null)
             {
-                surfaceString = surface.surfaceTypeName.ToString();
+                surfaceString = surfaceDatabase.GetSurfaceType(rend.sharedMaterial);
             }
         }
 

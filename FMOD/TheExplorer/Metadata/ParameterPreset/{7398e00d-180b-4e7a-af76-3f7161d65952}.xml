@@ -20,10 +20,10 @@
 		</property>
 		<property name="enumerationLabels">
 			<value>Stone</value>
-			<value>Grass</value>
 			<value>Earth</value>
 			<value>Puddle</value>
 			<value>Metal</value>
+			<value>Grass</value>
 		</property>
 		<property name="isHeld">
 			<value>true</value>

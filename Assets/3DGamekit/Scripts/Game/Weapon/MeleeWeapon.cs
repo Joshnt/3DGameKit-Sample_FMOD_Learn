@@ -57,6 +57,8 @@ namespace Gamekit3D
         protected static RaycastHit[] s_RaycastHitCache = new RaycastHit[32];
         protected static Collider[] s_ColliderCache = new Collider[32];
 
+        public HitDatabase hitDatabase;
+
         private void Awake()
         {
             if (hitParticlePrefab != null)
@@ -178,11 +180,11 @@ namespace Gamekit3D
             FMOD.Studio.EventInstance instance = RuntimeManager.CreateInstance(hitEvent);
 
             string hitString = "EnemySmall";
-            var hitType = other.GetComponent<HitType>();
-            if (!hitType)
-                hitType = other.GetComponentInChildren<HitType>();
-            if (hitType)
-                hitString = hitType.hitTypeName.ToString();
+            var rend = other.GetComponent<Renderer>();
+            if (!rend)
+                rend = other.GetComponentInChildren<Renderer>();
+            if (rend != null && rend.sharedMaterial != null)
+                hitString = hitDatabase.GetHitType(rend.sharedMaterial);
 
             instance.setParameterByNameWithLabel("HitType", hitString);
 

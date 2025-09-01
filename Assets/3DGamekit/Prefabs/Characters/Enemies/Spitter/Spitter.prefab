@@ -1987,13 +1987,6 @@ MonoBehaviour:
       m_Bits: 3221225472
   fleeingDistance: 6
   rangeWeapon: {fileID: 114662184025807022}
-  attackAudio: {fileID: 0}
-  frontStepAudio: {fileID: 0}
-  backStepAudio: {fileID: 0}
-  hitAudio: {fileID: 0}
-  gruntAudio: {fileID: 0}
-  deathAudio: {fileID: 0}
-  spottedAudio: {fileID: 0}
   attackEvent:
     Guid:
       Data1: -353905774
@@ -2043,6 +2036,7 @@ MonoBehaviour:
       Data3: 723995543
       Data4: 564165866
     Path: event:/GEGNER/SPUCKER/SPUCKER_Entdeckt
+  surfaceDatabase: {fileID: 11400000, guid: b75d68bf63b17294392cdf85b586d04b, type: 2}
 --- !u!114 &114437624635966428
 MonoBehaviour:
   m_ObjectHideFlags: 0

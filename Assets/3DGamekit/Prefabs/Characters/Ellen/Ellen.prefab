@@ -22466,6 +22466,7 @@ MonoBehaviour:
       Data3: -585019982
       Data4: -652071064
     Path: event:/MAIN_CHARACTER/Sprache/MC_Idle_Sprechen
+  surfaceDatabase: {fileID: 11400000, guid: b75d68bf63b17294392cdf85b586d04b, type: 2}
 --- !u!1 &1991646998098166
 GameObject:
   m_ObjectHideFlags: 0

@@ -68,6 +68,7 @@ namespace Gamekit3D
         protected Color m_OriginalCoreMaterial;
 
         protected float m_ShieldActivationTime;
+        public SurfaceDatabase surfaceDatabase;
 
 
         void OnEnable()
@@ -172,11 +173,12 @@ namespace Gamekit3D
 
             if (Physics.Raycast(transform.position, Vector3.down, out RaycastHit hit, 1f, LayerMask.GetMask("Environment")))
             {
-                SurfaceType surface = hit.collider.GetComponent<SurfaceType>();
+                Renderer rend = hit.collider.GetComponent<Renderer>();
+                if (rend == null) rend = hit.collider.GetComponentInChildren<Renderer>();
 
-                if (surface != null)
+                if (rend != null && rend.sharedMaterial != null)
                 {
-                    surfaceString = surface.surfaceTypeName.ToString();
+                    surfaceString = surfaceDatabase.GetSurfaceType(rend.sharedMaterial);
                 }
             }
 

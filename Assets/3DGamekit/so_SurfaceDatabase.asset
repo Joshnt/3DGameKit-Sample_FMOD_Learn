@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a0702ec46187984caafad0ebbd806fd, type: 3}
+  m_Name: so_SurfaceDatabase
+  m_EditorClassIdentifier: 
+  surfaces:
+  - surfaceType: Metal
+    materials:
+    - {fileID: 2100000, guid: ceacc89730515714ba02cef1afa41521, type: 2}
+    - {fileID: 2100000, guid: 9f6ef4965d08a0e4e9074adc1e848339, type: 2}
+    - {fileID: 2100000, guid: 7a789884b6c7b5d41b87337c5fc29995, type: 2}
+    - {fileID: 2100000, guid: a7569aadde6bf9e40a7068da3b212ad5, type: 2}
+    - {fileID: 2100000, guid: 1c4cffe9877845349940f71100042f8f, type: 2}
+  - surfaceType: Puddle
+    materials:
+    - {fileID: 2100000, guid: 61be5fb840b83854a95a1ef4982462cd, type: 2}
+  - surfaceType: Earth
+    materials:
+    - {fileID: 2100000, guid: c9fde8d2b739edb458fbb07e275f81d4, type: 2}
+    - {fileID: 2100000, guid: 2ccd8bf1a9f046849b58082f96cb9ceb, type: 2}
+    - {fileID: 2100000, guid: 18da08da9c279494e87f918ddfd4197b, type: 2}
+    - {fileID: 2100000, guid: 6f0341037674d6f46bf972bcfd328255, type: 2}
+    - {fileID: 2100000, guid: 0cf7d47a45bcd864dba9d726d788a924, type: 2}
+    - {fileID: 2100000, guid: 30b0f587813f86c44b82c48c7733af87, type: 2}
+    - {fileID: 2100000, guid: dddb14a0dd9e90c4392af5b67f34ca7f, type: 2}
+    - {fileID: 2100000, guid: 00036c34b5ae386428e7e2e5470124e9, type: 2}
+    - {fileID: 2100000, guid: a997cca723ebe0f49ae9612bde2c80f4, type: 2}
+  - surfaceType: Rock
+    materials:
+    - {fileID: 2100000, guid: 24b3cf5e007db204db421522f1ec1592, type: 2}
+    - {fileID: 2100000, guid: 40cfcebf1ef55f74092c951f459bc5c5, type: 2}
+    - {fileID: 2100000, guid: 3b01d315743ae97459ca3d3bd461e4be, type: 2}
+    - {fileID: 2100000, guid: 2a8b76488fd1340459de8f96ea4eb868, type: 2}
+    - {fileID: 2100000, guid: 8491ec434f8e32f4f9fc6839ffa24121, type: 2}
+    - {fileID: 2100000, guid: aa21bc8da8405dd4a82fb23c3779d08e, type: 2}
+    - {fileID: 2100000, guid: b4d52da8c0d97f841be80b861af24164, type: 2}
+    - {fileID: 2100000, guid: 9dfa8e231f9684b489b86a4b74cba739, type: 2}
+    - {fileID: 2100000, guid: ac4bc75e76feb8042ab5161e3e1b0554, type: 2}
+    - {fileID: 2100000, guid: 96b29c39d6e3d5c4a8bf9c1b9baeac8d, type: 2}
+    - {fileID: 2100000, guid: 3af198a8305bde54aaa85d2e3fe11c74, type: 2}
+    - {fileID: 2100000, guid: e9e5eb9afbdaf2041bf7d9e26bbc1b6e, type: 2}
+    - {fileID: 2100000, guid: adb337a478630cf4c91511a0dc9dc393, type: 2}
+    - {fileID: 2100000, guid: fc0e77f5aef3d184f9195be79bd31eeb, type: 2}
+    - {fileID: 2100000, guid: 5cd2525bc73586347b2d4114aaad788e, type: 2}
+    - {fileID: 2100000, guid: 6301438681abcdd4081173f72ff42803, type: 2}
+    - {fileID: 2100000, guid: 6301438681abcdd4081173f72ff42803, type: 2}
+    - {fileID: 2100000, guid: aeba2987925798e4a8401bfd77cd1284, type: 2}
+    - {fileID: 2100000, guid: 049606f690e98a949bc26f5a5c210b4d, type: 2}
+    - {fileID: 2100000, guid: 5caf37f41fd93d443a82f2fd01a16358, type: 2}
+    - {fileID: 2100000, guid: 80fada4b65ca27e40b0391b92c8fe136, type: 2}
+    - {fileID: 2100000, guid: 5a0c1b5b20deb5340b82c3aa4b716c73, type: 2}
+    - {fileID: 2100000, guid: 811ad1a44bf374746a16997613754b11, type: 2}
+    - {fileID: 2100000, guid: 3c82a8aa07a59ce478ec8ae1fc400584, type: 2}
+    - {fileID: 2100000, guid: 326d338815570844bba9082517b13153, type: 2}
+    - {fileID: 2100000, guid: 5d83db080be59c44d937740c3464c256, type: 2}
+    - {fileID: 2100000, guid: ed1d61f09b842f64f9eb2410a19ffe19, type: 2}
+    - {fileID: 2100000, guid: 2cd607346dbd37f41a37f41616cd5cb1, type: 2}
+    - {fileID: 2100000, guid: e197c91a5a0658e45855058cc6570ce5, type: 2}
+    - {fileID: 2100000, guid: 3f63094f480a91f43889dd69c30540a2, type: 2}
+    - {fileID: 2100000, guid: 33b20ee5df496994b9fb18a571448a2d, type: 2}
+    - {fileID: 2100000, guid: c8ce8ac43d3b78949ab5b0c47900a62c, type: 2}
+    - {fileID: 2100000, guid: d38a57c924e0bca4f99693b01ea4fea6, type: 2}
+    - {fileID: 2100000, guid: bb838f9031e07084ba7dedfcce8cc557, type: 2}
+    - {fileID: 2100000, guid: 3a1c0abc6434d724f86a321dcf7bf14e, type: 2}
+  - surfaceType: Grass
+    materials:
+    - {fileID: 2100000, guid: 5efb96c2e1892fd4db5e59e62a7b8d28, type: 2}
+    - {fileID: 2100000, guid: 7e0b7e421297cbb4cae0bb0da948f573, type: 2}
+    - {fileID: 2100000, guid: 427b5a116a8ebe64fbdad4bd862c7d37, type: 2}
+    - {fileID: 2100000, guid: 348479891f8fb7541a5bcff4186dcfb0, type: 2}

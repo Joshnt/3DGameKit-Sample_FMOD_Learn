@@ -814,8 +814,20 @@ MonoBehaviour:
     offset: {x: 0, y: 0, z: 0}
     attackRoot: {fileID: 4667632706155090}
   effects: []
-  hitAudio: {fileID: 0}
-  attackAudio: {fileID: 0}
+  hitEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  swingEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
 --- !u!1 &1246684386998542
 GameObject:
   m_ObjectHideFlags: 0
@@ -2788,6 +2800,7 @@ MonoBehaviour:
       Data3: 2064287372
       Data4: 806269564
     Path: event:/GEGNER/BEISSER/BEISSER_Entdeckt
+  surfaceDatabase: {fileID: 11400000, guid: b75d68bf63b17294392cdf85b586d04b, type: 2}
 --- !u!114 &114700785457422906
 MonoBehaviour:
   m_ObjectHideFlags: 0

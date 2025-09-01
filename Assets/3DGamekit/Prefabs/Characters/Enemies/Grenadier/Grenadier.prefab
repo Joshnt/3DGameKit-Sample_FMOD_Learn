@@ -39631,8 +39631,20 @@ MonoBehaviour:
     offset: {x: 0.3, y: 0, z: 0}
     attackRoot: {fileID: 4223199820665728}
   effects: []
-  hitAudio: {fileID: 0}
-  attackAudio: {fileID: 0}
+  hitEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  swingEvent:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
 --- !u!1 &1381691635666340
 GameObject:
   m_ObjectHideFlags: 0
@@ -94491,6 +94503,7 @@ MonoBehaviour:
       Data3: -433247598
       Data4: -1822400077
     Path: event:/GEGNER/GOLEM_Miniboss/Angriffe/GOLEM_Schlag
+  surfaceDatabase: {fileID: 11400000, guid: b75d68bf63b17294392cdf85b586d04b, type: 2}
 --- !u!195 &195657170040882262
 NavMeshAgent:
   m_ObjectHideFlags: 0

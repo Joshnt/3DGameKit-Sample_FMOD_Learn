@@ -702,10 +702,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8c216d103379474eb95ad8002ef9d2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mixer: {fileID: 24100000, guid: 248799cb4acba48f7b3ee842a80f788c, type: 2}
-  mixerParameter: MusicVolume
-  maxAttenuation: 2
-  minAttenuation: -60
+  volumeParameter: Volume_Music
 --- !u!1 &1080491702403314
 GameObject:
   m_ObjectHideFlags: 0
@@ -2209,10 +2206,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8c216d103379474eb95ad8002ef9d2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mixer: {fileID: 24100000, guid: 248799cb4acba48f7b3ee842a80f788c, type: 2}
-  mixerParameter: MasterVolume
-  maxAttenuation: 0
-  minAttenuation: -60
+  volumeParameter: Volume_Master
 --- !u!1 &1303156146064508
 GameObject:
   m_ObjectHideFlags: 0
@@ -6575,10 +6569,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8c216d103379474eb95ad8002ef9d2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mixer: {fileID: 24100000, guid: 248799cb4acba48f7b3ee842a80f788c, type: 2}
-  mixerParameter: SFXVolume
-  maxAttenuation: 2
-  minAttenuation: -60
+  volumeParameter: Volume_SFX
 --- !u!1 &1733378443808648
 GameObject:
   m_ObjectHideFlags: 0

@@ -9,11 +9,7 @@ namespace Gamekit3D
     [RequireComponent(typeof(Slider))]
     public class MixerSliderLink : MonoBehaviour
     {
-        public AudioMixer mixer;
-        public string mixerParameter;
-
-        public float maxAttenuation = 0.0f;
-        public float minAttenuation = -80.0f;
+        public string volumeParameter;
 
         protected Slider m_Slider;
 
@@ -23,9 +19,15 @@ namespace Gamekit3D
             m_Slider = GetComponent<Slider>();
 
             float value;
-            mixer.GetFloat(mixerParameter, out value);
-
-            m_Slider.value = (value - minAttenuation) / (maxAttenuation - minAttenuation);
+            FMOD.RESULT result = FMODUnity.RuntimeManager.StudioSystem.getParameterByName(volumeParameter, out value);
+            if (result == FMOD.RESULT.OK)
+            {
+                m_Slider.value = value;
+            }
+            else
+            {
+                Debug.LogWarning("Failed to get parameter for Mixer: " + result);
+            }
 
             m_Slider.onValueChanged.AddListener(SliderValueChange);
         }
@@ -33,7 +35,7 @@ namespace Gamekit3D
 
         void SliderValueChange(float value)
         {
-            mixer.SetFloat(mixerParameter, minAttenuation + value * (maxAttenuation - minAttenuation));
+            FMODUnity.RuntimeManager.StudioSystem.setParameterByName(volumeParameter, 0.5f);
         }
     }
 }

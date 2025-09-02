@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="Snapshot" id="{fbc1487d-0a25-4d5b-a037-531689d5986e}">
+		<property name="name">
+			<value>REV_SmallCave</value>
+		</property>
+		<property name="behavior">
+			<value>1</value>
+		</property>
+		<relationship name="mixer">
+			<destination>{6e978aae-2ac4-41f7-b952-083eadeabb34}</destination>
+		</relationship>
+		<relationship name="automatableProperties">
+			<destination>{e06edbbb-2a8e-470f-acde-bc350ca3b47d}</destination>
+		</relationship>
+		<relationship name="markerTracks">
+			<destination>{03822cac-489d-4f24-a53c-0327efdbfd6d}</destination>
+		</relationship>
+		<relationship name="timeline">
+			<destination>{0886fdc3-0a88-4567-9f66-d6983d733aa4}</destination>
+		</relationship>
+		<relationship name="snapshotMasterTrack">
+			<destination>{eba91346-37e8-46ba-94dc-56f578069282}</destination>
+		</relationship>
+	</object>
+	<object class="EventAutomatableProperties" id="{e06edbbb-2a8e-470f-acde-bc350ca3b47d}">
+		<property name="maxVoices">
+			<value>1</value>
+		</property>
+	</object>
+	<object class="MarkerTrack" id="{03822cac-489d-4f24-a53c-0327efdbfd6d}" />
+	<object class="Timeline" id="{0886fdc3-0a88-4567-9f66-d6983d733aa4}" />
+	<object class="SnapshotMasterTrack" id="{eba91346-37e8-46ba-94dc-56f578069282}" />
+</objects>

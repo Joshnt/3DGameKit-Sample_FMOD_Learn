@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="Snapshot" id="{9e1e7e7d-9f4b-418d-bd3d-44abd34f3ff5}">
+		<property name="name">
+			<value>REV_Raumschiff</value>
+		</property>
+		<property name="behavior">
+			<value>1</value>
+		</property>
+		<relationship name="mixer">
+			<destination>{6e978aae-2ac4-41f7-b952-083eadeabb34}</destination>
+		</relationship>
+		<relationship name="automatableProperties">
+			<destination>{b724ee12-42aa-483a-a794-98ec97f2a254}</destination>
+		</relationship>
+		<relationship name="markerTracks">
+			<destination>{2f293125-1f3d-496a-a715-549991cc4ea5}</destination>
+		</relationship>
+		<relationship name="timeline">
+			<destination>{123ccb63-5fcb-4b98-8272-86a3a1587c37}</destination>
+		</relationship>
+		<relationship name="snapshotMasterTrack">
+			<destination>{eefcd023-aca3-4804-88dd-d3786be2227a}</destination>
+		</relationship>
+	</object>
+	<object class="EventAutomatableProperties" id="{b724ee12-42aa-483a-a794-98ec97f2a254}">
+		<property name="maxVoices">
+			<value>1</value>
+		</property>
+	</object>
+	<object class="MarkerTrack" id="{2f293125-1f3d-496a-a715-549991cc4ea5}" />
+	<object class="Timeline" id="{123ccb63-5fcb-4b98-8272-86a3a1587c37}" />
+	<object class="SnapshotMasterTrack" id="{eefcd023-aca3-4804-88dd-d3786be2227a}" />
+</objects>

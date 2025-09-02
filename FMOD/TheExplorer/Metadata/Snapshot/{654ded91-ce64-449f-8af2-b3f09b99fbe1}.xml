@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="Snapshot" id="{654ded91-ce64-449f-8af2-b3f09b99fbe1}">
+		<property name="name">
+			<value>REV_Stein-Korridor</value>
+		</property>
+		<property name="behavior">
+			<value>1</value>
+		</property>
+		<relationship name="mixer">
+			<destination>{6e978aae-2ac4-41f7-b952-083eadeabb34}</destination>
+		</relationship>
+		<relationship name="automatableProperties">
+			<destination>{14549a7a-0476-4bc6-9844-44625ef8e1a5}</destination>
+		</relationship>
+		<relationship name="markerTracks">
+			<destination>{fabd5ce7-d24a-40fe-b94f-09d0af61de16}</destination>
+		</relationship>
+		<relationship name="timeline">
+			<destination>{07225e7a-f4e7-4b4e-b330-5c6641e8fa67}</destination>
+		</relationship>
+		<relationship name="snapshotMasterTrack">
+			<destination>{d56af793-cc20-4e69-b3ea-ac9ccd741b78}</destination>
+		</relationship>
+	</object>
+	<object class="EventAutomatableProperties" id="{14549a7a-0476-4bc6-9844-44625ef8e1a5}">
+		<property name="maxVoices">
+			<value>1</value>
+		</property>
+	</object>
+	<object class="MarkerTrack" id="{fabd5ce7-d24a-40fe-b94f-09d0af61de16}" />
+	<object class="Timeline" id="{07225e7a-f4e7-4b4e-b330-5c6641e8fa67}" />
+	<object class="SnapshotMasterTrack" id="{d56af793-cc20-4e69-b3ea-ac9ccd741b78}" />
+</objects>

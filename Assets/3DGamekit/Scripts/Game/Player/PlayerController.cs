@@ -592,6 +592,8 @@ namespace Gamekit3D
             {
                 transform.position = m_CurrentCheckpoint.transform.position;
                 transform.rotation = m_CurrentCheckpoint.transform.rotation;
+                StudioGlobalParameterTrigger globalParamTrigger = m_CurrentCheckpoint.GetComponent<StudioGlobalParameterTrigger>();
+                globalParamTrigger?.TriggerParameters();
             }
             else
             {

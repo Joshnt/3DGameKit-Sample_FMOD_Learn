@@ -16,7 +16,7 @@
 			<value>2</value>
 		</property>
 		<property name="maximum">
-			<value>10</value>
+			<value>12</value>
 		</property>
 		<property name="enumerationLabels">
 			<value>Lv1_Dropship_Area</value>
@@ -24,11 +24,13 @@
 			<value>Lv1_Pressure-Pad1_Area</value>
 			<value>Lv1_Raetsel2_Area</value>
 			<value>Lv1_Portal_Area</value>
+			<value>Lv1_inPortal</value>
 			<value>Lv2_Spawn_Area</value>
 			<value>Lv2_Riddle-Rooms_Area</value>
 			<value>Lv2_Acid-Rooms_Area</value>
-			<value>Lv2_Boss-Room</value>
 			<value>Lv2_Corridor-to-Boss</value>
+			<value>Lv2_Boss-Room</value>
+			<value>Lv2_FinalRoom</value>
 		</property>
 		<property name="isGlobal">
 			<value>true</value>

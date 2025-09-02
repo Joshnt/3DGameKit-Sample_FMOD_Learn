@@ -5,7 +5,7 @@
 			<value>Green</value>
 		</property>
 		<property name="name">
-			<value>ENV_Raumschiff_Loop</value>
+			<value>ENV_Raumschiff-Aussen_Loop</value>
 		</property>
 		<property name="outputFormat">
 			<value>0</value>

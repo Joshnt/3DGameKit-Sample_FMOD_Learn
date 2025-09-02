@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="Snapshot" id="{99710618-dde2-4fc2-9c39-2f3302c541ef}">
+		<property name="name">
+			<value>REV_Wald</value>
+		</property>
+		<property name="behavior">
+			<value>1</value>
+		</property>
+		<relationship name="mixer">
+			<destination>{6e978aae-2ac4-41f7-b952-083eadeabb34}</destination>
+		</relationship>
+		<relationship name="automatableProperties">
+			<destination>{8d5d496f-fc83-4b42-bb36-5795e15e9eb6}</destination>
+		</relationship>
+		<relationship name="markerTracks">
+			<destination>{46f3b19d-70bd-49fc-a119-dd25cb26c7ba}</destination>
+		</relationship>
+		<relationship name="timeline">
+			<destination>{37908416-23e3-4850-8cd0-caaa0c2935d3}</destination>
+		</relationship>
+		<relationship name="snapshotMasterTrack">
+			<destination>{1d812000-2bb7-424f-9981-4b40a066f911}</destination>
+		</relationship>
+	</object>
+	<object class="EventAutomatableProperties" id="{8d5d496f-fc83-4b42-bb36-5795e15e9eb6}">
+		<property name="maxVoices">
+			<value>1</value>
+		</property>
+	</object>
+	<object class="MarkerTrack" id="{46f3b19d-70bd-49fc-a119-dd25cb26c7ba}" />
+	<object class="Timeline" id="{37908416-23e3-4850-8cd0-caaa0c2935d3}" />
+	<object class="SnapshotMasterTrack" id="{1d812000-2bb7-424f-9981-4b40a066f911}" />
+</objects>

@@ -15,10 +15,10 @@ MonoBehaviour:
   Path: FMOD/TheExplorer/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638923675692217023
+  lastModified: 638924430089827661
   FileSizes:
   - Name: Desktop
-    Value: 5466
+    Value: 5812
   Exists: 1
 --- !u!114 &-8738482090907787713
 MonoBehaviour:
@@ -46,6 +46,33 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
+  Length: 0
+--- !u!114 &-8600962475415562276
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/Reverbs/REV_Raumschiff
+  m_EditorClassIdentifier: 
+  Path: snapshot:/Reverbs/REV_Raumschiff
+  Guid:
+    Data1: -1642168707
+    Data2: 1099800395
+    Data3: -1421591107
+    Data4: -180400173
+  Banks:
+  - {fileID: 7897167001347730558}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
   Length: 0
 --- !u!114 &-8328313489394121258
 MonoBehaviour:
@@ -116,33 +143,6 @@ MonoBehaviour:
     Data2: 1306643118
     Data3: -543011436
     Data4: -574361566
-  Banks:
-  - {fileID: 7897167001347730558}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &-7874249625007582664
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/UMGEBUNG/ENV_Raumschiff_Loop
-  m_EditorClassIdentifier: 
-  Path: event:/UMGEBUNG/ENV_Raumschiff_Loop
-  Guid:
-    Data1: 1562293411
-    Data2: 1162673040
-    Data3: -1713235529
-    Data4: 830226615
   Banks:
   - {fileID: 7897167001347730558}
   IsStream: 0
@@ -362,6 +362,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-6080732489312831049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/Reverbs/REV_SmallCave
+  m_EditorClassIdentifier: 
+  Path: snapshot:/Reverbs/REV_SmallCave
+  Guid:
+    Data1: -71219075
+    Data2: 1297812005
+    Data3: 374552480
+    Data4: 1855509897
+  Banks:
+  - {fileID: 7897167001347730558}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &-5969304607485068311
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -380,6 +407,33 @@ MonoBehaviour:
     Data2: 1262283851
     Data3: -1767600757
     Data4: -815082288
+  Banks:
+  - {fileID: 7897167001347730558}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-5848351177147895158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UMGEBUNG/ENV_Raumschiff-Aussen_Loop
+  m_EditorClassIdentifier: 
+  Path: event:/UMGEBUNG/ENV_Raumschiff-Aussen_Loop
+  Guid:
+    Data1: 1562293411
+    Data2: 1162673040
+    Data3: -1713235529
+    Data4: 830226615
   Banks:
   - {fileID: 7897167001347730558}
   IsStream: 0
@@ -1112,6 +1166,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-678133819592557895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/Reverbs/REV_Stein-Korridor
+  m_EditorClassIdentifier: 
+  Path: snapshot:/Reverbs/REV_Stein-Korridor
+  Guid:
+    Data1: 1699605905
+    Data2: 1151323748
+    Data3: -256642422
+    Data4: -503604837
+  Banks:
+  - {fileID: 7897167001347730558}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &-638986853237770505
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1181,7 +1262,7 @@ MonoBehaviour:
   Name: Area
   StudioPath: parameter:/Area
   Min: 0
-  Max: 9
+  Max: 11
   Default: 0
   ID:
     data1: 2662315194
@@ -1194,11 +1275,13 @@ MonoBehaviour:
   - Lv1_Pressure-Pad1_Area
   - Lv1_Raetsel2_Area
   - Lv1_Portal_Area
+  - Lv1_inPortal
   - Lv2_Spawn_Area
   - Lv2_Riddle-Rooms_Area
   - Lv2_Acid-Rooms_Area
-  - Lv2_Boss-Room
   - Lv2_Corridor-to-Boss
+  - Lv2_Boss-Room
+  - Lv2_FinalRoom
   Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -1254,7 +1337,6 @@ MonoBehaviour:
   - {fileID: 3916780095076683297}
   - {fileID: -638986853237770505}
   - {fileID: -4713186584684989345}
-  - {fileID: -7874249625007582664}
   - {fileID: 9009064726847472888}
   - {fileID: -4577561894085560598}
   - {fileID: -5820406415972757178}
@@ -1297,6 +1379,14 @@ MonoBehaviour:
   - {fileID: -1779542916702114668}
   - {fileID: -7005273923527018021}
   - {fileID: -2412430422322847866}
+  - {fileID: 176775357229861639}
+  - {fileID: -5848351177147895158}
+  - {fileID: 5792837553526350734}
+  - {fileID: 5562607071526076627}
+  - {fileID: 8866706251330828374}
+  - {fileID: -6080732489312831049}
+  - {fileID: -678133819592557895}
+  - {fileID: -8600962475415562276}
   EditorParameters:
   - {fileID: -3915144074357582322}
   - {fileID: -95156006943425653}
@@ -1311,7 +1401,7 @@ MonoBehaviour:
   - {fileID: 7897167001347730558}
   StringsBanks:
   - {fileID: -8762140299148799493}
-  cacheTime: 638923675692217023
+  cacheTime: 638924430089827661
   cacheVersion: 131846
 --- !u!114 &156055634523395282
 MonoBehaviour:
@@ -1331,6 +1421,33 @@ MonoBehaviour:
     Data2: 1294235266
     Data3: 1511868565
     Data4: 1910162921
+  Banks:
+  - {fileID: 7897167001347730558}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &176775357229861639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UMGEBUNG/ENV_Raumschiff-Innen_Loop
+  m_EditorClassIdentifier: 
+  Path: event:/UMGEBUNG/ENV_Raumschiff-Innen_Loop
+  Guid:
+    Data1: -1670440554
+    Data2: 1268785477
+    Data3: -256794187
+    Data4: -1783834770
   Banks:
   - {fileID: 7897167001347730558}
   IsStream: 0
@@ -2090,6 +2207,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &5562607071526076627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/Reverbs/REV_Hof_Gross
+  m_EditorClassIdentifier: 
+  Path: snapshot:/Reverbs/REV_Hof_Gross
+  Guid:
+    Data1: -1918708708
+    Data2: 1090544242
+    Data3: 819571388
+    Data4: 1481595855
+  Banks:
+  - {fileID: 7897167001347730558}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &5685473924029312783
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2116,6 +2260,33 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
+  Length: 0
+--- !u!114 &5792837553526350734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/Reverbs/REV_Wald
+  m_EditorClassIdentifier: 
+  Path: snapshot:/Reverbs/REV_Wald
+  Guid:
+    Data1: -1720646120
+    Data2: 1338170850
+    Data3: 858732956
+    Data4: -280902398
+  Banks:
+  - {fileID: 7897167001347730558}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
   Length: 0
 --- !u!114 &6150674753341994154
 MonoBehaviour:
@@ -2453,10 +2624,10 @@ MonoBehaviour:
   Path: FMOD/TheExplorer/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638923675692196980
+  lastModified: 638924430089817654
   FileSizes:
   - Name: Desktop
-    Value: 45022
+    Value: 48208
   Exists: 1
 --- !u!114 &8111247450152030278
 MonoBehaviour:
@@ -2538,6 +2709,33 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
+  Length: 0
+--- !u!114 &8866706251330828374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/Reverbs/REV_BigCave
+  m_EditorClassIdentifier: 
+  Path: snapshot:/Reverbs/REV_BigCave
+  Guid:
+    Data1: 1992106567
+    Data2: 1220393896
+    Data3: 1346971043
+    Data4: -563369782
+  Banks:
+  - {fileID: 7897167001347730558}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
   Length: 0
 --- !u!114 &9009064726847472888
 MonoBehaviour:

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{a583db5b-8b18-4d98-a19f-d43954a6333a}">
+		<property name="name">
+			<value>Schalter Zustand</value>
+		</property>
+		<relationship name="folder">
+			<destination>{55e41504-d29f-4cf0-bf47-0d87ebf4f06d}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{7e296697-4c76-4698-8ee1-b7f9562f3ee4}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{7e296697-4c76-4698-8ee1-b7f9562f3ee4}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>Inaktiv</value>
+			<value>Aktiviert</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

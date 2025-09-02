@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{6ac50948-c415-4808-9496-3aa36e09e8d4}">
+		<property name="note">
+			<value>BEISSER wird von Maincharacter getroffen</value>
+		</property>
 		<property name="color">
 			<value>Red Light 1</value>
 		</property>
@@ -12,6 +15,10 @@
 		</property>
 		<relationship name="folder">
 			<destination>{44c0fa7e-14b6-41d0-b1e1-4ccb277ccc92}</destination>
+		</relationship>
+		<relationship name="tags">
+			<destination>{cfd08e1c-6786-4e77-b096-65bafcb72d67}</destination>
+			<destination>{f70a12af-e2a4-4722-964b-e09e53cfc81f}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{0a94be72-2dad-43d5-aa08-25d4d5b15cf5}</destination>

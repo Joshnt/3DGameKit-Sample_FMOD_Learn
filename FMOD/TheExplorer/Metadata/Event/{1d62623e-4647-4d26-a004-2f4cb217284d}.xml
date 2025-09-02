@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{1d62623e-4647-4d26-a004-2f4cb217284d}">
+		<property name="note">
+			<value>Einzelner Schritt des BEISSERs</value>
+		</property>
 		<property name="color">
 			<value>Red Light 2</value>
 		</property>

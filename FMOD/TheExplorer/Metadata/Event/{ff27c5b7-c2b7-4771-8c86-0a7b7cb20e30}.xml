@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{ff27c5b7-c2b7-4771-8c86-0a7b7cb20e30}">
+		<property name="note">
+			<value>Maincharacter wurde von BEISSER entdeckt (s. Animation)</value>
+		</property>
 		<property name="color">
 			<value>Red Light 1</value>
 		</property>
@@ -12,6 +15,9 @@
 		</property>
 		<relationship name="folder">
 			<destination>{44c0fa7e-14b6-41d0-b1e1-4ccb277ccc92}</destination>
+		</relationship>
+		<relationship name="tags">
+			<destination>{cfd08e1c-6786-4e77-b096-65bafcb72d67}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{6b1d069d-2a45-40fb-8d87-9abb09a99888}</destination>

@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="ParameterPreset" id="{a583db5b-8b18-4d98-a19f-d43954a6333a}">
+		<property name="note">
+			<value>Wurde der Schalter/ Kristall bereits aktiviert? 
+Verwendung für INT_Kristall-Schalter_Loop</value>
+		</property>
+		<property name="color">
+			<value>Cyan</value>
+		</property>
 		<property name="name">
 			<value>Schalter Zustand</value>
 		</property>

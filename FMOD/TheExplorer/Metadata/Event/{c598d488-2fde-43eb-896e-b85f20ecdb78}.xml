@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{c598d488-2fde-43eb-896e-b85f20ecdb78}">
+		<property name="note">
+			<value>BEISSER, wenn er sich nicht im Kampf befindet/ den Spieler noch nicht entdeckt hat</value>
+		</property>
 		<property name="color">
 			<value>Red Light 2</value>
 		</property>
@@ -12,6 +15,9 @@
 		</property>
 		<relationship name="folder">
 			<destination>{44c0fa7e-14b6-41d0-b1e1-4ccb277ccc92}</destination>
+		</relationship>
+		<relationship name="tags">
+			<destination>{cfd08e1c-6786-4e77-b096-65bafcb72d67}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{8aa86933-198c-40df-80fa-56f445feb1ea}</destination>

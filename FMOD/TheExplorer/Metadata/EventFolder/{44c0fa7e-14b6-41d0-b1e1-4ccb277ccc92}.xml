@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="EventFolder" id="{44c0fa7e-14b6-41d0-b1e1-4ccb277ccc92}">
+		<property name="note">
+			<value>Kleine Nahkampf-Kreatur</value>
+		</property>
 		<property name="color">
 			<value>Red</value>
 		</property>

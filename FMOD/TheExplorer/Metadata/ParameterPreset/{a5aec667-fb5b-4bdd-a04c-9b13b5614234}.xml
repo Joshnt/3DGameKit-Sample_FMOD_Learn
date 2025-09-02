@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="ParameterPreset" id="{a5aec667-fb5b-4bdd-a04c-9b13b5614234}">
+		<property name="note">
+			<value>Lebenspunkte des Maincharacters</value>
+		</property>
+		<property name="color">
+			<value>Yellow</value>
+		</property>
 		<property name="name">
 			<value>MC_Health</value>
 		</property>

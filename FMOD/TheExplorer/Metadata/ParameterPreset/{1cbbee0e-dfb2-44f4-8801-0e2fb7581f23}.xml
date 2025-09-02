@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="ParameterPreset" id="{1cbbee0e-dfb2-44f4-8801-0e2fb7581f23}">
+		<property name="note">
+			<value>Bereich, in welchem sich der Spieler gerade aufhält. 
+Verwendung z.B. für Musik</value>
+		</property>
+		<property name="color">
+			<value>Green</value>
+		</property>
 		<property name="name">
 			<value>Area</value>
 		</property>

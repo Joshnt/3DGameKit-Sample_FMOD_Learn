@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{34eca424-b6d1-40b3-9b20-485996b9559f}">
+		<property name="note">
+			<value>BEISSER stirbt (und fliegt meistens etwas durch die Gegend)</value>
+		</property>
 		<property name="color">
 			<value>Red Light 1</value>
 		</property>

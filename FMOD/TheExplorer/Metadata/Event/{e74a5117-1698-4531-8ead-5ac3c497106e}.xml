@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{e74a5117-1698-4531-8ead-5ac3c497106e}">
+		<property name="note">
+			<value>Nahkampf-Angriff des BEISSERs</value>
+		</property>
 		<property name="color">
 			<value>Red</value>
 		</property>

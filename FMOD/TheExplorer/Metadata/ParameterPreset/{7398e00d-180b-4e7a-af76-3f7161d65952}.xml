@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="ParameterPreset" id="{7398e00d-180b-4e7a-af76-3f7161d65952}">
+		<property name="note">
+			<value>Untergrund, auf welchem gelaufen wird (Schritte). Sowohl für Monster als auch Maincharacter implementiert.</value>
+		</property>
+		<property name="color">
+			<value>Green</value>
+		</property>
 		<property name="name">
 			<value>GroundType</value>
 		</property>

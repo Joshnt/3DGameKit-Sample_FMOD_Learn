@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="ParameterPreset" id="{b10f10f4-daff-4268-8282-b6260fe95823}">
+		<property name="note">
+			<value>In welchem Level befindet sich der Maincharacter gerade? (Mit Verwendung von Area ggf. nicht notwendig)</value>
+		</property>
+		<property name="color">
+			<value>Green</value>
+		</property>
 		<property name="name">
 			<value>Level</value>
 		</property>

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="EventFolder" id="{71727cc3-6d60-4297-ad59-68cbc1e52f39}">
+		<property name="note">
+			<value>Enthält alle Events für die drei verschiedenen Gegnertypen.</value>
+		</property>
 		<property name="color">
 			<value>Red</value>
 		</property>

@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="ParameterPreset" id="{0a30f026-f046-47bf-9e01-a80f1c010d38}">
+		<property name="note">
+			<value>Befindet sich der Maincharacter gerade in einem Postprocess-Volume (= einer visuellen Veränderung, bspw. in Nähe des Teleporters).
+</value>
+		</property>
+		<property name="color">
+			<value>Yellow</value>
+		</property>
 		<property name="name">
 			<value>MC_PostProcessVolume</value>
 		</property>

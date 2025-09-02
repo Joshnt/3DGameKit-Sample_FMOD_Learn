@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="ParameterPreset" id="{a387c77e-c576-497c-aa1f-6099926acf53}">
+		<property name="note">
+			<value>Verwendet für Audio-Einstellungen im Spiel.</value>
+		</property>
+		<property name="color">
+			<value>Cyan Light 2</value>
+		</property>
 		<property name="name">
 			<value>Volume_Master</value>
 		</property>

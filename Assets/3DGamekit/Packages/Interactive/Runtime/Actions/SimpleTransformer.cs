@@ -1,3 +1,4 @@
+using FMOD.Studio;
 using FMODUnity;
 using UnityEngine;
 
@@ -18,10 +19,13 @@ namespace Gamekit3D.GameCommands
         public AnimationCurve accelCurve;
 
         public bool activate = false;
+        private bool previousActivate = false;
         public SendGameCommand OnStartCommand, OnStopCommand;
 
         public AudioSource onStartAudio, onEndAudio;
         public EventReference onStartEvent, onEndEvent;
+        private EventInstance onStartInstance;
+        public bool stopOnEnd = false;
 
         [Range(0, 1)]
         public float previewPosition;
@@ -49,7 +53,14 @@ namespace Gamekit3D.GameCommands
             activate = true;
             if (OnStartCommand != null) OnStartCommand.Send();
             if (!onStartEvent.IsNull)
-                RuntimeManager.PlayOneShot(onStartEvent, transform.position);
+                if (stopOnEnd)
+                    RuntimeManager.PlayOneShot(onStartEvent, transform.position);
+                else
+                {
+                    onStartInstance = RuntimeManager.CreateInstance(onStartEvent);
+                    onStartInstance.start();
+                    onStartInstance.release();
+                }
         }
 
         public void FixedUpdate()
@@ -71,6 +82,11 @@ namespace Gamekit3D.GameCommands
                 }
                 PerformTransform(position);
             }
+            if (previousActivate && !activate && stopOnEnd)
+            {
+                onStartInstance.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+            }
+            previousActivate = activate;
         }
 
         public virtual void PerformTransform(float position)

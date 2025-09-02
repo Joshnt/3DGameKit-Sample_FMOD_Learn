@@ -88,7 +88,7 @@ MonoBehaviour:
       Data2: 1290749725
       Data3: 1767880077
       Data4: -1243699894
-    Path: event:/INTERACTABLES/INT_Tuer_Klein_Oeffnen
+    Path: event:/INTERACTABLES/INT_Tuer_Klein_Oeffnen_Loop
   onEndEvent:
     Guid:
       Data1: 0
@@ -96,6 +96,7 @@ MonoBehaviour:
       Data3: 0
       Data4: 0
     Path: 
+  stopOnEnd: 1
   previewPosition: 0
   rigidbody: {fileID: 54882729709683910}
   start: {x: 0, y: 0, z: 0}

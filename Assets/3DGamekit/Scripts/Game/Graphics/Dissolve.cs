@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using FMODUnity;
+using UnityEngine;
 
 namespace Gamekit3D
 {
@@ -8,6 +9,7 @@ namespace Gamekit3D
         public float maxStartTime = 6f;
         public float dissolveTime = 3f;
         public AnimationCurve curve;
+        public EventReference dissolveEvent;
 
         float m_Timer;
         float m_EmissionRate;
@@ -44,6 +46,11 @@ namespace Gamekit3D
         {
             if (Time.time >= m_StartTime)
             {
+                if (m_Timer == 0)
+                {
+                    RuntimeManager.PlayOneShotAttached(dissolveEvent, gameObject);
+                }
+
                 float cutoff = 0;
 
                 for (int i = 0; i < m_Renderer.Length; i++)

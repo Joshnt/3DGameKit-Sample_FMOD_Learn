@@ -15,10 +15,10 @@ MonoBehaviour:
   Path: FMOD/TheExplorer/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638924990441128225
+  lastModified: 638927945036747082
   FileSizes:
   - Name: Desktop
-    Value: 6038
+    Value: 6098
   Exists: 1
 --- !u!114 &-8738482090907787713
 MonoBehaviour:
@@ -1445,6 +1445,7 @@ MonoBehaviour:
   - {fileID: -7843891987174748652}
   - {fileID: 5346992896182102768}
   - {fileID: -7634412636646835481}
+  - {fileID: 122242863512293742}
   EditorParameters:
   - {fileID: -3915144074357582322}
   - {fileID: -95156006943425653}
@@ -1459,8 +1460,35 @@ MonoBehaviour:
   - {fileID: 7897167001347730558}
   StringsBanks:
   - {fileID: -8762140299148799493}
-  cacheTime: 638924990441128225
+  cacheTime: 638927945036747082
   cacheVersion: 131846
+--- !u!114 &122242863512293742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/GEGNER/SmallEnemy_Dissolve
+  m_EditorClassIdentifier: 
+  Path: event:/GEGNER/SmallEnemy_Dissolve
+  Guid:
+    Data1: 2046185487
+    Data2: 1174423837
+    Data3: -1612273748
+    Data4: -1741712671
+  Banks:
+  - {fileID: 7897167001347730558}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &156055634523395282
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2735,10 +2763,10 @@ MonoBehaviour:
   Path: FMOD/TheExplorer/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638924990441103144
+  lastModified: 638927945036731977
   FileSizes:
   - Name: Desktop
-    Value: 50304
+    Value: 50806
   Exists: 1
 --- !u!114 &8111247450152030278
 MonoBehaviour:

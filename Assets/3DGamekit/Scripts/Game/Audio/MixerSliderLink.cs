@@ -35,7 +35,7 @@ namespace Gamekit3D
 
         void SliderValueChange(float value)
         {
-            FMODUnity.RuntimeManager.StudioSystem.setParameterByName(volumeParameter, 0.5f);
+            FMODUnity.RuntimeManager.StudioSystem.setParameterByName(volumeParameter, value);
         }
     }
 }

@@ -4864,14 +4864,15 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\n<b>CREDITS\nUnity Content Team\r</b>\n\r\nProducer: Aurore Dimopoulos
-    \r\nAssociate Producer: Kat Woolley\r\nLead Artist & Art Direction: Peet Lee\nOriginal
-    Art Direction: David Llewelyn \n3D/Technical Artist: Roarke Nelson\nAnimator
-    & Artist: Stefano Guglielmana\r\nLead Developer: Simon Wittber\nDeveloper: James
-    Bouckley\r\nDeveloper: Guillaume Saby\r\nQA: Jacek Mackiewicz\n\nProduct Management:
-    Will Goldstone\r\n\r\n<b>External Developers\r</b>\n\r\nGame Design: L\xE9a Saug\xE9\nEnvironment
-    Concept: Atomhawk\r\n3D Modeling: Mineloader\nInteractive Audio Design: Pinewood
-    Studios\r\nOriginal Score: Megan McDuffee\nCharacter Concept Art: Devon Cady-Lee\n\n\n"
+  m_text: "<b>THE EXPLORER - FMOD Adaption</b>\nFMOD Adaption: Joshua Hank\n\n<b>CREDITS\nUnity
+    Content Team\r</b>\n\r\nProducer: Aurore Dimopoulos \r\nAssociate Producer: Kat
+    Woolley\r\nLead Artist & Art Direction: Peet Lee\nOriginal Art Direction: David
+    Llewelyn \n3D/Technical Artist: Roarke Nelson\nAnimator & Artist: Stefano Guglielmana\r\nLead
+    Developer: Simon Wittber\nDeveloper: James Bouckley\r\nDeveloper: Guillaume Saby\r\nQA:
+    Jacek Mackiewicz\n\nProduct Management: Will Goldstone\r\n\r\n<b>External Developers\r</b>\n\r\nGame
+    Design: L\xE9a Saug\xE9\nEnvironment Concept: Atomhawk\r\n3D Modeling: Mineloader\nInteractive
+    Audio Design: Pinewood Studios\r\nOriginal Score: Megan McDuffee\nCharacter Concept
+    Art: Devon Cady-Lee\n\n\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4c1f115f2c9b80b4cabb22cae230db1c, type: 2}
   m_sharedMaterial: {fileID: 21498813622556604, guid: 4c1f115f2c9b80b4cabb22cae230db1c,
@@ -9627,10 +9628,6 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 1978453937621582, guid: eb72f36523dcf684f9ca37da45adfa76, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 95362643477531468, guid: eb72f36523dcf684f9ca37da45adfa76,
         type: 3}
       propertyPath: m_Enabled
@@ -9645,51 +9642,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_isInputParsingRequired
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114108761709197862, guid: eb72f36523dcf684f9ca37da45adfa76,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 114108761709197862, guid: eb72f36523dcf684f9ca37da45adfa76,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 114108761709197862, guid: eb72f36523dcf684f9ca37da45adfa76,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1480188522}
-    - target: {fileID: 114108761709197862, guid: eb72f36523dcf684f9ca37da45adfa76,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 1842219364}
-    - target: {fileID: 114108761709197862, guid: eb72f36523dcf684f9ca37da45adfa76,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 114108761709197862, guid: eb72f36523dcf684f9ca37da45adfa76,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayOneShot
-      objectReference: {fileID: 0}
-    - target: {fileID: 114108761709197862, guid: eb72f36523dcf684f9ca37da45adfa76,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
-      value: 
-      objectReference: {fileID: 1421748718}
-    - target: {fileID: 114108761709197862, guid: eb72f36523dcf684f9ca37da45adfa76,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
-      value: 
-      objectReference: {fileID: 8300000, guid: 141587bd8c30549d18910065667d12c3, type: 3}
-    - target: {fileID: 114108761709197862, guid: eb72f36523dcf684f9ca37da45adfa76,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.AudioClip, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 114113160483481408, guid: eb72f36523dcf684f9ca37da45adfa76,
         type: 3}
@@ -9905,6 +9857,46 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3355131321345325932, guid: eb72f36523dcf684f9ca37da45adfa76,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3355131321345325932, guid: eb72f36523dcf684f9ca37da45adfa76,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3355131321345325932, guid: eb72f36523dcf684f9ca37da45adfa76,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1480188522}
+    - target: {fileID: 3355131321345325932, guid: eb72f36523dcf684f9ca37da45adfa76,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: TransitionToScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 3355131321345325932, guid: eb72f36523dcf684f9ca37da45adfa76,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Gamekit3D.SceneControllerWrapper, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3355131321345325932, guid: eb72f36523dcf684f9ca37da45adfa76,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 1421748718}
+    - target: {fileID: 3355131321345325932, guid: eb72f36523dcf684f9ca37da45adfa76,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Level1_StartPlatform
+      objectReference: {fileID: 0}
+    - target: {fileID: 3355131321345325932, guid: eb72f36523dcf684f9ca37da45adfa76,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: Gamekit3D.TransitionPoint, Assembly-CSharp
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 50236738518669172, guid: eb72f36523dcf684f9ca37da45adfa76, type: 3}

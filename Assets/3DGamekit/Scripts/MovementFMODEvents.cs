@@ -17,10 +17,10 @@ public class MovementFMODEvents : MonoBehaviour
 
     public SurfaceDatabase surfaceDatabase;
 
-    public void Movement(int isRunning = 0) // walk = 0, run = 1
+    public void Movement()
     {
         // Create instance
-        FMOD.Studio.EventInstance instance = RuntimeManager.CreateInstance(isRunning == 1 ? runStepPlayerEvent : walkStepPlayerEvent);
+        FMOD.Studio.EventInstance instance = RuntimeManager.CreateInstance(runStepPlayerEvent);
         groundCheckForInstance(instance);
     }
 

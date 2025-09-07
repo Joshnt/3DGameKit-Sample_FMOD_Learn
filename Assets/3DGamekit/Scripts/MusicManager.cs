@@ -26,6 +26,16 @@ public class MusicManager : MonoBehaviour
         }
     }
 
+    void OnEnable()
+    {
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+
+    void OnDisable()
+    {
+        SceneManager.sceneLoaded -= OnSceneLoaded;
+    }
+
     void PlayMenuMusic()
     {
         if (!MenuMusicInstance.isValid())
@@ -81,5 +91,6 @@ public class MusicManager : MonoBehaviour
         {
             PlayLevelMusic();
         }
+        Debug.Log("scene name" + scene.name);
     }
 }

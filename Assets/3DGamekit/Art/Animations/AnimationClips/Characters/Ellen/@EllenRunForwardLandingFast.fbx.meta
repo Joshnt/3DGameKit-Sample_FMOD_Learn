@@ -741,15 +741,22 @@ ModelImporter:
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
       events:
-      - time: 0.037138265
-        functionName: Landing
+      - time: 0.14348875
+        functionName: Movement
         data: 
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0
         intParameter: 0
         messageOptions: 0
-      - time: 0.1351787
+      - time: 0.22396374
         functionName: Landing
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 1
+        messageOptions: 0
+      - time: 0.9344342
+        functionName: Movement
         data: 
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0

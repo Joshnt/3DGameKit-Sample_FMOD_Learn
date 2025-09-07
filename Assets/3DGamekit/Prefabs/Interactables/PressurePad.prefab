@@ -121,6 +121,7 @@ GameObject:
   - component: {fileID: 114761441504013894}
   - component: {fileID: 65133821601074194}
   - component: {fileID: 3092322031532609527}
+  - component: {fileID: 5499851938390126583}
   m_Layer: 16
   m_Name: PressurePad
   m_TagString: Untagged
@@ -206,11 +207,11 @@ MonoBehaviour:
   onSendAudio: {fileID: 0}
   onSendEvent:
     Guid:
-      Data1: 532688914
-      Data2: 1258660374
-      Data3: 1322329488
-      Data4: 1070628873
-    Path: event:/INTERACTABLES/INT_Bodenplatte_Loop
+      Data1: -51037282
+      Data2: 1210018233
+      Data3: -1479713880
+      Data4: -766901336
+    Path: event:/INTERACTABLES/INT_Bodenplatte_Aktivieren
   audioDelay: 0
   layers:
     serializedVersion: 2
@@ -237,6 +238,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: 
         m_MethodName: SetTrigger
         m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Triggered
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 5499851938390126583}
+        m_TargetAssemblyTypeName: FMODUnity.StudioParameterTrigger, FMODUnity
+        m_MethodName: TriggerParameters
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -301,6 +314,25 @@ MonoBehaviour:
   OverrideAttenuation: 0
   OverrideMinDistance: 1
   OverrideMaxDistance: 20
+--- !u!114 &5499851938390126583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1194134621077526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 744a208c85da6d04c861d81b992e4ead, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Emitters:
+  - Target: {fileID: 3092322031532609527}
+    Params:
+    - Name: Schalter Zustand
+      Value: 1
+  TriggerEvent: 0
 --- !u!1 &1267796015796786
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,5 +1,6 @@
 ﻿using Cinemachine;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.Experimental.Rendering;
 
 namespace Gamekit3D
@@ -37,6 +38,8 @@ namespace Gamekit3D
         public Gamekit3D.InventoryController inventoryController;
         [Tooltip("The required items.")]
         public Gamekit3D.InventoryController.InventoryChecker inventoryCheck;
+
+        public UnityEvent PreTransitioning;
 
         bool m_TransitioningGameObjectPresent;
 
@@ -78,10 +81,12 @@ namespace Gamekit3D
 
             if (transitionType == TransitionType.SameScene)
             {
+                PreTransitioning.Invoke();
                 GameObjectTeleporter.Teleport(transitioningGameObject, destinationTransform.transform);
             }
             else
             {
+                PreTransitioning.Invoke();
                 SceneController.TransitionToScene(this);
             }
         }

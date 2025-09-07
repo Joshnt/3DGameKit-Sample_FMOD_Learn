@@ -21,6 +21,7 @@ namespace Gamekit3D
         SerializedProperty m_InventoryItemsProp;
         SerializedProperty m_OnHasItemProp;
         SerializedProperty m_OnDoesNotHaveItemProp;
+        SerializedProperty m_PreTransitionEventProp;
 
         GUIContent[] m_InventoryControllerItems = new GUIContent[0];
 
@@ -38,6 +39,7 @@ namespace Gamekit3D
             m_InventoryItemsProp = m_InventoryCheckProp.FindPropertyRelative("inventoryItems");
             m_OnHasItemProp = m_InventoryCheckProp.FindPropertyRelative("OnHasItem");
             m_OnDoesNotHaveItemProp = m_InventoryCheckProp.FindPropertyRelative("OnDoesNotHaveItem");
+            m_PreTransitionEventProp = serializedObject.FindProperty("PreTransitioning");
         }
 
         public override void OnInspectorGUI()
@@ -60,6 +62,8 @@ namespace Gamekit3D
             EditorGUI.indentLevel--;
 
             EditorGUILayout.PropertyField(m_TransitionWhenProp);
+
+            EditorGUILayout.PropertyField(m_PreTransitionEventProp);
 
             EditorGUILayout.PropertyField(m_RequiresInventoryCheckProp);
             if (m_RequiresInventoryCheckProp.boolValue)

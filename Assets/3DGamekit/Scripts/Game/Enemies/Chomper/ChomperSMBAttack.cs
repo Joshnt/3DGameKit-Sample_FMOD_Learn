@@ -1,5 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using FMODUnity;
+using Unity.VisualScripting;
 using UnityEngine;
 
 namespace Gamekit3D
@@ -24,6 +26,7 @@ namespace Gamekit3D
             if (!m_MonoBehaviour.attackEvent.IsNull)
             {
                 m_MonoBehaviour.attackInstance = FMODUnity.RuntimeManager.CreateInstance(m_MonoBehaviour.attackEvent);
+                RuntimeManager.AttachInstanceToGameObject(m_MonoBehaviour.attackInstance, m_MonoBehaviour.gameObject, m_MonoBehaviour.GetComponent<Rigidbody>());
                 m_MonoBehaviour.attackInstance.start();
             }
         }

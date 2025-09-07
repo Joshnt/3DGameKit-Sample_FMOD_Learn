@@ -78,6 +78,11 @@ namespace FMODUnity
             return result;
         }
 
+        public void ClearAttenuationObject()
+        {
+            AttenuationObject = null; // this disables the override
+        }
+
         private static void AddListener(StudioListener listener)
         {
             // Is the listener already in the list?

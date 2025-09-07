@@ -19,7 +19,6 @@ namespace Gamekit3D.GameCommands
         public AnimationCurve accelCurve;
 
         public bool activate = false;
-        private bool previousActivate = false;
         public SendGameCommand OnStartCommand, OnStopCommand;
 
         public AudioSource onStartAudio, onEndAudio;
@@ -53,11 +52,12 @@ namespace Gamekit3D.GameCommands
             activate = true;
             if (OnStartCommand != null) OnStartCommand.Send();
             if (!onStartEvent.IsNull)
-                if (stopOnEnd)
+                if (!stopOnEnd)
                     RuntimeManager.PlayOneShot(onStartEvent, transform.position);
                 else
                 {
                     onStartInstance = RuntimeManager.CreateInstance(onStartEvent);
+                    onStartInstance.set3DAttributes(RuntimeUtils.To3DAttributes(gameObject));
                     onStartInstance.start();
                     onStartInstance.release();
                 }
@@ -82,11 +82,6 @@ namespace Gamekit3D.GameCommands
                 }
                 PerformTransform(position);
             }
-            if (previousActivate && !activate && stopOnEnd)
-            {
-                onStartInstance.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
-            }
-            previousActivate = activate;
         }
 
         public virtual void PerformTransform(float position)
@@ -112,6 +107,7 @@ namespace Gamekit3D.GameCommands
                 enabled = false;
                 if (OnStopCommand != null) OnStopCommand.Send();
                 direction *= -1;
+                if (stopOnEnd && onStartInstance.isValid()) onStartInstance.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
             }
         }
     }

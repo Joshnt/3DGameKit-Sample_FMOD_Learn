@@ -9813,7 +9813,7 @@ MonoBehaviour:
       Data2: 1174423837
       Data3: -1612273748
       Data4: -1741712671
-    Path: event:/INTERACTABLES/INT_Object-Dissolve
+    Path: event:/GEGNER/ENEM_Small_Dissolve
 --- !u!1 &1832778327733600
 GameObject:
   m_ObjectHideFlags: 0

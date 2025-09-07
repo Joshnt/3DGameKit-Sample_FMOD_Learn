@@ -8,7 +8,7 @@
 			<value>MC_Idle_Sprechen</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>0</value>
 		</property>
 		<relationship name="folder">
 			<destination>{69940838-b6af-47c0-8fce-737d24be68bc}</destination>
@@ -92,11 +92,7 @@
 			<destination>{ae2ed67c-6e09-4d3a-be65-ccada08cfad8}</destination>
 		</relationship>
 	</object>
-	<object class="MultiSound" id="{c182914d-ba9d-4103-9946-662de35be43c}">
-		<relationship name="sounds">
-			<destination>{fa90f96c-0fd7-403b-91eb-fe41796fa845}</destination>
-		</relationship>
-	</object>
+	<object class="MultiSound" id="{c182914d-ba9d-4103-9946-662de35be43c}" />
 	<object class="MixerBusEffectChain" id="{47a2b03b-4741-4675-a6ea-8c89cdf4aa1a}">
 		<relationship name="effects">
 			<destination>{cc3a7b52-8938-4b6b-8028-a8a4e2423ad0}</destination>
@@ -109,11 +105,6 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{02c06585-f267-4f75-8067-474ed36bc3d3}" />
-	<object class="SingleSound" id="{fa90f96c-0fd7-403b-91eb-fe41796fa845}">
-		<relationship name="audioFile">
-			<destination>{9b3e4531-6963-45d2-80ef-d7e455a94848}</destination>
-		</relationship>
-	</object>
 	<object class="MixerBusFader" id="{cc3a7b52-8938-4b6b-8028-a8a4e2423ad0}" />
 	<object class="MixerBusFader" id="{d2b5be48-e166-4615-8bbe-d9b18646d4ec}" />
 </objects>

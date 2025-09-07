@@ -46,7 +46,7 @@ namespace Gamekit3D
         {
             if (Time.time >= m_StartTime)
             {
-                if (m_Timer == 0)
+                if (m_Timer == 0 && !dissolveEvent.IsNull)
                 {
                     RuntimeManager.PlayOneShotAttached(dissolveEvent, gameObject);
                 }

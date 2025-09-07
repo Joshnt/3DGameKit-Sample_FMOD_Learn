@@ -8,7 +8,7 @@
 			<value>ENV_Raumschiff-Aussen_Loop</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{35c5e034-3142-412f-959b-ea5aeee4f149}</destination>
@@ -56,7 +56,11 @@
 			<destination>{e15e11e3-e252-4265-b1bf-1fa68704e574}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{cd96acbb-344b-4193-92f2-d730f9b1d643}" />
+	<object class="EventAutomatableProperties" id="{cd96acbb-344b-4193-92f2-d730f9b1d643}">
+		<property name="maximumDistance">
+			<value>40</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{2a212ccb-aa4b-49de-955b-4914fdb7eb61}" />
 	<object class="Timeline" id="{5452fb90-633d-464a-b100-80a319f43dfa}">
 		<property name="isProxyEnabled">
@@ -82,10 +86,12 @@
 	<object class="MixerBusPanner" id="{2cdc666e-9733-4c1f-9ce1-eba0bd3567e4}" />
 	<object class="MixerBusEffectChain" id="{3c80b41b-cbf5-4893-93c8-586bcf57a79d}">
 		<relationship name="effects">
+			<destination>{b9852844-9dc2-4d37-84e3-67b292ee360f}</destination>
 			<destination>{77fb8599-2981-4c8c-9188-480f63a435a7}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{128f49b3-8fae-4352-b3a1-16532c691874}" />
 	<object class="MixerBusFader" id="{ed59b8a0-1e4b-4e95-b408-8577c71d9fe5}" />
+	<object class="SpatialiserEffect" id="{b9852844-9dc2-4d37-84e3-67b292ee360f}" />
 	<object class="MixerBusFader" id="{77fb8599-2981-4c8c-9188-480f63a435a7}" />
 </objects>

@@ -1,6 +1,7 @@
 using FMOD.Studio;
 using FMODUnity;
 using UnityEngine;
+using UnityEngine.Events;
 
 namespace Gamekit3D.GameCommands
 {
@@ -25,6 +26,8 @@ namespace Gamekit3D.GameCommands
         public EventReference onStartEvent, onEndEvent;
         private EventInstance onStartInstance;
         public bool stopOnEnd = false;
+
+        public UnityEvent OnDoOnceStart, OnDoOnceEnd;
 
         [Range(0, 1)]
         public float previewPosition;
@@ -101,6 +104,9 @@ namespace Gamekit3D.GameCommands
 
         void LoopOnce()
         {
+            if (position == 0)
+                OnDoOnceStart.Invoke();
+
             position = Mathf.Clamp01(time);
             if (position >= 1)
             {
@@ -108,6 +114,7 @@ namespace Gamekit3D.GameCommands
                 if (OnStopCommand != null) OnStopCommand.Send();
                 direction *= -1;
                 if (stopOnEnd && onStartInstance.isValid()) onStartInstance.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+                OnDoOnceEnd.Invoke();
             }
         }
     }

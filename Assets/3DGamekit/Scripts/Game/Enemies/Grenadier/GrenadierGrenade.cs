@@ -133,7 +133,8 @@ namespace Gamekit3D
 
         protected virtual void OnCollisionEnter(Collision other)
         {
-            RuntimeManager.PlayOneShot(bounceEvent, transform.position);
+            if (!bounceEvent.IsNull)
+                RuntimeManager.PlayOneShot(bounceEvent, transform.position);
         }
 
         private Vector3 GetVelocity(Vector3 target)

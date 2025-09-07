@@ -18,6 +18,8 @@ namespace Gamekit3D
         public GameObject controlsCanvas;
         public GameObject audioCanvas;
 
+        public Transform teleportPosition;
+
         protected bool m_InPause;
         protected PlayableDirector[] m_Directors;
 
@@ -121,6 +123,16 @@ namespace Gamekit3D
             SwitchPauseState();
             SceneManager.LoadScene(sceneName);
 
+        }
+
+        public void TeleportToEnd()
+        {
+            if (teleportPosition)
+            {
+                var transitioningGameObject = GameObject.Find("Ellen");
+                if (transitioningGameObject)
+                    GameObjectTeleporter.Teleport(transitioningGameObject, teleportPosition);
+            }
         }
     }
     

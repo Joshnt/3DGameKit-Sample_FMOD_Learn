@@ -1113,6 +1113,13 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+  dissolveEvent:
+    Guid:
+      Data1: 2046185487
+      Data2: 1174423837
+      Data3: -1612273748
+      Data4: -1741712671
+    Path: event:/INTERACTABLES/INT_Object-Dissolve
 --- !u!1 &1681811184619038
 GameObject:
   m_ObjectHideFlags: 0

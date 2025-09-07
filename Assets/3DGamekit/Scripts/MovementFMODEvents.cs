@@ -7,7 +7,6 @@ using FMOD.Studio;
 public class MovementFMODEvents : MonoBehaviour
 {
     public EventReference runStepPlayerEvent;
-    public EventReference walkStepPlayerEvent;
     public EventReference quickTurnStepPlayerEvent;
     public EventReference landingNormalPlayerEvent;
     public EventReference landingRollPlayerEvent;
@@ -16,6 +15,8 @@ public class MovementFMODEvents : MonoBehaviour
     Coroutine speechCoroutine;
 
     public SurfaceDatabase surfaceDatabase;
+
+    bool idleSpeechIsRunning = false;
 
     public void Movement()
     {
@@ -69,6 +70,7 @@ public class MovementFMODEvents : MonoBehaviour
     public void PlayIdleSpeechWithDelay()
     {
         speechCoroutine = StartCoroutine(TalkWithDelay());
+        idleSpeechIsRunning = true;
     }
 
     public void StopCoroutineIdleSpeech()
@@ -78,14 +80,18 @@ public class MovementFMODEvents : MonoBehaviour
             StopCoroutine(speechCoroutine);
             speechCoroutine = null;
         }
+        idleSpeechIsRunning = false;
     }
 
     IEnumerator TalkWithDelay()
     {
+        if (idleSpeechIsRunning)
+            yield return null;
+
         while (true)
-        {
-            yield return new WaitForSeconds(Random.Range(10f, 15f));
-            FMODUnity.RuntimeManager.PlayOneShot(idleSprechenEvent);
-        }
+            {
+                yield return new WaitForSeconds(Random.Range(10f, 20f));
+                FMODUnity.RuntimeManager.PlayOneShot(idleSprechenEvent);
+            }
     }
 }

@@ -91,6 +91,5 @@ public class MusicManager : MonoBehaviour
         {
             PlayLevelMusic();
         }
-        Debug.Log("scene name" + scene.name);
     }
 }

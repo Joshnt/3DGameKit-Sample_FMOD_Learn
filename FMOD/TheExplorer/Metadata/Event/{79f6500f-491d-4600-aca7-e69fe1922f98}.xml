@@ -2,16 +2,19 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{79f6500f-491d-4600-aca7-e69fe1922f98}">
 		<property name="color">
-			<value>Red</value>
+			<value>Cyan Light 2</value>
 		</property>
 		<property name="name">
-			<value>SmallEnemy_Dissolve</value>
+			<value>INT_Object-Dissolve</value>
 		</property>
 		<property name="outputFormat">
 			<value>0</value>
 		</property>
 		<relationship name="folder">
-			<destination>{71727cc3-6d60-4297-ad59-68cbc1e52f39}</destination>
+			<destination>{aca990dd-7b4c-4e44-ba15-48503f05cfea}</destination>
+		</relationship>
+		<relationship name="tags">
+			<destination>{cfd08e1c-6786-4e77-b096-65bafcb72d67}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{6d1ec02a-efc0-4bbe-9f0b-27234eef05eb}</destination>

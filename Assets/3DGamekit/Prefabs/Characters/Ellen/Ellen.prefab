@@ -20669,14 +20669,7 @@ MonoBehaviour:
       Data2: 1076426942
       Data3: 984562596
       Data4: -1143636821
-    Path: event:/MAIN_CHARACTER/MC_Rennen
-  walkStepPlayerEvent:
-    Guid:
-      Data1: -531643469
-      Data2: 1096399553
-      Data3: 775144895
-      Data4: -974281539
-    Path: event:/MAIN_CHARACTER/MC_Gehen
+    Path: event:/MAIN_CHARACTER/MC_Schritt
   quickTurnStepPlayerEvent:
     Guid:
       Data1: 1381808172
@@ -20764,7 +20757,7 @@ MonoBehaviour:
       Data2: 1253353879
       Data3: -608361076
       Data4: 1310426634
-    Path: event:/MAIN_CHARACTER/MC_Invulnerable
+    Path: event:/MAIN_CHARACTER/MC_Invulnerable_Loop
   Event: 
   EventPlayTrigger: 0
   EventStopTrigger: 0

@@ -15,10 +15,10 @@ MonoBehaviour:
   Path: FMOD/TheExplorer/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638928080042735095
+  lastModified: 638928570866618021
   FileSizes:
   - Name: Desktop
-    Value: 6098
+    Value: 6088
   Exists: 1
 --- !u!114 &-8738482090907787713
 MonoBehaviour:
@@ -302,33 +302,6 @@ MonoBehaviour:
     Data2: 1239011731
     Data3: -683599193
     Data4: 1863364076
-  Banks:
-  - {fileID: 7897167001347730558}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &-7005273923527018021
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/MAIN_CHARACTER/MC_Invulnerable
-  m_EditorClassIdentifier: 
-  Path: event:/MAIN_CHARACTER/MC_Invulnerable
-  Guid:
-    Data1: -788826995
-    Data2: 1253353879
-    Data3: -608361076
-    Data4: 1310426634
   Banks:
   - {fileID: 7897167001347730558}
   IsStream: 0
@@ -764,6 +737,33 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &-4192352094067198733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/MAIN_CHARACTER/MC_Schritt
+  m_EditorClassIdentifier: 
+  Path: event:/MAIN_CHARACTER/MC_Schritt
+  Guid:
+    Data1: 1032991108
+    Data2: 1076426942
+    Data3: 984562596
+    Data4: -1143636821
+  Banks:
+  - {fileID: 7897167001347730558}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-3915144074357582322
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -833,6 +833,33 @@ MonoBehaviour:
     Data2: 1078797044
     Data3: -1151230807
     Data4: -1652568765
+  Banks:
+  - {fileID: 7897167001347730558}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-3474401299791303190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/MAIN_CHARACTER/MC_Invulnerable_Loop
+  m_EditorClassIdentifier: 
+  Path: event:/MAIN_CHARACTER/MC_Invulnerable_Loop
+  Guid:
+    Data1: -788826995
+    Data2: 1253353879
+    Data3: -608361076
+    Data4: 1310426634
   Banks:
   - {fileID: 7897167001347730558}
   IsStream: 0
@@ -1383,7 +1410,6 @@ MonoBehaviour:
   - {fileID: 6151959441341086973}
   - {fileID: -3158885170370304098}
   - {fileID: 6421725663771342028}
-  - {fileID: 2074940657759550754}
   - {fileID: -5641922508269785762}
   - {fileID: 3662867411508096866}
   - {fileID: 156055634523395282}
@@ -1395,7 +1421,6 @@ MonoBehaviour:
   - {fileID: 9009064726847472888}
   - {fileID: -4577561894085560598}
   - {fileID: -5820406415972757178}
-  - {fileID: 2041828040268264146}
   - {fileID: -3900021969954400794}
   - {fileID: 998047000574161045}
   - {fileID: 7196268399055851718}
@@ -1430,7 +1455,6 @@ MonoBehaviour:
   - {fileID: -7762634096930051932}
   - {fileID: -8111638309642914396}
   - {fileID: -1779542916702114668}
-  - {fileID: -7005273923527018021}
   - {fileID: -2412430422322847866}
   - {fileID: 176775357229861639}
   - {fileID: -5848351177147895158}
@@ -1445,7 +1469,9 @@ MonoBehaviour:
   - {fileID: -7843891987174748652}
   - {fileID: 5346992896182102768}
   - {fileID: -7634412636646835481}
-  - {fileID: 122242863512293742}
+  - {fileID: -4192352094067198733}
+  - {fileID: -3474401299791303190}
+  - {fileID: 2838821560012863158}
   EditorParameters:
   - {fileID: -3915144074357582322}
   - {fileID: -95156006943425653}
@@ -1460,35 +1486,8 @@ MonoBehaviour:
   - {fileID: 7897167001347730558}
   StringsBanks:
   - {fileID: -8762140299148799493}
-  cacheTime: 638928080042735095
+  cacheTime: 638928570866618021
   cacheVersion: 131846
---- !u!114 &122242863512293742
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/GEGNER/SmallEnemy_Dissolve
-  m_EditorClassIdentifier: 
-  Path: event:/GEGNER/SmallEnemy_Dissolve
-  Guid:
-    Data1: 2046185487
-    Data2: 1174423837
-    Data3: -1612273748
-    Data4: -1741712671
-  Banks:
-  - {fileID: 7897167001347730558}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
 --- !u!114 &156055634523395282
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1674,7 +1673,8 @@ MonoBehaviour:
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
-  Parameters: []
+  Parameters:
+  - {fileID: 8404718865667975938}
   MinDistance: 1
   MaxDistance: 20
   Length: 0
@@ -1785,60 +1785,6 @@ MonoBehaviour:
   - Inaktiv
   - Aktiviert
   Exists: 1
---- !u!114 &2041828040268264146
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/MAIN_CHARACTER/MC_Gehen
-  m_EditorClassIdentifier: 
-  Path: event:/MAIN_CHARACTER/MC_Gehen
-  Guid:
-    Data1: -531643469
-    Data2: 1096399553
-    Data3: 775144895
-    Data4: -974281539
-  Banks:
-  - {fileID: 7897167001347730558}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &2074940657759550754
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/MAIN_CHARACTER/MC_Rennen
-  m_EditorClassIdentifier: 
-  Path: event:/MAIN_CHARACTER/MC_Rennen
-  Guid:
-    Data1: 1032991108
-    Data2: 1076426942
-    Data3: 984562596
-    Data4: -1143636821
-  Banks:
-  - {fileID: 7897167001347730558}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
 --- !u!114 &2386852186721380842
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1884,6 +1830,33 @@ MonoBehaviour:
     Data2: 1322127854
     Data3: -119276416
     Data4: -861908126
+  Banks:
+  - {fileID: 7897167001347730558}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &2838821560012863158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/INTERACTABLES/INT_Object-Dissolve
+  m_EditorClassIdentifier: 
+  Path: event:/INTERACTABLES/INT_Object-Dissolve
+  Guid:
+    Data1: 2046185487
+    Data2: 1174423837
+    Data3: -1612273748
+    Data4: -1741712671
   Banks:
   - {fileID: 7897167001347730558}
   IsStream: 0
@@ -2763,10 +2736,10 @@ MonoBehaviour:
   Path: FMOD/TheExplorer/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638928080042725026
+  lastModified: 638928570866602869
   FileSizes:
   - Name: Desktop
-    Value: 51106
+    Value: 54368
   Exists: 1
 --- !u!114 &8111247450152030278
 MonoBehaviour:
@@ -2822,6 +2795,35 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &8404718865667975938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/MC_Waffe Treffer/HitType
+  m_EditorClassIdentifier: 
+  Name: HitType
+  StudioPath: 
+  Min: 0
+  Max: 4
+  Default: 2
+  ID:
+    data1: 3053015648
+    data2: 1044899503
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Crystal
+  - DestructableBox
+  - EnemySmall
+  - GrenadierGolem_Armor
+  - GrenadierGolem_Core
+  Exists: 1
 --- !u!114 &8554340529959206213
 MonoBehaviour:
   m_ObjectHideFlags: 0

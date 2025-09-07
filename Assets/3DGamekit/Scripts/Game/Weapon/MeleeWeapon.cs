@@ -88,7 +88,7 @@ namespace Gamekit3D
         {
             alreadyHit.Clear(); // reset at the start of each attack
 
-            if (swingEvent.IsNull != false)
+            if (!swingEvent.IsNull)
                 RuntimeManager.PlayOneShotAttached(swingEvent, gameObject);
 
             throwingHit = thowingAttack;
@@ -188,7 +188,7 @@ namespace Gamekit3D
 
             alreadyHit.Add(d);
 
-            if (hitEvent.IsNull != false)
+            if (!hitEvent.IsNull)
             {
                 // Create instance
                 FMOD.Studio.EventInstance instance = RuntimeManager.CreateInstance(hitEvent);

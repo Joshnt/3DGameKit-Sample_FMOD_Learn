@@ -9084,6 +9084,69 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1929309551}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1145303500
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1145303502}
+  - component: {fileID: 1145303501}
+  m_Layer: 0
+  m_Name: FMOD
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1145303501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1145303500}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1685884282
+      Data2: 1202671103
+      Data3: 1753634956
+      Data4: 374592794
+    Path: event:/UMGEBUNG/ENV_Ambience_Start_Loop
+  Event: 
+  EventPlayTrigger: 1
+  EventStopTrigger: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!4 &1145303502
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1145303500}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 411.02988, y: 105.506096, z: -442.29962}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1151598819
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9359,11 +9422,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: 955307335
-      Data2: 1078797044
-      Data3: -1151230807
-      Data4: -1652568765
-    Path: event:/UI/UI_Knopf_Spiel-Starten
+      Data1: -993844205
+      Data2: 1269375206
+      Data3: -1919880034
+      Data4: -1350405435
+    Path: event:/UI/UI_Knopf_Bestaetigen
   Event: 
   EventPlayTrigger: 19
   EventStopTrigger: 0
@@ -22580,6 +22643,8 @@ SceneRoots:
   - {fileID: 1421748717}
   - {fileID: 372823314}
   - {fileID: 316286337}
+  - {fileID: 1830064551}
+  - {fileID: 1145303502}
   - {fileID: 521543115}
   - {fileID: 52710356}
   - {fileID: 1519403767}
@@ -22593,4 +22658,3 @@ SceneRoots:
   - {fileID: 112709491}
   - {fileID: 135451122}
   - {fileID: 1970648498}
-  - {fileID: 1830064551}

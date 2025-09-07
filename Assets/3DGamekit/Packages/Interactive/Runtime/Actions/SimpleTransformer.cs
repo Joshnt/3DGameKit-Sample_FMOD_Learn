@@ -53,7 +53,7 @@ namespace Gamekit3D.GameCommands
             if (OnStartCommand != null) OnStartCommand.Send();
             if (!onStartEvent.IsNull)
                 if (!stopOnEnd)
-                    RuntimeManager.PlayOneShot(onStartEvent, transform.position);
+                    RuntimeManager.PlayOneShotAttached(onStartEvent, gameObject);
                 else
                 {
                     onStartInstance = RuntimeManager.CreateInstance(onStartEvent);

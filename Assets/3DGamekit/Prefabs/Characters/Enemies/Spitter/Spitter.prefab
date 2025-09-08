@@ -2010,11 +2010,11 @@ MonoBehaviour:
     Path: event:/GEGNER/SPUCKER/SPUCKER_Schritt
   hitEvent:
     Guid:
-      Data1: 393306222
-      Data2: 1239195370
-      Data3: -985173084
-      Data4: -1745678490
-    Path: event:/GEGNER/SPUCKER/SPUCKER_Getroffen
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
   gruntEvent:
     Guid:
       Data1: -387331490

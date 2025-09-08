@@ -143,6 +143,7 @@ namespace Gamekit3D
             RuntimeManager.PlayOneShot(deathEvent, transform.position);
             m_EnemyController.animator.SetTrigger(hashDeathParam);
             IsAlive = false;
+            CombatManager.Instance?.UnregisterEnemy(this);
         }
 
         public void ActivateShield()

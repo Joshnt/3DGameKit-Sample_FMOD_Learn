@@ -5,7 +5,7 @@
 			<value>Cyan</value>
 		</property>
 		<property name="name">
-			<value>INT_bewegliche-Plattform_gross_inSaeure_Loop</value>
+			<value>INT_bewegliche-Plattform_inSaeure_Loop</value>
 		</property>
 		<property name="outputFormat">
 			<value>0</value>
@@ -56,7 +56,11 @@
 			<destination>{e15e11e3-e252-4265-b1bf-1fa68704e574}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{caa7a373-f131-4bc6-b415-89272f2a9efa}" />
+	<object class="EventAutomatableProperties" id="{caa7a373-f131-4bc6-b415-89272f2a9efa}">
+		<property name="maximumDistance">
+			<value>30</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{e4861aa5-4604-43e9-b9ce-a23185052ad3}" />
 	<object class="Timeline" id="{d5a553b0-c1fb-4b5a-b0d8-e31aa419c10d}">
 		<property name="isProxyEnabled">

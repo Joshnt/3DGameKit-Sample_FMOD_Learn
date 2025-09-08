@@ -828,6 +828,7 @@ MonoBehaviour:
       Data3: 0
       Data4: 0
     Path: 
+  hitDatabase: {fileID: 0}
 --- !u!1 &1246684386998542
 GameObject:
   m_ObjectHideFlags: 0
@@ -2774,11 +2775,11 @@ MonoBehaviour:
     Path: event:/GEGNER/BEISSER/BEISSER_Schritt
   hitEvent:
     Guid:
-      Data1: 1791297864
-      Data2: 1208534037
-      Data3: -1556441452
-      Data4: -722990738
-    Path: event:/GEGNER/BEISSER/BEISSER_Getroffen
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
   gruntEvent:
     Guid:
       Data1: -979839864

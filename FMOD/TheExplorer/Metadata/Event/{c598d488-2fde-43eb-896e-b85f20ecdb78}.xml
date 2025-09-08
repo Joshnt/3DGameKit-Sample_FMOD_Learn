@@ -2,7 +2,8 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{c598d488-2fde-43eb-896e-b85f20ecdb78}">
 		<property name="note">
-			<value>BEISSER, wenn er sich nicht im Kampf befindet/ den Spieler noch nicht entdeckt hat</value>
+			<value>BEISSER, wenn er sich nicht im Kampf befindet/ den Spieler noch nicht entdeckt hat
+Triggered every 2 - 5 seconds</value>
 		</property>
 		<property name="color">
 			<value>Red Light 2</value>

@@ -15,10 +15,10 @@ MonoBehaviour:
   Path: FMOD/TheExplorer/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638928578419579625
+  lastModified: 638928956822843975
   FileSizes:
   - Name: Desktop
-    Value: 6054
+    Value: 5642
   Exists: 1
 --- !u!114 &-8738482090907787713
 MonoBehaviour:
@@ -46,6 +46,33 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
+  Length: 0
+--- !u!114 &-8602931607490692175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/INTERACTABLES/INT_Bewegliche-Plattform_Loop
+  m_EditorClassIdentifier: 
+  Path: event:/INTERACTABLES/INT_Bewegliche-Plattform_Loop
+  Guid:
+    Data1: -560389295
+    Data2: 1246224168
+    Data3: 1270312124
+    Data4: 1264999360
+  Banks:
+  - {fileID: 7897167001347730558}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 40
   Length: 0
 --- !u!114 &-8600962475415562276
 MonoBehaviour:
@@ -125,7 +152,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
---- !u!114 &-8111638309642914396
+--- !u!114 &-8013312574597687610
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -135,14 +162,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/UMGEBUNG/ENV_Alien-Pflanzen_Gross_Loop
+  m_Name: event:/INTERACTABLES/INT_Bewegliche-Plattform_inSaeure_Loop
   m_EditorClassIdentifier: 
-  Path: event:/UMGEBUNG/ENV_Alien-Pflanzen_Gross_Loop
+  Path: event:/INTERACTABLES/INT_Bewegliche-Plattform_inSaeure_Loop
   Guid:
-    Data1: -450451721
-    Data2: 1306643118
-    Data3: -543011436
-    Data4: -574361566
+    Data1: 583661667
+    Data2: 1205887842
+    Data3: -1123012201
+    Data4: 1772786136
   Banks:
   - {fileID: 7897167001347730558}
   IsStream: 0
@@ -150,7 +177,7 @@ MonoBehaviour:
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
-  MaxDistance: 20
+  MaxDistance: 30
   Length: 0
 --- !u!114 &-7843891987174748652
 MonoBehaviour:
@@ -177,34 +204,7 @@ MonoBehaviour:
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &-7762634096930051932
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/UMGEBUNG/ENV_Alien-Pflanzen_Klein_Loop
-  m_EditorClassIdentifier: 
-  Path: event:/UMGEBUNG/ENV_Alien-Pflanzen_Klein_Loop
-  Guid:
-    Data1: 955592471
-    Data2: 1239961669
-    Data3: 560177046
-    Data4: 731404870
-  Banks:
-  - {fileID: 7897167001347730558}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
+  MaxDistance: 50
   Length: 0
 --- !u!114 &-7634412636646835481
 MonoBehaviour:
@@ -441,7 +441,7 @@ MonoBehaviour:
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
-  MaxDistance: 20
+  MaxDistance: 60
   Length: 0
 --- !u!114 &-5848351177147895158
 MonoBehaviour:
@@ -464,7 +464,7 @@ MonoBehaviour:
   Banks:
   - {fileID: 7897167001347730558}
   IsStream: 0
-  Is3D: 1
+  Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
@@ -542,33 +542,6 @@ MonoBehaviour:
     Data2: 1176790680
     Data3: -1389266780
     Data4: 1757624566
-  Banks:
-  - {fileID: 7897167001347730558}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &-5455050321542364043
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/UMGEBUNG/ENV_Laub_Klein_Loop
-  m_EditorClassIdentifier: 
-  Path: event:/UMGEBUNG/ENV_Laub_Klein_Loop
-  Guid:
-    Data1: 1103318751
-    Data2: 1090357853
-    Data3: 2039757486
-    Data4: -974228677
   Banks:
   - {fileID: 7897167001347730558}
   IsStream: 0
@@ -923,33 +896,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
---- !u!114 &-3158885170370304098
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/GEGNER/SPUCKER/SPUCKER_Getroffen
-  m_EditorClassIdentifier: 
-  Path: event:/GEGNER/SPUCKER/SPUCKER_Getroffen
-  Guid:
-    Data1: 393306222
-    Data2: 1239195370
-    Data3: -985173084
-    Data4: -1745678490
-  Banks:
-  - {fileID: 7897167001347730558}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
 --- !u!114 &-3050308541348015323
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1108,8 +1054,7 @@ MonoBehaviour:
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
-  Parameters:
-  - {fileID: 2033303575901426641}
+  Parameters: []
   MinDistance: 1
   MaxDistance: 20
   Length: 0
@@ -1219,7 +1164,7 @@ MonoBehaviour:
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
-  MaxDistance: 20
+  MaxDistance: 50
   Length: 0
 --- !u!114 &-1270103770865741387
 MonoBehaviour:
@@ -1300,7 +1245,7 @@ MonoBehaviour:
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
-  MaxDistance: 20
+  MaxDistance: 6.8
   Length: 0
 --- !u!114 &-117168896433437183
 MonoBehaviour:
@@ -1327,7 +1272,7 @@ MonoBehaviour:
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
-  MaxDistance: 20
+  MaxDistance: 55
   Length: 0
 --- !u!114 &-95156006943425653
 MonoBehaviour:
@@ -1396,9 +1341,7 @@ MonoBehaviour:
   - {fileID: 8554340529959206213}
   - {fileID: 7461457887397901029}
   - {fileID: -3664580630894297485}
-  - {fileID: 807999273542548046}
   - {fileID: -117168896433437183}
-  - {fileID: 3603390213149817583}
   - {fileID: -2513053908945185758}
   - {fileID: 2843327260271809179}
   - {fileID: 2386852186721380842}
@@ -1408,7 +1351,6 @@ MonoBehaviour:
   - {fileID: 4457957970204620204}
   - {fileID: 1169962065637010538}
   - {fileID: 6151959441341086973}
-  - {fileID: -3158885170370304098}
   - {fileID: 6421725663771342028}
   - {fileID: -5641922508269785762}
   - {fileID: 3662867411508096866}
@@ -1422,10 +1364,7 @@ MonoBehaviour:
   - {fileID: -4577561894085560598}
   - {fileID: -5820406415972757178}
   - {fileID: -3900021969954400794}
-  - {fileID: 998047000574161045}
-  - {fileID: 7196268399055851718}
   - {fileID: -2115344343019216798}
-  - {fileID: -5455050321542364043}
   - {fileID: 4482031126111423884}
   - {fileID: -5646756646408187989}
   - {fileID: -2492126076611755870}
@@ -1436,7 +1375,6 @@ MonoBehaviour:
   - {fileID: 3942857485684909221}
   - {fileID: -7573729804726119448}
   - {fileID: -1270103770865741387}
-  - {fileID: 4748890003808015667}
   - {fileID: 3784410327347645887}
   - {fileID: -7105001539881663723}
   - {fileID: -3258236003833286087}
@@ -1451,9 +1389,6 @@ MonoBehaviour:
   - {fileID: 5685473924029312783}
   - {fileID: -8738482090907787713}
   - {fileID: -2191623936853447569}
-  - {fileID: 812436589510720224}
-  - {fileID: -7762634096930051932}
-  - {fileID: -8111638309642914396}
   - {fileID: -1779542916702114668}
   - {fileID: -2412430422322847866}
   - {fileID: 176775357229861639}
@@ -1472,6 +1407,9 @@ MonoBehaviour:
   - {fileID: -4192352094067198733}
   - {fileID: -3474401299791303190}
   - {fileID: 2274709074908556323}
+  - {fileID: 1957113812581257448}
+  - {fileID: -8602931607490692175}
+  - {fileID: -8013312574597687610}
   EditorParameters:
   - {fileID: -3915144074357582322}
   - {fileID: -95156006943425653}
@@ -1486,7 +1424,7 @@ MonoBehaviour:
   - {fileID: 7897167001347730558}
   StringsBanks:
   - {fileID: -8762140299148799493}
-  cacheTime: 638928578419579625
+  cacheTime: 638928956822843975
   cacheVersion: 131846
 --- !u!114 &156055634523395282
 MonoBehaviour:
@@ -1540,7 +1478,7 @@ MonoBehaviour:
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
-  MaxDistance: 20
+  MaxDistance: 9
   Length: 0
 --- !u!114 &707612201518465789
 MonoBehaviour:
@@ -1560,87 +1498,6 @@ MonoBehaviour:
     Data2: 1294353991
     Data3: 1278149792
     Data4: 1294473138
-  Banks:
-  - {fileID: 7897167001347730558}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &807999273542548046
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/GEGNER/BEISSER/BEISSER_Getroffen
-  m_EditorClassIdentifier: 
-  Path: event:/GEGNER/BEISSER/BEISSER_Getroffen
-  Guid:
-    Data1: 1791297864
-    Data2: 1208534037
-    Data3: -1556441452
-    Data4: -722990738
-  Banks:
-  - {fileID: 7897167001347730558}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &812436589510720224
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/UMGEBUNG/ENV_Gras_Loop
-  m_EditorClassIdentifier: 
-  Path: event:/UMGEBUNG/ENV_Gras_Loop
-  Guid:
-    Data1: 284270647
-    Data2: 1235233300
-    Data3: 1183849364
-    Data4: 1975538607
-  Banks:
-  - {fileID: 7897167001347730558}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &998047000574161045
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/UMGEBUNG/ENV_Laub_Gross_Loop
-  m_EditorClassIdentifier: 
-  Path: event:/UMGEBUNG/ENV_Laub_Gross_Loop
-  Guid:
-    Data1: -856306476
-    Data2: 1093900564
-    Data3: -1073467469
-    Data4: 149243856
   Banks:
   - {fileID: 7897167001347730558}
   IsStream: 0
@@ -1758,7 +1615,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
---- !u!114 &2033303575901426641
+--- !u!114 &1957113812581257448
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1767,23 +1624,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/INT_Kristall-Schalter_Loop/Schalter Zustand
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UMGEBUNG/ENV_Ambience_Start_Loop
   m_EditorClassIdentifier: 
-  Name: Schalter Zustand
-  StudioPath: 
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 1315143001
-    data2: 1316407848
-  Type: 2
-  IsGlobal: 0
-  Labels:
-  - Inaktiv
-  - Aktiviert
-  Exists: 1
+  Path: event:/UMGEBUNG/ENV_Ambience_Start_Loop
+  Guid:
+    Data1: 1685884282
+    Data2: 1202671103
+    Data3: 1753634956
+    Data4: 374592794
+  Banks:
+  - {fileID: 7897167001347730558}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &2274709074908556323
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1994,33 +1852,6 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
---- !u!114 &3603390213149817583
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/INTERACTABLES/INT_Bewegliche-Plattform_klein_Loop
-  m_EditorClassIdentifier: 
-  Path: event:/INTERACTABLES/INT_Bewegliche-Plattform_klein_Loop
-  Guid:
-    Data1: -560389295
-    Data2: 1246224168
-    Data3: 1270312124
-    Data4: 1264999360
-  Banks:
-  - {fileID: 7897167001347730558}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
 --- !u!114 &3662867411508096866
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2073,7 +1904,7 @@ MonoBehaviour:
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
-  MaxDistance: 20
+  MaxDistance: 25
   Length: 0
 --- !u!114 &3805481646342550762
 MonoBehaviour:
@@ -2255,33 +2086,6 @@ MonoBehaviour:
     Data2: 1316585170
     Data3: 1291594419
     Data4: -1706606625
-  Banks:
-  - {fileID: 7897167001347730558}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &4748890003808015667
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/INTERACTABLES/INT_Bewegliche-Plattform_gross_inSaeure_Loop
-  m_EditorClassIdentifier: 
-  Path: event:/INTERACTABLES/INT_Bewegliche-Plattform_gross_inSaeure_Loop
-  Guid:
-    Data1: 583661667
-    Data2: 1205887842
-    Data3: -1123012201
-    Data4: 1772786136
   Banks:
   - {fileID: 7897167001347730558}
   IsStream: 0
@@ -2585,33 +2389,6 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
---- !u!114 &7196268399055851718
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/INTERACTABLES/INT_Bewegliche-Plattform_gross_Loop
-  m_EditorClassIdentifier: 
-  Path: event:/INTERACTABLES/INT_Bewegliche-Plattform_gross_Loop
-  Guid:
-    Data1: -1340389926
-    Data2: 1318835268
-    Data3: 1327572895
-    Data4: 59785308
-  Banks:
-  - {fileID: 7897167001347730558}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
 --- !u!114 &7214157968540509144
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2718,7 +2495,7 @@ MonoBehaviour:
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
-  MaxDistance: 20
+  MaxDistance: 15
   Length: 0
 --- !u!114 &7897167001347730558
 MonoBehaviour:
@@ -2735,10 +2512,10 @@ MonoBehaviour:
   Path: FMOD/TheExplorer/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638928578419564560
+  lastModified: 638928956822828926
   FileSizes:
   - Name: Desktop
-    Value: 54048
+    Value: 47352
   Exists: 1
 --- !u!114 &8111247450152030278
 MonoBehaviour:

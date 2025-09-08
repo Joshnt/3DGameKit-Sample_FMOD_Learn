@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{e8e9ca5e-ec4b-4b3c-8b8d-a496d0d46acf}">
+		<property name="note">
+			<value>Triggered every 2 - 5 seconds</value>
+		</property>
 		<property name="color">
 			<value>Red Light 1</value>
 		</property>
@@ -56,7 +59,11 @@
 			<destination>{e15e11e3-e252-4265-b1bf-1fa68704e574}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{a472d7a0-d0f2-44cd-b3bf-eff570aab6ae}" />
+	<object class="EventAutomatableProperties" id="{a472d7a0-d0f2-44cd-b3bf-eff570aab6ae}">
+		<property name="maximumDistance">
+			<value>60</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{f552932f-ea44-44a1-b0fb-a529cf5aad96}" />
 	<object class="Timeline" id="{80fd1668-8970-48b9-b86f-3f4b32cc3e41}">
 		<property name="isProxyEnabled">

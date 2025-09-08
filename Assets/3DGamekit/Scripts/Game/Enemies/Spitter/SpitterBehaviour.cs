@@ -88,6 +88,7 @@ namespace Gamekit3D
             controller.animator.SetTrigger(hashThrown);
 
             RuntimeManager.PlayOneShot(deathEvent, transform.position);
+            CombatManager.Instance?.UnregisterEnemy(this);
         }
 
         public void ApplyDamage(Damageable.DamageMessage msg)

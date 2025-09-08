@@ -275,6 +275,8 @@ namespace Gamekit3D
             RuntimeManager.PlayOneShot(deathEvent, transform.position);
 
             IsAlive = false;
+
+            CombatManager.Instance?.UnregisterEnemy(this);
         }
 
         public void ApplyDamage(Damageable.DamageMessage msg)

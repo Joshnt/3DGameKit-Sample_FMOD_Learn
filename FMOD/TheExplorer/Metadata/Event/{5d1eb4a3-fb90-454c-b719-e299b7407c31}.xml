@@ -8,7 +8,7 @@
 			<value>ENV_Raumschiff-Aussen_Loop</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>0</value>
 		</property>
 		<relationship name="folder">
 			<destination>{35c5e034-3142-412f-959b-ea5aeee4f149}</destination>
@@ -86,12 +86,10 @@
 	<object class="MixerBusPanner" id="{2cdc666e-9733-4c1f-9ce1-eba0bd3567e4}" />
 	<object class="MixerBusEffectChain" id="{3c80b41b-cbf5-4893-93c8-586bcf57a79d}">
 		<relationship name="effects">
-			<destination>{b9852844-9dc2-4d37-84e3-67b292ee360f}</destination>
 			<destination>{77fb8599-2981-4c8c-9188-480f63a435a7}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{128f49b3-8fae-4352-b3a1-16532c691874}" />
 	<object class="MixerBusFader" id="{ed59b8a0-1e4b-4e95-b408-8577c71d9fe5}" />
-	<object class="SpatialiserEffect" id="{b9852844-9dc2-4d37-84e3-67b292ee360f}" />
 	<object class="MixerBusFader" id="{77fb8599-2981-4c8c-9188-480f63a435a7}" />
 </objects>

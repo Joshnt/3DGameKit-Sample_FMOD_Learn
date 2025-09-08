@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{8bfd3d08-4861-4489-b24d-21dd682f22d9}">
+		<property name="note">
+			<value>Triggered every 10 - 20 seconds</value>
+		</property>
 		<property name="color">
 			<value>Yellow Light 2</value>
 		</property>
@@ -31,9 +34,6 @@
 		<relationship name="timeline">
 			<destination>{17e4de69-e878-4787-b386-b54462ccf38a}</destination>
 		</relationship>
-		<relationship name="parameters">
-			<destination>{ef2d7a13-7819-4496-842c-b0f070b9a189}</destination>
-		</relationship>
 		<relationship name="banks">
 			<destination>{4300bad4-362a-48fc-ab96-4a018513e9a5}</destination>
 		</relationship>
@@ -44,9 +44,6 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{4a8621d8-85a8-4402-95d3-669f19994b5b}">
-		<relationship name="modules">
-			<destination>{c182914d-ba9d-4103-9946-662de35be43c}</destination>
-		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{d821ca3c-dc4f-446a-9e48-7a0d2c1eb05b}</destination>
 		</relationship>
@@ -76,11 +73,6 @@
 			<value>false</value>
 		</property>
 	</object>
-	<object class="ActionSheet" id="{ef2d7a13-7819-4496-842c-b0f070b9a189}">
-		<relationship name="modules">
-			<destination>{c182914d-ba9d-4103-9946-662de35be43c}</destination>
-		</relationship>
-	</object>
 	<object class="EventMixerMaster" id="{d821ca3c-dc4f-446a-9e48-7a0d2c1eb05b}">
 		<relationship name="effectChain">
 			<destination>{b5a880d5-68b0-4537-a574-c35f953daa1e}</destination>
@@ -92,7 +84,6 @@
 			<destination>{ae2ed67c-6e09-4d3a-be65-ccada08cfad8}</destination>
 		</relationship>
 	</object>
-	<object class="MultiSound" id="{c182914d-ba9d-4103-9946-662de35be43c}" />
 	<object class="MixerBusEffectChain" id="{47a2b03b-4741-4675-a6ea-8c89cdf4aa1a}">
 		<relationship name="effects">
 			<destination>{cc3a7b52-8938-4b6b-8028-a8a4e2423ad0}</destination>

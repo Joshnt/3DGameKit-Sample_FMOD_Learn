@@ -812,7 +812,6 @@ MonoBehaviour:
       Data2: 1246968714
       Data3: -2096369747
       Data4: 897140734
-    Path: event:/UI/UI_Knopf_Maus-Ueber
   Event: 
   EventPlayTrigger: 17
   EventStopTrigger: 18
@@ -843,7 +842,6 @@ MonoBehaviour:
       Data2: 1269375206
       Data3: -1919880034
       Data4: -1350405435
-    Path: event:/UI/UI_Knopf_Bestaetigen
   Event: 
   EventPlayTrigger: 19
   EventStopTrigger: 0
@@ -1869,7 +1867,6 @@ MonoBehaviour:
       Data2: 1246968714
       Data3: -2096369747
       Data4: 897140734
-    Path: event:/UI/UI_Knopf_Maus-Ueber
   Event: 
   EventPlayTrigger: 17
   EventStopTrigger: 18
@@ -1900,7 +1897,6 @@ MonoBehaviour:
       Data2: 1131187987
       Data3: -1170509160
       Data4: 1979022032
-    Path: event:/UI/UI_Knopf_Spiel-Verlassen
   Event: 
   EventPlayTrigger: 19
   EventStopTrigger: 0
@@ -2367,7 +2363,6 @@ MonoBehaviour:
       Data2: 0
       Data3: 0
       Data4: 0
-    Path: 
   audioDelay: 0
 --- !u!114 &264751883
 MonoBehaviour:
@@ -2422,15 +2417,19 @@ MonoBehaviour:
       Data2: 0
       Data3: 0
       Data4: 0
-    Path: 
   onEndEvent:
     Guid:
       Data1: 0
       Data2: 0
       Data3: 0
       Data4: 0
-    Path: 
   stopOnEnd: 0
+  OnDoOnceStart:
+    m_PersistentCalls:
+      m_Calls: []
+  OnDoOnceEnd:
+    m_PersistentCalls:
+      m_Calls: []
   previewPosition: 0
   axis: {x: 0, y: 1, z: 0}
   start: 0
@@ -9094,6 +9093,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1145303502}
   - component: {fileID: 1145303501}
+  - component: {fileID: 1145303503}
   m_Layer: 0
   m_Name: FMOD
   m_TagString: Untagged
@@ -9120,7 +9120,6 @@ MonoBehaviour:
       Data2: 1202671103
       Data3: 1753634956
       Data4: 374592794
-    Path: event:/UMGEBUNG/ENV_Ambience_Start_Loop
   Event: 
   EventPlayTrigger: 1
   EventStopTrigger: 2
@@ -9147,6 +9146,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1145303503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1145303500}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b0e04e2572f9a940a47465f6f3c2f00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Parameter: Area
+  TriggerEvent: 1
+  Value: 12
 --- !u!1001 &1151598819
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9395,7 +9410,6 @@ MonoBehaviour:
       Data2: 1246968714
       Data3: -2096369747
       Data4: 897140734
-    Path: event:/UI/UI_Knopf_Maus-Ueber
   Event: 
   EventPlayTrigger: 17
   EventStopTrigger: 18
@@ -9426,7 +9440,6 @@ MonoBehaviour:
       Data2: 1269375206
       Data3: -1919880034
       Data4: -1350405435
-    Path: event:/UI/UI_Knopf_Bestaetigen
   Event: 
   EventPlayTrigger: 19
   EventStopTrigger: 0
@@ -9992,7 +10005,81 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 196333125}
+    - targetCorrespondingSourceObject: {fileID: 8005615917786298794, guid: eb72f36523dcf684f9ca37da45adfa76,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1270299959}
+    - targetCorrespondingSourceObject: {fileID: 8005615917786298794, guid: eb72f36523dcf684f9ca37da45adfa76,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1270299958}
   m_SourcePrefab: {fileID: 100100000, guid: eb72f36523dcf684f9ca37da45adfa76, type: 3}
+--- !u!1 &1270299957 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8005615917786298794, guid: eb72f36523dcf684f9ca37da45adfa76,
+    type: 3}
+  m_PrefabInstance: {fileID: 1270299956}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1270299958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1270299957}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -993844205
+      Data2: 1269375206
+      Data3: -1919880034
+      Data4: -1350405435
+  Event: 
+  EventPlayTrigger: 19
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &1270299959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1270299957}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -850349428
+      Data2: 1246968714
+      Data3: -2096369747
+      Data4: 897140734
+  Event: 
+  EventPlayTrigger: 17
+  EventStopTrigger: 18
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1299324391
 GameObject:
   m_ObjectHideFlags: 0
@@ -20725,49 +20812,42 @@ MonoBehaviour:
       Data2: 1160844952
       Data3: -1017467506
       Data4: 1846581188
-    Path: event:/GEGNER/BEISSER/BEISSER_Angriff
   frontStepEvent:
     Guid:
       Data1: 492986942
       Data2: 1294353991
       Data3: 1278149792
       Data4: 1294473138
-    Path: event:/GEGNER/BEISSER/BEISSER_Schritt
   backStepEvent:
     Guid:
       Data1: 492986942
       Data2: 1294353991
       Data3: 1278149792
       Data4: 1294473138
-    Path: event:/GEGNER/BEISSER/BEISSER_Schritt
   hitEvent:
     Guid:
       Data1: 1791297864
       Data2: 1208534037
       Data3: -1556441452
       Data4: -722990738
-    Path: event:/GEGNER/BEISSER/BEISSER_Getroffen
   gruntEvent:
     Guid:
       Data1: -979839864
       Data2: 1139486686
       Data3: 1605922441
       Data4: 2027678752
-    Path: event:/GEGNER/BEISSER/BEISSER_Idle_Grunt
   deathEvent:
     Guid:
       Data1: 887923748
       Data2: 1085519569
       Data3: 1497899163
       Data4: -1621771882
-    Path: event:/GEGNER/BEISSER/BEISSER_Tod
   spottedEvent:
     Guid:
       Data1: -14170697
       Data2: 1198637751
       Data3: 2064287372
       Data4: 806269564
-    Path: event:/GEGNER/BEISSER/BEISSER_Entdeckt
   surfaceDatabase: {fileID: 0}
 --- !u!95 &1969022207
 Animator:

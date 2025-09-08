@@ -23,7 +23,7 @@ Verwendung z.B. für Musik</value>
 			<value>2</value>
 		</property>
 		<property name="maximum">
-			<value>12</value>
+			<value>13</value>
 		</property>
 		<property name="enumerationLabels">
 			<value>Lv1_Dropship_Area</value>
@@ -38,6 +38,7 @@ Verwendung z.B. für Musik</value>
 			<value>Lv2_Corridor-to-Boss</value>
 			<value>Lv2_Boss-Room</value>
 			<value>Lv2_FinalRoom</value>
+			<value>StartMenu</value>
 		</property>
 		<property name="isGlobal">
 			<value>true</value>

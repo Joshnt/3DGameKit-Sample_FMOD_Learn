@@ -16,6 +16,11 @@
 		<relationship name="tags">
 			<destination>{617068d6-9c86-4a57-889f-c12b1374a2bc}</destination>
 			<destination>{cfd08e1c-6786-4e77-b096-65bafcb72d67}</destination>
+			<destination>{4879f199-0490-4f29-9638-ebb59e73f551}</destination>
+			<destination>{f6e833f2-ab78-4e66-bce7-4ab344d00e1a}</destination>
+			<destination>{1f16cc01-3d9d-4325-a467-8177b32343a5}</destination>
+			<destination>{c33af6e1-14b5-4f7b-8107-e9f6d6e6870a}</destination>
+			<destination>{82bac5b1-98f1-49be-a18d-be164e293f02}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{71a42eb2-bc17-4d13-8a3d-4e6f391dcecb}</destination>

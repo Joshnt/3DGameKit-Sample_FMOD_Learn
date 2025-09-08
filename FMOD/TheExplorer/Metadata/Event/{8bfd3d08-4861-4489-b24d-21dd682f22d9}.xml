@@ -16,6 +16,13 @@
 		<relationship name="folder">
 			<destination>{69940838-b6af-47c0-8fce-737d24be68bc}</destination>
 		</relationship>
+		<relationship name="tags">
+			<destination>{4879f199-0490-4f29-9638-ebb59e73f551}</destination>
+			<destination>{f6e833f2-ab78-4e66-bce7-4ab344d00e1a}</destination>
+			<destination>{1f16cc01-3d9d-4325-a467-8177b32343a5}</destination>
+			<destination>{9e16b48c-3011-421e-8384-4eaa537e6d14}</destination>
+			<destination>{b7664d71-a3d1-4885-adae-352e8b4ee597}</destination>
+		</relationship>
 		<relationship name="mixer">
 			<destination>{ae2ed67c-6e09-4d3a-be65-ccada08cfad8}</destination>
 		</relationship>

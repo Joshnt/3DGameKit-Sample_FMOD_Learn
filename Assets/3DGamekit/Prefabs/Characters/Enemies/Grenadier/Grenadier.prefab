@@ -39645,6 +39645,7 @@ MonoBehaviour:
       Data3: 0
       Data4: 0
     Path: 
+  hitDatabase: {fileID: 0}
 --- !u!1 &1381691635666340
 GameObject:
   m_ObjectHideFlags: 0
@@ -94470,11 +94471,11 @@ MonoBehaviour:
   coreRenderer: {fileID: 137752784327348492}
   deathEvent:
     Guid:
-      Data1: 1094674677
-      Data2: 1101953679
-      Data3: -109774453
-      Data4: 586019469
-    Path: event:/GEGNER/GOLEM_Miniboss/Tod/GOLEM_Tod_Stimme
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
   damageEvent:
     Guid:
       Data1: -1610875234
@@ -99752,7 +99753,7 @@ MonoBehaviour:
       Data2: 1288497300
       Data3: -128871779
       Data4: -623929106
-    Path: event:/GEGNER/GOLEM_Miniboss/Tod/GOLEM_Tod_Steine fallen
+    Path: event:/GEGNER/GOLEM_Miniboss/Tod/GOLEM_Tod
   Event: 
   EventPlayTrigger: 11
   EventStopTrigger: 12

@@ -2021,7 +2021,7 @@ MonoBehaviour:
       Data2: 1262283851
       Data3: -1767600757
       Data4: -815082288
-    Path: event:/GEGNER/SPUCKER/SPUCKER_Idle
+    Path: event:/GEGNER/SPUCKER/SPUCKER_Idle_Grunt
   deathEvent:
     Guid:
       Data1: -1455084057

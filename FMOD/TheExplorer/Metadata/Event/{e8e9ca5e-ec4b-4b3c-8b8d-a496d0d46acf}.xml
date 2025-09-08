@@ -8,13 +8,20 @@
 			<value>Red Light 1</value>
 		</property>
 		<property name="name">
-			<value>SPUCKER_Idle</value>
+			<value>SPUCKER_Idle_Grunt</value>
 		</property>
 		<property name="outputFormat">
 			<value>0</value>
 		</property>
 		<relationship name="folder">
 			<destination>{59a6e023-a58d-44a6-9970-2a75f1da9a45}</destination>
+		</relationship>
+		<relationship name="tags">
+			<destination>{f6e833f2-ab78-4e66-bce7-4ab344d00e1a}</destination>
+			<destination>{1f16cc01-3d9d-4325-a467-8177b32343a5}</destination>
+			<destination>{c33af6e1-14b5-4f7b-8107-e9f6d6e6870a}</destination>
+			<destination>{cfd08e1c-6786-4e77-b096-65bafcb72d67}</destination>
+			<destination>{82bac5b1-98f1-49be-a18d-be164e293f02}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{6d2b7390-c0f9-49a0-b1f8-b4f7ab140875}</destination>

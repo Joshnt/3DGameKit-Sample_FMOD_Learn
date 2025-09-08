@@ -39,7 +39,7 @@ namespace Gamekit3D
         public List<OriginalPhrases> phrases = new List<OriginalPhrases> ();
 
         [SerializeField]
-        protected int m_LanguageIndex;
+        public int m_LanguageIndex;
 
         public string this [string key]
         {

@@ -14,6 +14,26 @@ namespace Gamekit3D
         protected Coroutine m_DeactivationCoroutine;
 
         protected readonly int m_HashActivePara = Animator.StringToHash("Active");
+        [System.Serializable]
+        public struct Phrase
+        {
+            public string key;           // e.g. "Hello", "Bye"
+            public EventReference eventRef;  // Drag the FMOD event here
+        }
+
+        public Phrase[] phrases;
+
+        private Dictionary<string, EventReference> phraseDict;
+
+        public void Awake()
+        {
+            phraseDict = new Dictionary<string, EventReference>();
+            foreach (var p in phrases)
+            {
+                if (!phraseDict.ContainsKey(p.key))
+                    phraseDict.Add(p.key, p.eventRef);
+            }
+        }
 
         IEnumerator SetAnimatorParameterWithDelay(float delay)
         {
@@ -55,9 +75,10 @@ namespace Gamekit3D
         }
 
         void playFMODDialogueEvent(string phraseKey) {
-            string eventPath = "event:/MAIN_CHARACTER/Sprache/MC_" + phraseKey;
+            if (phraseDict.TryGetValue(phraseKey, out EventReference ev))
+            
 
-            RuntimeManager.PlayOneShot(eventPath);
+            RuntimeManager.PlayOneShot(ev);
         }
     }
 }

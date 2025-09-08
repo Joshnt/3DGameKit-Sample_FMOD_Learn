@@ -454,6 +454,49 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 95509433883633686}
   textMeshProUGUI: {fileID: 114860947390589534}
+  phrases:
+  - key: INFO1
+    eventRef:
+      Guid:
+        Data1: 1593505320
+        Data2: 1101624033
+        Data3: -1485598556
+        Data4: -1609027641
+  - key: INFO2
+    eventRef:
+      Guid:
+        Data1: 431122758
+        Data2: 1334189912
+        Data3: 1335567036
+        Data4: -302456474
+  - key: INFO3
+    eventRef:
+      Guid:
+        Data1: -1063577670
+        Data2: 1268145320
+        Data3: -1616443767
+        Data4: 1471329337
+  - key: INFO4
+    eventRef:
+      Guid:
+        Data1: 1347357078
+        Data2: 1237537376
+        Data3: 123872392
+        Data4: -1931267707
+  - key: INFO4b
+    eventRef:
+      Guid:
+        Data1: -856391514
+        Data2: 1273039280
+        Data3: 1107761291
+        Data4: -1406402372
+  - key: INFO5
+    eventRef:
+      Guid:
+        Data1: 799397876
+        Data2: 1283023037
+        Data3: -1158879869
+        Data4: -1584630498
 --- !u!1 &1592757482409178
 GameObject:
   m_ObjectHideFlags: 0

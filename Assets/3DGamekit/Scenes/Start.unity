@@ -9094,6 +9094,7 @@ GameObject:
   - component: {fileID: 1145303502}
   - component: {fileID: 1145303501}
   - component: {fileID: 1145303503}
+  - component: {fileID: 1145303504}
   m_Layer: 0
   m_Name: FMOD
   m_TagString: Untagged
@@ -9162,6 +9163,22 @@ MonoBehaviour:
   Parameter: Area
   TriggerEvent: 1
   Value: 12
+--- !u!114 &1145303504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1145303500}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b0e04e2572f9a940a47465f6f3c2f00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Parameter: Level
+  TriggerEvent: 1
+  Value: 4
 --- !u!1001 &1151598819
 PrefabInstance:
   m_ObjectHideFlags: 0

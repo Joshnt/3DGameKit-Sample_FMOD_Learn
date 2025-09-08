@@ -7503,7 +7503,6 @@ MonoBehaviour:
       Data2: 1205887842
       Data3: -1123012201
       Data4: 1772786136
-    Path: event:/INTERACTABLES/INT_Bewegliche-Plattform_inSaeure_Loop
   Event: 
   EventPlayTrigger: 1
   EventStopTrigger: 2
@@ -14069,14 +14068,12 @@ MonoBehaviour:
       Data2: 1079293419
       Data3: -1292116560
       Data4: -302713575
-    Path: event:/INTERACTABLES/INT_Tuer_Gross_Oeffnen_Loop
   onEndEvent:
     Guid:
       Data1: 0
       Data2: 0
       Data3: 0
       Data4: 0
-    Path: 
   stopOnEnd: 1
   OnDoOnceStart:
     m_PersistentCalls:
@@ -16614,7 +16611,6 @@ MonoBehaviour:
       Data2: 1229623449
       Data3: 968275880
       Data4: 2072919081
-    Path: event:/MAIN_CHARACTER/MC_Landen in Wasser
 --- !u!65 &83074998
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18024,14 +18020,12 @@ MonoBehaviour:
       Data2: 0
       Data3: 0
       Data4: 0
-    Path: 
   onEndEvent:
     Guid:
       Data1: 0
       Data2: 0
       Data3: 0
       Data4: 0
-    Path: 
   stopOnEnd: 0
   OnDoOnceStart:
     m_PersistentCalls:
@@ -40248,14 +40242,12 @@ MonoBehaviour:
       Data2: 0
       Data3: 0
       Data4: 0
-    Path: 
   onEndEvent:
     Guid:
       Data1: 0
       Data2: 0
       Data3: 0
       Data4: 0
-    Path: 
   stopOnEnd: 0
   OnDoOnceStart:
     m_PersistentCalls:
@@ -47681,7 +47673,6 @@ MonoBehaviour:
       Data2: 0
       Data3: 0
       Data4: 0
-    Path: 
 --- !u!1 &218742350
 GameObject:
   m_ObjectHideFlags: 0
@@ -72239,7 +72230,6 @@ MonoBehaviour:
       Data2: 0
       Data3: 0
       Data4: 0
-    Path: 
   audioDelay: 0
   layers:
     serializedVersion: 2
@@ -72315,14 +72305,12 @@ MonoBehaviour:
       Data2: 0
       Data3: 0
       Data4: 0
-    Path: 
   onEndEvent:
     Guid:
       Data1: 0
       Data2: 0
       Data3: 0
       Data4: 0
-    Path: 
   stopOnEnd: 0
   OnDoOnceStart:
     m_PersistentCalls:
@@ -85571,7 +85559,6 @@ MonoBehaviour:
       Data2: 0
       Data3: 0
       Data4: 0
-    Path: 
   audioDelay: 0
   layers:
     serializedVersion: 2
@@ -85713,7 +85700,6 @@ MonoBehaviour:
       Data2: 1246224168
       Data3: 1270312124
       Data4: 1264999360
-    Path: event:/INTERACTABLES/INT_Bewegliche-Plattform_Loop
   Event: 
   EventPlayTrigger: 0
   EventStopTrigger: 0
@@ -94494,14 +94480,12 @@ MonoBehaviour:
       Data2: 1290749725
       Data3: 1767880077
       Data4: -1243699894
-    Path: event:/INTERACTABLES/INT_Tuer_Klein_Oeffnen_Loop
   onEndEvent:
     Guid:
       Data1: 0
       Data2: 0
       Data3: 0
       Data4: 0
-    Path: 
   stopOnEnd: 1
   OnDoOnceStart:
     m_PersistentCalls:
@@ -107762,7 +107746,6 @@ MonoBehaviour:
       Data2: 0
       Data3: 0
       Data4: 0
-    Path: 
 --- !u!1 &498031959
 GameObject:
   m_ObjectHideFlags: 0
@@ -114741,7 +114724,6 @@ MonoBehaviour:
       Data2: 0
       Data3: 0
       Data4: 0
-    Path: 
 --- !u!1001 &534586326
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -129466,7 +129448,6 @@ MonoBehaviour:
       Data2: 1246224168
       Data3: 1270312124
       Data4: 1264999360
-    Path: event:/INTERACTABLES/INT_Bewegliche-Plattform_Loop
   Event: 
   EventPlayTrigger: 0
   EventStopTrigger: 0
@@ -143531,7 +143512,6 @@ MonoBehaviour:
       Data2: 1205887842
       Data3: -1123012201
       Data4: 1772786136
-    Path: event:/INTERACTABLES/INT_Bewegliche-Plattform_inSaeure_Loop
   Event: 
   EventPlayTrigger: 1
   EventStopTrigger: 2
@@ -169029,7 +169009,6 @@ MonoBehaviour:
       Data2: 1229623449
       Data3: 968275880
       Data4: 2072919081
-    Path: event:/MAIN_CHARACTER/MC_Landen in Wasser
 --- !u!65 &717527371
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -177874,7 +177853,6 @@ MonoBehaviour:
       Data2: 0
       Data3: 0
       Data4: 0
-    Path: 
 --- !u!4 &765595988 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4338033451105906, guid: c350a261356d02746b4c7b6b853c49d1,
@@ -190436,7 +190414,6 @@ MonoBehaviour:
       Data2: 1246224168
       Data3: 1270312124
       Data4: 1264999360
-    Path: event:/INTERACTABLES/INT_Bewegliche-Plattform_Loop
   Event: 
   EventPlayTrigger: 1
   EventStopTrigger: 2
@@ -230335,7 +230312,6 @@ MonoBehaviour:
       Data2: 0
       Data3: 0
       Data4: 0
-    Path: 
 --- !u!1001 &965151769
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -259502,7 +259478,6 @@ MonoBehaviour:
       Data2: 1205887842
       Data3: -1123012201
       Data4: 1772786136
-    Path: event:/INTERACTABLES/INT_Bewegliche-Plattform_inSaeure_Loop
   Event: 
   EventPlayTrigger: 1
   EventStopTrigger: 2
@@ -287588,14 +287563,12 @@ MonoBehaviour:
       Data2: 0
       Data3: 0
       Data4: 0
-    Path: 
   onEndEvent:
     Guid:
       Data1: 0
       Data2: 0
       Data3: 0
       Data4: 0
-    Path: 
   stopOnEnd: 0
   OnDoOnceStart:
     m_PersistentCalls:
@@ -307017,7 +306990,6 @@ MonoBehaviour:
       Data2: 0
       Data3: 0
       Data4: 0
-    Path: 
 --- !u!1 &1233824617
 GameObject:
   m_ObjectHideFlags: 0
@@ -328884,14 +328856,12 @@ MonoBehaviour:
       Data2: 0
       Data3: 0
       Data4: 0
-    Path: 
   onEndEvent:
     Guid:
       Data1: 0
       Data2: 0
       Data3: 0
       Data4: 0
-    Path: 
   stopOnEnd: 0
   OnDoOnceStart:
     m_PersistentCalls:
@@ -355028,7 +354998,6 @@ MonoBehaviour:
       Data2: 0
       Data3: 0
       Data4: 0
-    Path: 
   audioDelay: 0
 --- !u!1 &1418272263
 GameObject:
@@ -363251,7 +363220,6 @@ MonoBehaviour:
       Data2: 0
       Data3: 0
       Data4: 0
-    Path: 
   audioDelay: 0
 --- !u!4 &1457426583 stripped
 Transform:
@@ -379106,6 +379074,16 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
+    - target: {fileID: 9068829553159564652, guid: 64b1837b1cd40d541944cde538b260fe,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.183
+      objectReference: {fileID: 0}
+    - target: {fileID: 9068829553159564652, guid: 64b1837b1cd40d541944cde538b260fe,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.563
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -391240,14 +391218,12 @@ MonoBehaviour:
       Data2: 0
       Data3: 0
       Data4: 0
-    Path: 
   onEndEvent:
     Guid:
       Data1: 0
       Data2: 0
       Data3: 0
       Data4: 0
-    Path: 
   stopOnEnd: 0
   OnDoOnceStart:
     m_PersistentCalls:
@@ -391294,7 +391270,6 @@ MonoBehaviour:
       Data2: 0
       Data3: 0
       Data4: 0
-    Path: 
   audioDelay: 0
 --- !u!4 &1613023791
 Transform:
@@ -412115,14 +412090,12 @@ MonoBehaviour:
       Data2: 1290749725
       Data3: 1767880077
       Data4: -1243699894
-    Path: event:/INTERACTABLES/INT_Tuer_Klein_Oeffnen_Loop
   onEndEvent:
     Guid:
       Data1: 0
       Data2: 0
       Data3: 0
       Data4: 0
-    Path: 
   stopOnEnd: 1
   OnDoOnceStart:
     m_PersistentCalls:
@@ -424617,7 +424590,6 @@ MonoBehaviour:
       Data2: 0
       Data3: 0
       Data4: 0
-    Path: 
   audioDelay: 0
   layers:
     serializedVersion: 2
@@ -425275,14 +425247,12 @@ MonoBehaviour:
       Data2: 1290749725
       Data3: 1767880077
       Data4: -1243699894
-    Path: event:/INTERACTABLES/INT_Tuer_Klein_Oeffnen_Loop
   onEndEvent:
     Guid:
       Data1: 0
       Data2: 0
       Data3: 0
       Data4: 0
-    Path: 
   stopOnEnd: 1
   OnDoOnceStart:
     m_PersistentCalls:
@@ -461781,7 +461751,6 @@ MonoBehaviour:
       Data2: 1205887842
       Data3: -1123012201
       Data4: 1772786136
-    Path: event:/INTERACTABLES/INT_Bewegliche-Plattform_inSaeure_Loop
   Event: 
   EventPlayTrigger: 1
   EventStopTrigger: 2
@@ -474567,7 +474536,6 @@ MonoBehaviour:
       Data2: 0
       Data3: 0
       Data4: 0
-    Path: 
 --- !u!1 &2022434166 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1849220952723550, guid: eb38f993650df74408c22d45f14ae53f,
@@ -477817,7 +477785,7 @@ MonoBehaviour:
   CollisionTag: 
   Parameter: Level
   TriggerEvent: 1
-  Value: 2
+  Value: 1
 --- !u!114 &2040051244
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -486955,14 +486923,12 @@ MonoBehaviour:
       Data2: 0
       Data3: 0
       Data4: 0
-    Path: 
   onEndEvent:
     Guid:
       Data1: 0
       Data2: 0
       Data3: 0
       Data4: 0
-    Path: 
   stopOnEnd: 0
   OnDoOnceStart:
     m_PersistentCalls:
@@ -498161,7 +498127,6 @@ MonoBehaviour:
       Data2: 1229623449
       Data3: 968275880
       Data4: 2072919081
-    Path: event:/MAIN_CHARACTER/MC_Landen in Wasser
 --- !u!65 &2088853933
 BoxCollider:
   m_ObjectHideFlags: 0

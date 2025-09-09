@@ -13,7 +13,7 @@ See setup in this Video:
 - Open Game Build 
 -  Open FMOD Session and Start Live Updates
 ➡️That's it!
-<br> 
+
 *Some additional notes:*
 - **Loop handling:** Events with the addition "Loop" in it are actively stopped by Unity - make sure they loop inside of FMOD
 - **Reload scenes**: Reload the scene via the Pause Menu (by pressing escape) when you insert a new Sound on an Event which is a loop OR when you add/ remove a spatializer on an event, so FMOD calculates those correctly.

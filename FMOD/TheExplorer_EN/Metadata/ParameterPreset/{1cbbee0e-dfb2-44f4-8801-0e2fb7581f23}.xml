@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{1cbbee0e-dfb2-44f4-8801-0e2fb7581f23}">
+		<property name="note">
+			<value>Area, in which the Player is currently in
+useful for e.g. music</value>
+		</property>
+		<property name="color">
+			<value>Green</value>
+		</property>
+		<property name="name">
+			<value>Area</value>
+		</property>
+		<relationship name="folder">
+			<destination>{55e41504-d29f-4cf0-bf47-0d87ebf4f06d}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{40f71c55-99f9-4f18-8e69-fde89566e58d}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{40f71c55-99f9-4f18-8e69-fde89566e58d}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>13</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>Lv1_Dropship_Area</value>
+			<value>Lv1_Weapon_Area</value>
+			<value>Lv1_Pressure-Pad1_Area</value>
+			<value>Lv1_Raetsel2_Area</value>
+			<value>Lv1_Portal_Area</value>
+			<value>Lv1_inPortal</value>
+			<value>Lv2_Spawn_Area</value>
+			<value>Lv2_Riddle-Rooms_Area</value>
+			<value>Lv2_Acid-Rooms_Area</value>
+			<value>Lv2_Corridor-to-Boss</value>
+			<value>Lv2_Boss-Room</value>
+			<value>Lv2_FinalRoom</value>
+			<value>StartMenu</value>
+		</property>
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>

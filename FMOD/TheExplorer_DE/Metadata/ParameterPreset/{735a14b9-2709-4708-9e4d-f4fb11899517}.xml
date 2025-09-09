@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="ParameterPreset" id="{735a14b9-2709-4708-9e4d-f4fb11899517}">
+		<property name="note">
+			<value>Geschwindigkeit eines Events</value>
+		</property>
 		<property name="name">
 			<value>Speed_Absolute</value>
 		</property>

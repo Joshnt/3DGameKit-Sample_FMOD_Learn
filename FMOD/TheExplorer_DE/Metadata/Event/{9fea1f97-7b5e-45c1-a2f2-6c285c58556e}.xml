@@ -2,7 +2,8 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{9fea1f97-7b5e-45c1-a2f2-6c285c58556e}">
 		<property name="note">
-			<value>Spieler erscheint wieder nach Tod oder nachdem er ins Wasser gefallen ist mit blauen Partikeln.</value>
+			<value>Spieler erscheint wieder nach Tod oder nachdem er ins Wasser gefallen ist mit blauen Partikeln.
+s. Video</value>
 		</property>
 		<property name="color">
 			<value>Yellow</value>

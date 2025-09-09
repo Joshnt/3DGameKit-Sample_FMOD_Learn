@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="ParameterPreset" id="{26a382cb-b7c7-4282-bc06-c6c2c0434b13}">
+		<property name="note">
+			<value>Distanz zwischen Player und Event zwischen 0 und 100
+(Ellen/ Player ist ungefähr 1 Einheit breit)</value>
+		</property>
 		<property name="name">
 			<value>Distance_to_100</value>
 		</property>

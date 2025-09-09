@@ -75,9 +75,9 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 
 # FMOD
-/FMOD/TheExplorer/.cache/*
-/FMOD/TheExplorer/.user/*
-/FMOD/TheExplorer/.unsaved/*
+/FMOD/**/.cache/*
+/FMOD/**/.user/*
+/FMOD/**/.unsaved/*
 Assets/Plugins/FMOD/Cache/Editor/FMODStudioCache.asset
-/FMOD/TheExplorer/Metadata/ProfilerSession/*
-/FMOD/TheExplorer/Metadata/ProfilerFolder/*
+/FMOD/**/Metadata/ProfilerSession/*
+/FMOD/**/Metadata/ProfilerFolder/*

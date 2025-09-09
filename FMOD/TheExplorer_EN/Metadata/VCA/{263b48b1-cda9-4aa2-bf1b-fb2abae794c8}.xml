@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MixerVCA" id="{263b48b1-cda9-4aa2-bf1b-fb2abae794c8}">
+		<property name="name">
+			<value>SFX</value>
+		</property>
+		<relationship name="automators">
+			<destination>{14e1eb5d-e116-4743-a09a-1b2a8d4363c2}</destination>
+		</relationship>
+		<relationship name="mixer">
+			<destination>{6e978aae-2ac4-41f7-b952-083eadeabb34}</destination>
+		</relationship>
+	</object>
+	<object class="Automator" id="{14e1eb5d-e116-4743-a09a-1b2a8d4363c2}">
+		<property name="nameOfPropertyBeingAutomated">
+			<value>volume</value>
+		</property>
+		<relationship name="automationCurves">
+			<destination>{488d043f-ad7f-48d1-b74c-e3bba5f6b93d}</destination>
+		</relationship>
+	</object>
+	<object class="AutomationCurve" id="{488d043f-ad7f-48d1-b74c-e3bba5f6b93d}">
+		<relationship name="parameter">
+			<destination>{b6e02679-51f0-46a9-9763-b6e2378317c8}</destination>
+		</relationship>
+		<relationship name="automationPoints">
+			<destination>{7d38d216-c39b-4fd4-ab08-b14c885022ba}</destination>
+			<destination>{438f76ab-4c22-42ca-b8dd-5346cd55b605}</destination>
+		</relationship>
+	</object>
+	<object class="AutomationPoint" id="{7d38d216-c39b-4fd4-ab08-b14c885022ba}">
+		<property name="position">
+			<value>0.99858757062146897</value>
+		</property>
+		<property name="value">
+			<value>3.81469727e-06</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{438f76ab-4c22-42ca-b8dd-5346cd55b605}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="value">
+			<value>-80</value>
+		</property>
+		<property name="curveShape">
+			<value>-0.377074242</value>
+		</property>
+	</object>
+</objects>

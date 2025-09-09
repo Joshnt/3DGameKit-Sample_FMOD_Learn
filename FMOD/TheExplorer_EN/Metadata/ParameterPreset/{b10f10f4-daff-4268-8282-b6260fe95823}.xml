@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{b10f10f4-daff-4268-8282-b6260fe95823}">
+		<property name="note">
+			<value>In which Level is the Player currently in
+(potentially not necessary if using the Area Parameter)</value>
+		</property>
+		<property name="color">
+			<value>Green</value>
+		</property>
+		<property name="name">
+			<value>Level</value>
+		</property>
+		<relationship name="folder">
+			<destination>{55e41504-d29f-4cf0-bf47-0d87ebf4f06d}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{b0b9beee-bdb9-4ab5-89c5-c4116e05d2b9}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{b0b9beee-bdb9-4ab5-89c5-c4116e05d2b9}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>5</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>Lv1</value>
+			<value>Lv2</value>
+			<value>Lv_Peaceful</value>
+			<value>Lv_Enemies</value>
+			<value>Start</value>
+		</property>
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>

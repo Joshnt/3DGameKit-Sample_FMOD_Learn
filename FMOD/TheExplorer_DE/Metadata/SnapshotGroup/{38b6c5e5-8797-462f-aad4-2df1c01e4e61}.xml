@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="SnapshotGroup" id="{38b6c5e5-8797-462f-aad4-2df1c01e4e61}">
+		<property name="note">
+			<value>Reverb-Snapshot, welche an verschiedenen Stellen des Spiels ausgelöst werden
+
+Note: Snapshots sind FMODs empfohlene Art, Reverb zu implementieren.
+Alternativ könnte ein Parameter-basierter pro-Event Ansatz gewählt werden.</value>
+		</property>
 		<property name="name">
 			<value>Reverbs</value>
 		</property>

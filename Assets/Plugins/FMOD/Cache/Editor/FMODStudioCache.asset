@@ -27,6 +27,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-9101175567768093686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/Reverbs/REV_Grosse-Hoehle
+  m_EditorClassIdentifier: 
+  Path: snapshot:/Reverbs/REV_Grosse-Hoehle
+  Guid:
+    Data1: 1992106567
+    Data2: 1220393896
+    Data3: 1346971043
+    Data4: -563369782
+  Banks:
+  - {fileID: -4388951272600692590}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &-8876990523925769000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -590,6 +617,33 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
+  Length: 0
+--- !u!114 &-7163824394664139644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/Reverbs/REV_Kleine-Hoehle
+  m_EditorClassIdentifier: 
+  Path: snapshot:/Reverbs/REV_Kleine-Hoehle
+  Guid:
+    Data1: -71219075
+    Data2: 1297812005
+    Data3: 374552480
+    Data4: 1855509897
+  Banks:
+  - {fileID: -4388951272600692590}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
   Length: 0
 --- !u!114 &-7162707109087783696
 MonoBehaviour:
@@ -1991,7 +2045,7 @@ MonoBehaviour:
   Path: FMOD/TheExplorer_DE/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638929772691659593
+  lastModified: 638929816666211715
   FileSizes:
   - Name: Desktop
     Value: 46916
@@ -2202,6 +2256,33 @@ MonoBehaviour:
     Data4: 1547280823
   Banks:
   - {fileID: -520031379690309463}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-3930782193712754303
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/GEGNER/ENEM_Klein_Aufloesen
+  m_EditorClassIdentifier: 
+  Path: event:/GEGNER/ENEM_Klein_Aufloesen
+  Guid:
+    Data1: 2046185487
+    Data2: 1174423837
+    Data3: -1612273748
+    Data4: -1741712671
+  Banks:
+  - {fileID: -4388951272600692590}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -3013,33 +3094,6 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
---- !u!114 &-1934686254283745720
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: snapshot:/Reverbs/REV_SmallCave
-  m_EditorClassIdentifier: 
-  Path: snapshot:/Reverbs/REV_SmallCave
-  Guid:
-    Data1: -71219075
-    Data2: 1297812005
-    Data3: 374552480
-    Data4: 1855509897
-  Banks:
-  - {fileID: -4388951272600692590}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 0
 --- !u!114 &-1781680101467931299
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3234,38 +3288,11 @@ MonoBehaviour:
   Path: FMOD/TheExplorer_DE/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638929772691674667
+  lastModified: 638929816666227221
   FileSizes:
   - Name: Desktop
     Value: 5596
   Exists: 1
---- !u!114 &-1493032205060860725
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/GEGNER/ENEM_Small_Dissolve
-  m_EditorClassIdentifier: 
-  Path: event:/GEGNER/ENEM_Small_Dissolve
-  Guid:
-    Data1: 2046185487
-    Data2: 1174423837
-    Data3: -1612273748
-    Data4: -1741712671
-  Banks:
-  - {fileID: -4388951272600692590}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
 --- !u!114 &-1332809861183512475
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3479,33 +3506,6 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
---- !u!114 &-801680523404644547
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: snapshot:/Reverbs/REV_BigCave
-  m_EditorClassIdentifier: 
-  Path: snapshot:/Reverbs/REV_BigCave
-  Guid:
-    Data1: 1992106567
-    Data2: 1220393896
-    Data3: 1346971043
-    Data4: -563369782
-  Banks:
-  - {fileID: -4388951272600692590}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 0
 --- !u!114 &-770840988707658238
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3921,7 +3921,6 @@ MonoBehaviour:
   - {fileID: 6239271151538111548}
   - {fileID: 584835443781621466}
   - {fileID: 6810664477847706999}
-  - {fileID: -1493032205060860725}
   - {fileID: -6435387143839010012}
   - {fileID: 3960751433960978712}
   - {fileID: -7795083539974549625}
@@ -3943,7 +3942,6 @@ MonoBehaviour:
   - {fileID: 7441789116431362979}
   - {fileID: -3033399088383129947}
   - {fileID: -3300678724727662791}
-  - {fileID: -801680523404644547}
   - {fileID: -3353573969576002217}
   - {fileID: 8956877311144977049}
   - {fileID: -8709547049306564109}
@@ -3964,7 +3962,6 @@ MonoBehaviour:
   - {fileID: 215205559179506663}
   - {fileID: -6748343153015525198}
   - {fileID: -4878081107175575413}
-  - {fileID: -1934686254283745720}
   - {fileID: -7145854801914311455}
   - {fileID: -7512298079685797087}
   - {fileID: 8040009760082160792}
@@ -4000,6 +3997,9 @@ MonoBehaviour:
   - {fileID: 1054973001766512872}
   - {fileID: -1678582184054417769}
   - {fileID: 8423982887353589604}
+  - {fileID: -3930782193712754303}
+  - {fileID: -9101175567768093686}
+  - {fileID: -7163824394664139644}
   EditorParameters:
   - {fileID: -8646907308794797304}
   - {fileID: -4554593443076838100}
@@ -4015,7 +4015,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: -1611115738781998931}
   cacheVersion: 131849
-  cacheTime: 638929772691674667
+  cacheTime: 638929816666227221
   SerializableEventsDict:
   - key: event:/GEGNER/GOLEM_Miniboss/Angriffe/GOLEM_Schild
     index: 0
@@ -4025,163 +4025,163 @@ MonoBehaviour:
     index: 2
   - key: event:/INTERACTABLES/INT_Tuer_Gross_Oeffnen_Loop
     index: 3
-  - key: event:/GEGNER/ENEM_Small_Dissolve
-    index: 4
   - key: event:/UMGEBUNG/ENV_Aal_Animation
-    index: 5
+    index: 4
   - key: event:/INTERACTABLES/INT_Bodenplatte_Loop
-    index: 6
+    index: 5
   - key: event:/UI/UI_Knopf_Bestaetigen
-    index: 7
+    index: 6
   - key: event:/GEGNER/BEISSER/BEISSER_Angriff
-    index: 8
+    index: 7
   - key: snapshot:/Reverbs/REV_Wald
-    index: 9
+    index: 8
   - key: snapshot:/Reverbs/REV_Hof_Gross
-    index: 10
+    index: 9
   - key: event:/UMGEBUNG/ENV_Gluehwuermchen_Loop
-    index: 11
+    index: 10
   - key: event:/UMGEBUNG/ENV_Saeure_Loop
-    index: 12
+    index: 11
   - key: event:/GEGNER/BEISSER/BEISSER_Tod
-    index: 13
+    index: 12
   - key: event:/MAIN_CHARACTER/Sprache/MC_INFO1
-    index: 14
+    index: 13
   - key: event:/MAIN_CHARACTER/Waffe/MC_Waffe Schwingen
-    index: 15
+    index: 14
   - key: event:/GEGNER/SPUCKER/SPUCKER_Angriff_Explosion
-    index: 16
+    index: 15
   - key: event:/MAIN_CHARACTER/MC_Quickturn
-    index: 17
+    index: 16
   - key: event:/UMGEBUNG/ENV_Ambience_Lv1_Loop
-    index: 18
+    index: 17
   - key: event:/INTERACTABLES/INT_Portal_Loop
-    index: 19
+    index: 18
   - key: event:/UMGEBUNG/ENV_Ambience_Lv2_Loop
-    index: 20
+    index: 19
   - key: event:/INTERACTABLES/INT_Waffe-Aufheben_Loop
-    index: 21
+    index: 20
   - key: event:/GEGNER/GOLEM_Miniboss/Angriffe/Projektil/GOLEM_Schuss
-    index: 22
+    index: 21
   - key: event:/GEGNER/GOLEM_Miniboss/Angriffe/Projektil/GOLEM_Schuss_Abprallen
-    index: 23
+    index: 22
   - key: event:/GEGNER/BEISSER/BEISSER_Schritt
-    index: 24
+    index: 23
   - key: event:/MAIN_CHARACTER/Sprache/MC_INFO2
-    index: 25
+    index: 24
   - key: snapshot:/Reverbs/REV_BigCave
-    index: 26
+    index: 25
   - key: event:/UI/UI_Knopf_Spiel-Starten
-    index: 27
+    index: 26
   - key: event:/UMGEBUNG/ENV_Raumschiff_Cutscene
-    index: 28
+    index: 27
   - key: event:/MAIN_CHARACTER/MC_Rennen_Loop
-    index: 29
+    index: 28
   - key: event:/INTERACTABLES/INT_Bewegliche-Plattform_Loop
-    index: 30
+    index: 29
   - key: event:/MUSIC/MUS_Menu
-    index: 31
+    index: 30
   - key: event:/MAIN_CHARACTER/MC_Springen
-    index: 32
+    index: 31
   - key: event:/INTERACTABLES/INT_Gesundheits-Kiste_Aufheben
-    index: 33
+    index: 32
   - key: event:/MAIN_CHARACTER/MC_Landen in Wasser
-    index: 34
+    index: 33
   - key: event:/GEGNER/SPUCKER/SPUCKER_Idle_Grunt
-    index: 35
+    index: 34
   - key: event:/GEGNER/GOLEM_Miniboss/Angriffe/Projektil/GOLEM_Schuss_Explosion
-    index: 36
+    index: 35
   - key: event:/UMGEBUNG/ENV_Lava_Loop
-    index: 37
+    index: 36
   - key: event:/UMGEBUNG/ENV_Wasser_Loop
-    index: 38
+    index: 37
   - key: event:/INTERACTABLES/INT_Bewegliche-Plattform_inSaeure_Loop
-    index: 39
+    index: 38
   - key: event:/GEGNER/SPUCKER/SPUCKER_Entdeckt
-    index: 40
+    index: 39
   - key: event:/INTERACTABLES/INT_Kristall-Schalter_Aktivieren
-    index: 41
+    index: 40
   - key: event:/MAIN_CHARACTER/MC_Landen_Normal
-    index: 42
+    index: 41
   - key: event:/MAIN_CHARACTER/MC_Tod
-    index: 43
+    index: 42
   - key: event:/INTERACTABLES/INT_Waffe-Aufheben_Aufheben
-    index: 44
+    index: 43
   - key: event:/UI/UI_Knopf_Spiel-Verlassen
-    index: 45
+    index: 44
   - key: event:/UMGEBUNG/ENV_Ambience_Start_Loop
-    index: 46
+    index: 45
   - key: snapshot:/Reverbs/REV_SmallCave
-    index: 47
+    index: 46
   - key: snapshot:/Reverbs/REV_Raumschiff
-    index: 48
+    index: 47
   - key: event:/GEGNER/GOLEM_Miniboss/GOLEM_Tod
-    index: 49
+    index: 48
   - key: event:/MAIN_CHARACTER/MC_Schritt
-    index: 50
+    index: 49
   - key: event:/UMGEBUNG/ENV_Wind_Loop
-    index: 51
+    index: 50
   - key: event:/GEGNER/BEISSER/BEISSER_Idle_Grunt
-    index: 52
+    index: 51
   - key: event:/MAIN_CHARACTER/MC_Getroffen
-    index: 53
+    index: 52
   - key: event:/UI/UI_Knopf_Maus-Ueber
-    index: 54
+    index: 53
   - key: event:/MUSIC/MUS_In-Game
-    index: 55
+    index: 54
   - key: snapshot:/Reverbs/REV_Stein-Korridor
-    index: 56
+    index: 55
   - key: event:/GEGNER/SPUCKER/SPUCKER_Angriff
-    index: 57
+    index: 56
   - key: event:/MAIN_CHARACTER/Sprache/MC_INFO4
-    index: 58
+    index: 57
   - key: event:/UMGEBUNG/ENV_Raumschiff-Innen_Loop
-    index: 59
+    index: 58
   - key: event:/MAIN_CHARACTER/MC_Respawn
-    index: 60
+    index: 59
   - key: event:/MAIN_CHARACTER/Sprache/MC_Angriff Stimme
-    index: 61
+    index: 60
   - key: event:/INTERACTABLES/INT_Bodenplatte_Aktivieren
-    index: 62
+    index: 61
   - key: event:/GEGNER/GOLEM_Miniboss/GOLEM_Getroffen
-    index: 63
+    index: 62
   - key: event:/UMGEBUNG/ENV_Raumschiff-Aussen_Loop
-    index: 64
+    index: 63
   - key: event:/MAIN_CHARACTER/Sprache/MC_INFO4b
-    index: 65
+    index: 64
   - key: event:/GEGNER/GOLEM_Miniboss/Angriffe/GOLEM_Schlag
-    index: 66
+    index: 65
   - key: event:/INTERACTABLES/INT_Portal_Durchschreiten
-    index: 67
+    index: 66
   - key: event:/GEGNER/BEISSER/BEISSER_Entdeckt
-    index: 68
+    index: 67
   - key: event:/MAIN_CHARACTER/Sprache/MC_INFO3
-    index: 69
+    index: 68
   - key: event:/GEGNER/GOLEM_Miniboss/GOLEM_Schritt
-    index: 70
+    index: 69
   - key: event:/INTERACTABLES/INT_Kristall-Schalter_Loop
-    index: 71
+    index: 70
   - key: event:/UI/UI_Knopf_Zurueck
-    index: 72
+    index: 71
   - key: event:/INTERACTABLES/INT_Gesundheits-Kiste_Loop
-    index: 73
+    index: 72
   - key: event:/GEGNER/SPUCKER/SPUCKER_Schritt
-    index: 74
+    index: 73
   - key: event:/GEGNER/SPUCKER/SPUCKER_Tod
-    index: 75
-  - key: event:/UMGEBUNG/ENV_Swamp_Loop
-    index: 76
+    index: 74
   - key: event:/INTERACTABLES/INT_Box_Zerstoert
-    index: 77
+    index: 75
   - key: event:/MAIN_CHARACTER/Sprache/MC_INFO5
-    index: 78
+    index: 76
   - key: event:/MAIN_CHARACTER/MC_Landen_Rolle
-    index: 79
+    index: 77
   - key: event:/INTERACTABLES/INT_Tuer_Klein_Oeffnen_Loop
-    index: 80
+    index: 78
   - key: event:/MAIN_CHARACTER/MC_Getroffen-Wenn-Unverwundbar
-    index: 81
+    index: 79
   - key: event:/MAIN_CHARACTER/MC_Unverwundbar_Loop
+    index: 80
+  - key: event:/UMGEBUNG/ENV_Sumpf_Loop
+    index: 81
+  - key: event:/GEGNER/ENEM_Klein_Aufloesen
     index: 82
 --- !u!114 &31694381636792905
 MonoBehaviour:

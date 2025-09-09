@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="ParameterPreset" id="{e804559f-1861-412a-906d-f05337eac346}">
+		<property name="note">
+			<value>Wie weit ist der Spieler vom Event Entfernt (in Relation zur Min &amp; Max Distanz)</value>
+		</property>
 		<property name="name">
 			<value>Distance Normalized</value>
 		</property>

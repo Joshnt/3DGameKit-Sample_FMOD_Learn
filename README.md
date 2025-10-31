@@ -50,6 +50,12 @@ Additionally, I added Tags to all Events, by which you can filter the Events. Th
 - **Lesson 5** – Comparison, snapshots, mixer  
 
 ---
+## 🎮Re-Exporting the game with your own sounds
+To export/ build the game with your own sounds (without having to connect via Live-Update), you have to take two seperate steps:
+- 1) In your FMOD Project with all the sounds you have setup, choose File -> Build (F7). Keep in mind, that Unity will now always refer this state of your project for playing back sound until you connect via Live-Update.
+- 2) Open the Unity Project in the correct Editor Version **2022.3.51f1** (if you're doing that for the first time, that might take a while). Keep in mind, that you need to [install the Build Support Modules in the Unity Hub](https://docs.unity3d.com/hub/manual/AddModules.html) for the operating systems for which you want to export to (e.g. Windows Build support if you are on Mac). In the Unity Project, press File -> Build Settings... Then select the Target Platform for your game and press Build!
+
+---
 ## 📦Other FMOD Learning Projects
 - [Platformer (Easy)](https://github.com/Joshnt/Platformer_FMOD-Learn)
 - John Lemon (Intermediate) - Coming Soon

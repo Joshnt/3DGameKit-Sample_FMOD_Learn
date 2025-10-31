@@ -305,10 +305,10 @@ MonoBehaviour:
   m_Name: FMODStudioSettings
   m_EditorClassIdentifier: 
   switchSettingsMigration: 1
-  HasSourceProject: 1
+  HasSourceProject: 0
   HasPlatforms: 1
   sourceProjectPath: FMOD/TheExplorer_DE/TheExplorer_DE.fspro
-  sourceBankPath: FMOD/TheExplorer_DE/Build
+  sourceBankPath: Assets/FMOD_Banks
   sourceBankPathUnformatted: 
   BankRefreshCooldown: 5
   ShowBankRefreshWindow: 1

@@ -4,8 +4,7 @@
 ## General Concept
 Learn Game-Audio in FMOD - without having to bother about integrating/ coding those connections in Unity.
 With that, aspiring Game-Audio-Designers can work directly in FMOD and learn/ teach the Middleware FMOD working in a readily build game!
-See setup in this Video:
-*Coming Soon*
+See setup in [this Video](https://youtu.be/BaJWNOkKOzg).
 
 
 
@@ -58,7 +57,7 @@ To export/ build the game with your own sounds (without having to connect via Li
 ---
 ## 📦Other FMOD Learning Projects
 - [Platformer (Easy)](https://github.com/Joshnt/Platformer_FMOD-Learn)
-- [John Lemon (Easy)](https://github.com/Joshnt/JohnLemon_FMOD-Learn)
+- [John Lemon (Easy)](https://github.com/Joshnt/JohnLemon_FMOD-Learn) *(Currently WIN only & Unity Version 6)*
 - [Doctor FPS (Intermediate)](https://github.com/Joshnt/DoctorFPS_FMOD-Learn)
 - 	The Explorer (Advanced)
 	- [Unity and FMOD Project](https://github.com/Joshnt/3DGameKit-Sample_FMOD_Learn)

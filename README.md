@@ -58,8 +58,8 @@ To export/ build the game with your own sounds (without having to connect via Li
 ---
 ## 📦Other FMOD Learning Projects
 - [Platformer (Easy)](https://github.com/Joshnt/Platformer_FMOD-Learn)
-- John Lemon (Intermediate) - Coming Soon
-- Doctor FPS (Intermediate) - Coming Soon
+- [John Lemon (Easy)](https://github.com/Joshnt/JohnLemon_FMOD-Learn)
+- [Doctor FPS (Intermediate)](https://github.com/Joshnt/DoctorFPS_FMOD-Learn)
 - 	The Explorer (Advanced)
 	- [Unity and FMOD Project](https://github.com/Joshnt/3DGameKit-Sample_FMOD_Learn)
 	- [Builds](https://github.com/Joshnt/3DGameKit_Build_FMOD_Learn)

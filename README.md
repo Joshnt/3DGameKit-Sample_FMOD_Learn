@@ -9,8 +9,9 @@ See setup in [this Video](https://youtu.be/BaJWNOkKOzg).
 
 
 ## ⚙️ General Handling
+- Either use the Release Section download or pull the whole repository to access the FMOD Session and the Build for your OS
 - Open Game Build 
--  Open FMOD Session and Start Live Updates
+- Open FMOD Session and Start Live Updates
 ➡️That's it!
 
 *Some additional notes:*

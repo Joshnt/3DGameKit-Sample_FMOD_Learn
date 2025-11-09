@@ -21,7 +21,7 @@ See setup in [this Video](https://youtu.be/BaJWNOkKOzg).
 - **Organize as you like**: Events and Snapshots can be renamed, re-colored and moved in the hierachy to match your personal preference – parameters **cannot!!!!**  
 
 ---
-![3D Game Kit Picture](https://learn.unity.com/_next/image?url=https://unity-connect-prd.storage.googleapis.com/20190219/learn/images/e421863d-d0b9-4fdf-9134-2f55c51287e9_Project_and_Tutorials_3D_Game_Kit_1920x1080_Tutorial_2.jpg&w=384&q=75)
+![3D Game Kit Picture](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTufycWaKX2eJ4Oy9No7HLU5hnOWeQWp_z1A&s)
 ---
 
 ## 📂 Structure
